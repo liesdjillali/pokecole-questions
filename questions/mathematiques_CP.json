@@ -1,13 +1,14 @@
 {
   "matiere": "mathematiques",
   "niveau": "CP",
-  "version": "2026.01.18.1616",
+  "version": "2026.01.18.1653",
   "questions": [
     {
       "id": 1,
       "type": "qcm",
       "question": "Combien font 3+3",
       "time_override": 10,
+      "additional_feedback": "Mais non voyons",
       "reponses": [
         "5",
         "6",
@@ -60,7 +61,20 @@
       "question": "5+1",
       "time_override": 10,
       "reponse_correcte": "6"
+    },
+    {
+      "id": 7,
+      "type": "qcm",
+      "question": "Combien font 2+2",
+      "time_override": 10,
+      "reponses": [
+        "4",
+        "6",
+        "7",
+        "8"
+      ],
+      "reponse_correcte": 0
     }
   ],
-  "updated_at": "2026-01-18T15:16:25.047Z"
+  "updated_at": "2026-01-18T15:53:16.622Z"
 }
