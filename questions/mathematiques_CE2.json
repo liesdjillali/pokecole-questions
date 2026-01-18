@@ -1,7 +1,7 @@
 {
   "matiere": "mathematiques",
   "niveau": "CE2",
-  "version": "2026.01.18.1821",
+  "version": "2026.01.18.1825",
   "questions": [
     {
       "id": 1,
@@ -16,7 +16,20 @@
         "trapèzes"
       ],
       "reponse_correcte": 1
+    },
+    {
+      "id": 2,
+      "type": "qcm",
+      "question": "Un rectangle est un parallélogramme défini par...",
+      "time_override": 30,
+      "reponses": [
+        "4 côtés égaux et 2 angles droits",
+        "les côtés opposés égaux et 4 angles droits",
+        "4 côtés egaux",
+        "4 angles droits"
+      ],
+      "reponse_correcte": 1
     }
   ],
-  "updated_at": "2026-01-18T17:21:06.073Z"
+  "updated_at": "2026-01-18T17:25:59.201Z"
 }
