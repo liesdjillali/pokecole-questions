@@ -1,7 +1,7 @@
 {
   "matiere": "anglais",
   "niveau": "CE2",
-  "version": "2026.01.18.1944",
+  "version": "2026.01.18.1947",
   "questions": [
     {
       "id": 1,
@@ -202,7 +202,13 @@
         "Good evening"
       ],
       "reponse_correcte": 1
+    },
+    {
+      "id": 21,
+      "type": "vrai_faux",
+      "question": "l'Australie est un pays de langue anglaise.",
+      "reponse_correcte": true
     }
   ],
-  "updated_at": "2026-01-18T18:44:32.566Z"
+  "updated_at": "2026-01-18T18:47:19.162Z"
 }
