@@ -1,7 +1,7 @@
 {
   "matiere": "mathematiques",
   "niveau": "CP",
-  "version": "2026.01.18.1653",
+  "version": "2026.01.18.1655",
   "questions": [
     {
       "id": 1,
@@ -40,6 +40,7 @@
       "id": 4,
       "type": "qcm",
       "question": "2x2 =",
+      "additional_feedback": "Mais non voyons",
       "reponses": [
         "2",
         "4",
@@ -53,6 +54,7 @@
       "type": "vrai_faux",
       "question": "10 est plus grand que 19",
       "time_override": 10,
+      "additional_feedback": "Mais non voyons",
       "reponse_correcte": false
     },
     {
@@ -60,6 +62,7 @@
       "type": "texte",
       "question": "5+1",
       "time_override": 10,
+      "additional_feedback": "Mais non voyons",
       "reponse_correcte": "6"
     },
     {
@@ -67,6 +70,7 @@
       "type": "qcm",
       "question": "Combien font 2+2",
       "time_override": 10,
+      "additional_feedback": "Mais non voyons",
       "reponses": [
         "4",
         "6",
@@ -76,5 +80,5 @@
       "reponse_correcte": 0
     }
   ],
-  "updated_at": "2026-01-18T15:53:16.622Z"
+  "updated_at": "2026-01-18T15:55:11.886Z"
 }
