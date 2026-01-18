@@ -1,7 +1,7 @@
 {
   "matiere": "francais",
   "niveau": "CE2",
-  "version": "2026.01.18.2038",
+  "version": "2026.01.18.2043",
   "questions": [
     {
       "id": 1,
@@ -114,7 +114,15 @@
       "question": "Un déterminant est placé avant le nom.",
       "time_override": 15,
       "reponse_correcte": true
+    },
+    {
+      "id": 11,
+      "type": "texte",
+      "question": "Complète le trou.\nDes joli__ maison grises.",
+      "time_override": 20,
+      "additional_feedback": "une maison, c'est féminin donc il faut un \"e\". Et on parle de plusieurs maisons donc il faut aussi un \"s\"",
+      "reponse_correcte": "es"
     }
   ],
-  "updated_at": "2026-01-18T19:38:05.480Z"
+  "updated_at": "2026-01-18T19:43:14.544Z"
 }
