@@ -1,7 +1,7 @@
 {
   "matiere": "mathematiques",
   "niveau": "CE2",
-  "version": "2026.01.18.1825",
+  "version": "2026.01.18.1900",
   "questions": [
     {
       "id": 1,
@@ -29,7 +29,155 @@
         "4 angles droits"
       ],
       "reponse_correcte": 1
+    },
+    {
+      "id": 3,
+      "type": "vrai_faux",
+      "question": "1/4 est égal à 4/8",
+      "time_override": 15,
+      "additional_feedback": "1/4 est égal à 2/8",
+      "reponse_correcte": false
+    },
+    {
+      "id": 4,
+      "type": "texte",
+      "question": "Combien font 6x8 ?",
+      "time_override": 10,
+      "reponse_correcte": "48"
+    },
+    {
+      "id": 5,
+      "type": "texte",
+      "question": "Combien font 3x8 ?",
+      "time_override": 10,
+      "reponse_correcte": "24"
+    },
+    {
+      "id": 6,
+      "type": "texte",
+      "question": "Combien font 7x7 ?",
+      "time_override": 10,
+      "reponse_correcte": "49"
+    },
+    {
+      "id": 7,
+      "type": "texte",
+      "question": "Combien font 6x6 ?",
+      "time_override": 10,
+      "reponse_correcte": "36"
+    },
+    {
+      "id": 8,
+      "type": "qcm",
+      "question": "Combien font 50x19x2 ?",
+      "time_override": 30,
+      "additional_feedback": "50x19x2 = (50x2)x19 = 100x19 = 1900",
+      "reponses": [
+        "1900",
+        "190",
+        "519",
+        "5190"
+      ],
+      "reponse_correcte": 0
+    },
+    {
+      "id": 9,
+      "type": "texte",
+      "question": "Combien font 3x3 ?",
+      "time_override": 10,
+      "reponse_correcte": "9"
+    },
+    {
+      "id": 10,
+      "type": "texte",
+      "question": "Combien font 3x4 ?",
+      "time_override": 10,
+      "reponse_correcte": "12"
+    },
+    {
+      "id": 11,
+      "type": "texte",
+      "question": "Combien font 3x5 ?",
+      "time_override": 10,
+      "reponse_correcte": "15"
+    },
+    {
+      "id": 12,
+      "type": "texte",
+      "question": "Combien font 3x6 ?",
+      "time_override": 10,
+      "reponse_correcte": "18"
+    },
+    {
+      "id": 13,
+      "type": "texte",
+      "question": "Combien font 3x7 ?",
+      "time_override": 10,
+      "reponse_correcte": "21"
+    },
+    {
+      "id": 14,
+      "type": "texte",
+      "question": "Combien font 3x9 ?",
+      "time_override": 10,
+      "reponse_correcte": "27"
+    },
+    {
+      "id": 15,
+      "type": "texte",
+      "question": "Combien font 4x4 ?",
+      "time_override": 10,
+      "reponse_correcte": "16"
+    },
+    {
+      "id": 16,
+      "type": "texte",
+      "question": "Combien font 4x5 ?",
+      "time_override": 10,
+      "reponse_correcte": "20"
+    },
+    {
+      "id": 17,
+      "type": "texte",
+      "question": "Combien font 4x6 ?",
+      "time_override": 10,
+      "reponse_correcte": "24"
+    },
+    {
+      "id": 18,
+      "type": "texte",
+      "question": "Combien font 4x7 ?",
+      "time_override": 10,
+      "reponse_correcte": "28"
+    },
+    {
+      "id": 19,
+      "type": "texte",
+      "question": "Combien font 4x8 ?",
+      "time_override": 10,
+      "reponse_correcte": "32"
+    },
+    {
+      "id": 20,
+      "type": "texte",
+      "question": "Combien font 4x9 ?",
+      "time_override": 10,
+      "reponse_correcte": "36"
+    },
+    {
+      "id": 21,
+      "type": "texte",
+      "question": "Combien font 5x6 ?",
+      "time_override": 10,
+      "reponse_correcte": "30"
+    },
+    {
+      "id": 22,
+      "type": "texte",
+      "question": "Combien font 5x7 ?",
+      "time_override": 10,
+      "reponse_correcte": "35"
     }
   ],
-  "updated_at": "2026-01-18T17:25:59.201Z"
+  "updated_at": "2026-01-18T18:00:02.320Z"
 }
