@@ -239,7 +239,7 @@ async function uploadImage(cardId, input) {
         const body = {
             message: `Add manual image for ${cardId}`,
             content: imageData.base64,
-            branch: 'main'
+            branch: 'master'
         };
         if (sha) body.sha = sha;
 
@@ -348,7 +348,7 @@ async function saveManualImagesJson() {
     const body = {
         message: 'Update manual_images.json',
         content: base64,
-        branch: 'main'
+        branch: 'master'
     };
     if (sha) body.sha = sha;
 
@@ -385,7 +385,7 @@ async function removeImage(cardId) {
                 body: JSON.stringify({
                     message: `Remove manual image for ${cardId}`,
                     sha: existing.sha,
-                    branch: 'main'
+                    branch: 'master'
                 })
             });
         }
