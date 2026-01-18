@@ -1,0 +1,22 @@
+{
+  "matiere": "mathematiques",
+  "niveau": "CE2",
+  "version": "2026.01.18.1821",
+  "questions": [
+    {
+      "id": 1,
+      "type": "qcm",
+      "question": "Tous les parallélogrammes qui ont leurs 4 côtés égaux sont des ...",
+      "time_override": 10,
+      "additional_feedback": "Les carrés doivent aussi avoir 4 angles droits, les rectangles ont les côtés opposés égaux et 4 angles droits",
+      "reponses": [
+        "carrés",
+        "losanges",
+        "rectangles",
+        "trapèzes"
+      ],
+      "reponse_correcte": 1
+    }
+  ],
+  "updated_at": "2026-01-18T17:21:06.073Z"
+}
