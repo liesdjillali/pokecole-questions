@@ -1,121 +1,139 @@
 # POKECOLE - Administration des Exercices
 
-## Configuration GitHub Pages
+## Architecture
 
-### 1. Créer un repository GitHub
+Chaque fichier de questions est géré indépendamment avec sa propre version :
+- `mathematiques_CP.json`, `mathematiques_CE1.json`, etc.
+- Un fichier `index.json` liste toutes les versions
 
-1. Allez sur [github.com](https://github.com) et créez un nouveau repository nommé `pokecole-questions`
-2. Rendez-le **public** (requis pour GitHub Pages gratuit)
+## Configuration GitHub
 
-### 2. Uploader les fichiers
+### 1. Créer le repository
 
-Uploadez ces fichiers dans le repository :
-- `index.html` - Interface d'administration
-- `version.json` - Fichier de version
-- `questions.json` - Fichier des questions
+1. Créez un repository GitHub : `pokecole-questions`
+2. Rendez-le **public**
+3. Créez un dossier `questions/` à la racine
+
+### 2. Créer un Personal Access Token
+
+1. GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
+2. Generate new token
+3. Cochez `repo` (accès complet aux repositories)
+4. Copiez le token généré
 
 ### 3. Activer GitHub Pages
 
-1. Allez dans **Settings** > **Pages**
-2. Sous "Source", sélectionnez **Deploy from a branch**
-3. Choisissez la branche `main` et le dossier `/ (root)`
-4. Cliquez sur **Save**
+1. Settings → Pages
+2. Source : Deploy from a branch
+3. Branch : main, folder: / (root)
+4. Save
 
-Votre URL sera : `https://VOTRE_USERNAME.github.io/pokecole-questions/`
+URL : `https://VOTRE_USERNAME.github.io/pokecole-questions/`
 
 ### 4. Configurer l'application Godot
 
-Modifiez le fichier `scripts/questions_sync.gd` :
-
+Modifiez `scripts/questions_sync.gd` :
 ```gdscript
-const QUESTIONS_BASE_URL = "https://VOTRE_USERNAME.github.io/pokecole-questions/"
+const QUESTIONS_BASE_URL = "https://VOTRE_USERNAME.github.io/pokecole-questions/questions/"
 ```
 
-## Utilisation de l'interface d'administration
+## Utilisation de l'interface admin
 
-### Accéder à l'interface
+### Ouvrir l'interface
 
-Ouvrez `https://VOTRE_USERNAME.github.io/pokecole-questions/` dans votre navigateur.
+Ouvrez `admin/index.html` dans un navigateur.
 
-### Ajouter des questions
+### Configurer GitHub
+
+1. Entrez votre repository : `username/pokecole-questions`
+2. Entrez votre token GitHub
+3. Cliquez "Sauvegarder"
+4. Testez la connexion
+
+### Gérer les questions
 
 1. Sélectionnez une **matière** et un **niveau**
-2. Cliquez sur **➕ Ajouter une question**
-3. Remplissez le formulaire :
-   - **Type** : QCM, Vrai/Faux, ou Texte
-   - **Question** : Le texte de la question
-   - **Temps imparti** (optionnel) : Override le temps par défaut
-   - **Réponses** : Selon le type de question
-
-### Exporter les questions
-
-1. Cliquez sur **📦 Exporter tout** pour télécharger le fichier JSON complet
-2. Uploadez ce fichier (`questions.json`) sur GitHub
-3. Mettez à jour `version.json` avec une nouvelle version
-
-### Structure du fichier questions.json
-
-```json
-{
-    "version": "2024.01.18.1",
-    "updated_at": "2024-01-18T12:00:00Z",
-    "questions": {
-        "francais_CP": [
-            {
-                "id": 1,
-                "type": "qcm",
-                "question": "Quelle lettre...",
-                "reponses": ["A", "B", "C", "D"],
-                "reponse_correcte": 1,
-                "time_override": 45
-            }
-        ],
-        "mathematiques_CE1": [...]
-    }
-}
-```
+2. Cliquez "📥 Charger" pour récupérer les questions depuis GitHub
+3. Ajoutez/modifiez/supprimez des questions
+4. Cliquez "🚀 Publier" pour envoyer sur GitHub
 
 ### Paramètre time_override
 
-Chaque question peut avoir un paramètre `time_override` optionnel qui définit un temps personnalisé en secondes pour cette question spécifique.
+Chaque question peut avoir un temps personnalisé :
+```json
+{
+    "id": 1,
+    "type": "qcm",
+    "question": "...",
+    "time_override": 45
+}
+```
 
-- Si `time_override` est présent et > 0, il sera utilisé
-- Sinon, le temps par défaut de la matière/niveau sera utilisé
+## Structure des fichiers sur GitHub
 
-## Synchronisation automatique
+```
+pokecole-questions/
+├── questions/
+│   ├── index.json          # Liste des versions
+│   ├── mathematiques_CP.json
+│   ├── mathematiques_CE1.json
+│   ├── francais_CP.json
+│   └── ...
+└── index.html              # (optionnel) Interface admin
+```
 
-L'application Godot vérifie automatiquement les mises à jour au démarrage :
+### Format index.json
 
-1. Télécharge `version.json`
-2. Compare avec la version locale
-3. Si différente, télécharge `questions.json`
-4. Met en cache les questions localement
+```json
+{
+    "files": {
+        "mathematiques_CP": {
+            "version": "2024.01.18.1523",
+            "count": 10,
+            "updated_at": "2024-01-18T15:23:00Z"
+        }
+    },
+    "updated_at": "2024-01-18T15:23:00Z"
+}
+```
 
-### Mode hors-ligne
+### Format matiere_niveau.json
 
-L'application fonctionne hors-ligne grâce au cache local :
-- Les questions synchronisées sont stockées dans `user://questions/`
-- Les questions par défaut sont dans `res://data/questions/`
+```json
+{
+    "matiere": "mathematiques",
+    "niveau": "CP",
+    "version": "2024.01.18.1523",
+    "updated_at": "2024-01-18T15:23:00Z",
+    "questions": [
+        {
+            "id": 1,
+            "type": "qcm",
+            "question": "Combien font 1 + 1 ?",
+            "reponses": ["1", "2", "3", "4"],
+            "reponse_correcte": 1,
+            "time_override": 20
+        }
+    ]
+}
+```
 
-## Import des questions existantes
+## Synchronisation dans Godot
 
-Dans l'interface admin, vous pouvez importer vos fichiers JSON existants :
-1. Ouvrez la console du navigateur (F12)
-2. Exécutez : `importExistingQuestions()`
-3. Sélectionnez vos fichiers JSON
+L'application vérifie automatiquement les mises à jour :
 
-## Support
+```gdscript
+# Dans votre script de démarrage
+QuestionsSync.sync_all()
 
-Les types de questions supportés :
-- **qcm** : Choix multiple (4 réponses)
-- **vrai_faux** : Vrai ou Faux
-- **texte** : Réponse libre
+# Écouter les événements
+QuestionsSync.sync_completed.connect(func(success, message):
+    print("Sync: ", message)
+)
+```
 
-Les matières :
-- Mathématiques
-- Français
-- Géographie
-- Anglais
+## Mode hors-ligne
 
-Les niveaux :
-- CP, CE1, CE2, CM1, CM2
+L'application fonctionne hors-ligne :
+1. Questions synchronisées : `user://questions/`
+2. Questions par défaut : `res://data/questions/`
