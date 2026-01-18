@@ -1,0 +1,52 @@
+{
+    "version": "2024.01.18.1",
+    "updated_at": "2024-01-18T12:00:00Z",
+    "questions": {
+        "francais_CP": [
+            {
+                "id": 1,
+                "type": "qcm",
+                "question": "Quelle lettre commence le mot 'Chat' ?",
+                "reponses": ["S", "C", "K", "T"],
+                "reponse_correcte": 1
+            },
+            {
+                "id": 2,
+                "type": "vrai_faux",
+                "question": "Le mot 'lune' commence par la lettre L",
+                "reponse_correcte": true
+            },
+            {
+                "id": 3,
+                "type": "qcm",
+                "question": "Combien y a-t-il de lettres dans 'BOL' ?",
+                "reponses": ["2", "3", "4", "5"],
+                "reponse_correcte": 1
+            },
+            {
+                "id": 4,
+                "type": "texte",
+                "question": "Complète : J'ai un cha___",
+                "reponse_correcte": "t",
+                "time_override": 45
+            }
+        ],
+        "mathematiques_CP": [
+            {
+                "id": 1,
+                "type": "qcm",
+                "question": "Combien font 1 + 1 ?",
+                "reponses": ["1", "2", "3", "4"],
+                "reponse_correcte": 1
+            },
+            {
+                "id": 2,
+                "type": "qcm",
+                "question": "Combien font 2 + 2 ?",
+                "reponses": ["2", "3", "4", "5"],
+                "reponse_correcte": 2,
+                "time_override": 20
+            }
+        ]
+    }
+}

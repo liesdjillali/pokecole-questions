@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKECOLE - Administration des Exercices</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #ffd700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            margin-bottom: 30px;
+        }
+        .toolbar {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        select, input, button {
+            padding: 10px 15px;
+            border-radius: 8px;
+            border: none;
+            font-size: 14px;
+        }
+        select, input {
+            background: rgba(255,255,255,0.9);
+            color: #333;
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        button:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+        }
+        button.danger {
+            background: #f44336;
+        }
+        button.danger:hover {
+            background: #d32f2f;
+        }
+        button.secondary {
+            background: #2196F3;
+        }
+        button.secondary:hover {
+            background: #1976D2;
+        }
+        .questions-list {
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .question-card {
+            background: rgba(255,255,255,0.95);
+            color: #333;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+        .question-card.editing {
+            border: 3px solid #ffd700;
+        }
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .question-id {
+            background: #4CAF50;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .question-type {
+            background: #2196F3;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+        .question-time {
+            background: #ff9800;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+        .question-text {
+            font-size: 16px;
+            font-weight: 500;
+            margin: 10px 0;
+            color: #1a1a2e;
+        }
+        .answers-list {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .answer-item {
+            padding: 5px 0;
+            color: #555;
+        }
+        .answer-item.correct {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        .question-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .question-actions button {
+            padding: 8px 15px;
+            font-size: 12px;
+        }
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        .modal.active {
+            display: flex;
+        }
+        .modal-content {
+            background: white;
+            color: #333;
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+        .modal-content h2 {
+            margin-top: 0;
+            color: #1a1a2e;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #333;
+        }
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        .form-group textarea {
+            min-height: 80px;
+            resize: vertical;
+        }
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+        .answers-editor {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .answer-input-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+        .answer-input-row input[type="text"] {
+            flex: 1;
+        }
+        .answer-input-row input[type="radio"] {
+            width: 20px;
+            height: 20px;
+        }
+        .modal-actions {
+            display: flex;
+            gap: 15px;
+            justify-content: flex-end;
+            margin-top: 20px;
+        }
+        .version-info {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: rgba(255,215,0,0.2);
+            border-radius: 8px;
+        }
+        .export-section {
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .export-section h3 {
+            margin-top: 0;
+            color: #ffd700;
+        }
+        #jsonOutput {
+            width: 100%;
+            min-height: 200px;
+            font-family: monospace;
+            font-size: 12px;
+            background: #1a1a2e;
+            color: #0f0;
+            border: none;
+            border-radius: 8px;
+            padding: 15px;
+        }
+        .stats {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .stat-card {
+            background: rgba(255,255,255,0.1);
+            padding: 15px 25px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .stat-card .number {
+            font-size: 32px;
+            font-weight: bold;
+            color: #ffd700;
+        }
+        .stat-card .label {
+            font-size: 12px;
+            color: #aaa;
+        }
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: #888;
+        }
+        .drag-handle {
+            cursor: move;
+            padding: 5px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 POKECOLE - Administration des Exercices</h1>
+
+        <div class="version-info">
+            <strong>Version actuelle :</strong> <span id="currentVersion">--</span>
+            <button onclick="incrementVersion()" class="secondary" style="margin-left: 15px;">📝 Nouvelle version</button>
+        </div>
+
+        <div class="stats" id="stats"></div>
+
+        <div class="toolbar">
+            <select id="matiereSelect" onchange="loadQuestions()">
+                <option value="">-- Choisir une matière --</option>
+                <option value="mathematiques">Mathématiques</option>
+                <option value="francais">Français</option>
+                <option value="geographie">Géographie</option>
+                <option value="anglais">Anglais</option>
+            </select>
+            <select id="niveauSelect" onchange="loadQuestions()">
+                <option value="">-- Choisir un niveau --</option>
+                <option value="CP">CP</option>
+                <option value="CE1">CE1</option>
+                <option value="CE2">CE2</option>
+                <option value="CM1">CM1</option>
+                <option value="CM2">CM2</option>
+            </select>
+            <button onclick="openAddModal()" class="secondary">➕ Ajouter une question</button>
+            <button onclick="exportAll()">📦 Exporter tout</button>
+            <button onclick="copyToClipboard()">📋 Copier JSON</button>
+        </div>
+
+        <div class="questions-list" id="questionsList">
+            <div class="empty-state">
+                Sélectionnez une matière et un niveau pour voir les questions
+            </div>
+        </div>
+
+        <div class="export-section">
+            <h3>📄 Export JSON (à copier sur GitHub)</h3>
+            <textarea id="jsonOutput" readonly></textarea>
+        </div>
+    </div>
+
+    <!-- Modal Ajout/Edition -->
+    <div class="modal" id="questionModal">
+        <div class="modal-content">
+            <h2 id="modalTitle">Ajouter une question</h2>
+            <form id="questionForm" onsubmit="saveQuestion(event)">
+                <input type="hidden" id="editingId">
+
+                <div class="form-group">
+                    <label>Type de question</label>
+                    <select id="questionType" onchange="updateAnswersEditor()" required>
+                        <option value="qcm">QCM (Choix multiple)</option>
+                        <option value="vrai_faux">Vrai/Faux</option>
+                        <option value="texte">Réponse texte</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Question</label>
+                    <textarea id="questionText" placeholder="Entrez la question..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Temps imparti (optionnel, laissez vide pour utiliser la valeur par défaut)</label>
+                    <input type="number" id="timeOverride" placeholder="ex: 45" min="5" max="300">
+                </div>
+
+                <div id="answersEditor"></div>
+
+                <div class="modal-actions">
+                    <button type="button" onclick="closeModal()" class="danger">Annuler</button>
+                    <button type="submit">💾 Enregistrer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Données
+        let questionsData = {};
+        let currentVersion = generateVersion();
+
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', () => {
+            loadFromLocalStorage();
+            updateVersionDisplay();
+            updateStats();
+        });
+
+        function generateVersion() {
+            const now = new Date();
+            return `${now.getFullYear()}.${String(now.getMonth()+1).padStart(2,'0')}.${String(now.getDate()).padStart(2,'0')}.1`;
+        }
+
+        function incrementVersion() {
+            const parts = currentVersion.split('.');
+            const today = new Date();
+            const todayStr = `${today.getFullYear()}.${String(today.getMonth()+1).padStart(2,'0')}.${String(today.getDate()).padStart(2,'0')}`;
+
+            if (currentVersion.startsWith(todayStr)) {
+                parts[3] = parseInt(parts[3] || 0) + 1;
+                currentVersion = parts.join('.');
+            } else {
+                currentVersion = todayStr + '.1';
+            }
+            updateVersionDisplay();
+            saveToLocalStorage();
+        }
+
+        function updateVersionDisplay() {
+            document.getElementById('currentVersion').textContent = currentVersion;
+        }
+
+        function getKey(matiere, niveau) {
+            return `${matiere}_${niveau}`;
+        }
+
+        function loadQuestions() {
+            const matiere = document.getElementById('matiereSelect').value;
+            const niveau = document.getElementById('niveauSelect').value;
+
+            if (!matiere || !niveau) {
+                document.getElementById('questionsList').innerHTML = '<div class="empty-state">Sélectionnez une matière et un niveau pour voir les questions</div>';
+                return;
+            }
+
+            const key = getKey(matiere, niveau);
+            const questions = questionsData[key] || [];
+
+            renderQuestions(questions);
+            updateJsonOutput();
+        }
+
+        function renderQuestions(questions) {
+            const container = document.getElementById('questionsList');
+
+            if (questions.length === 0) {
+                container.innerHTML = '<div class="empty-state">Aucune question pour cette matière/niveau. Cliquez sur "Ajouter une question" pour commencer.</div>';
+                return;
+            }
+
+            container.innerHTML = questions.map((q, index) => `
+                <div class="question-card" data-id="${q.id}">
+                    <div class="question-header">
+                        <div>
+                            <span class="question-id">#${q.id}</span>
+                            <span class="question-type">${getTypeLabel(q.type)}</span>
+                            ${q.time_override ? `<span class="question-time">⏱️ ${q.time_override}s</span>` : ''}
+                        </div>
+                        <span class="drag-handle">⋮⋮</span>
+                    </div>
+                    <div class="question-text">${escapeHtml(q.question)}</div>
+                    ${renderAnswers(q)}
+                    <div class="question-actions">
+                        <button onclick="editQuestion(${q.id})" class="secondary">✏️ Modifier</button>
+                        <button onclick="duplicateQuestion(${q.id})" class="secondary">📋 Dupliquer</button>
+                        <button onclick="deleteQuestion(${q.id})" class="danger">🗑️ Supprimer</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function getTypeLabel(type) {
+            switch(type) {
+                case 'qcm': return 'QCM';
+                case 'vrai_faux': return 'Vrai/Faux';
+                case 'texte': return 'Texte';
+                default: return type;
+            }
+        }
+
+        function renderAnswers(q) {
+            if (q.type === 'qcm') {
+                return `<div class="answers-list">${q.reponses.map((r, i) =>
+                    `<div class="answer-item ${i === q.reponse_correcte ? 'correct' : ''}">${i === q.reponse_correcte ? '✓' : '○'} ${escapeHtml(r)}</div>`
+                ).join('')}</div>`;
+            } else if (q.type === 'vrai_faux') {
+                return `<div class="answers-list"><div class="answer-item correct">Réponse : ${q.reponse_correcte ? 'VRAI' : 'FAUX'}</div></div>`;
+            } else {
+                return `<div class="answers-list"><div class="answer-item correct">Réponse : ${escapeHtml(String(q.reponse_correcte))}</div></div>`;
+            }
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function openAddModal() {
+            const matiere = document.getElementById('matiereSelect').value;
+            const niveau = document.getElementById('niveauSelect').value;
+
+            if (!matiere || !niveau) {
+                alert('Veuillez d\'abord sélectionner une matière et un niveau');
+                return;
+            }
+
+            document.getElementById('modalTitle').textContent = 'Ajouter une question';
+            document.getElementById('editingId').value = '';
+            document.getElementById('questionType').value = 'qcm';
+            document.getElementById('questionText').value = '';
+            document.getElementById('timeOverride').value = '';
+            updateAnswersEditor();
+            document.getElementById('questionModal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('questionModal').classList.remove('active');
+        }
+
+        function updateAnswersEditor() {
+            const type = document.getElementById('questionType').value;
+            const editor = document.getElementById('answersEditor');
+
+            if (type === 'qcm') {
+                editor.innerHTML = `
+                    <div class="form-group">
+                        <label>Réponses (cochez la bonne réponse)</label>
+                        <div class="answers-editor" id="qcmAnswers">
+                            ${[0,1,2,3].map(i => `
+                                <div class="answer-input-row">
+                                    <input type="radio" name="correctAnswer" value="${i}" ${i===0?'checked':''}>
+                                    <input type="text" id="answer${i}" placeholder="Réponse ${i+1}" required>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            } else if (type === 'vrai_faux') {
+                editor.innerHTML = `
+                    <div class="form-group">
+                        <label>Réponse correcte</label>
+                        <select id="vraiReponse" required>
+                            <option value="true">VRAI</option>
+                            <option value="false">FAUX</option>
+                        </select>
+                    </div>
+                `;
+            } else {
+                editor.innerHTML = `
+                    <div class="form-group">
+                        <label>Réponse correcte (texte)</label>
+                        <input type="text" id="texteReponse" placeholder="La réponse attendue" required>
+                    </div>
+                `;
+            }
+        }
+
+        function saveQuestion(event) {
+            event.preventDefault();
+
+            const matiere = document.getElementById('matiereSelect').value;
+            const niveau = document.getElementById('niveauSelect').value;
+            const key = getKey(matiere, niveau);
+
+            if (!questionsData[key]) {
+                questionsData[key] = [];
+            }
+
+            const type = document.getElementById('questionType').value;
+            const editingId = document.getElementById('editingId').value;
+            const timeOverride = document.getElementById('timeOverride').value;
+
+            let question = {
+                id: editingId ? parseInt(editingId) : getNextId(key),
+                type: type,
+                question: document.getElementById('questionText').value
+            };
+
+            // Ajouter time_override seulement si spécifié
+            if (timeOverride && parseInt(timeOverride) > 0) {
+                question.time_override = parseInt(timeOverride);
+            }
+
+            if (type === 'qcm') {
+                question.reponses = [0,1,2,3].map(i => document.getElementById(`answer${i}`).value);
+                question.reponse_correcte = parseInt(document.querySelector('input[name="correctAnswer"]:checked').value);
+            } else if (type === 'vrai_faux') {
+                question.reponse_correcte = document.getElementById('vraiReponse').value === 'true';
+            } else {
+                question.reponse_correcte = document.getElementById('texteReponse').value;
+            }
+
+            if (editingId) {
+                const index = questionsData[key].findIndex(q => q.id === parseInt(editingId));
+                if (index !== -1) {
+                    questionsData[key][index] = question;
+                }
+            } else {
+                questionsData[key].push(question);
+            }
+
+            saveToLocalStorage();
+            loadQuestions();
+            updateStats();
+            closeModal();
+        }
+
+        function getNextId(key) {
+            const questions = questionsData[key] || [];
+            if (questions.length === 0) return 1;
+            return Math.max(...questions.map(q => q.id)) + 1;
+        }
+
+        function editQuestion(id) {
+            const matiere = document.getElementById('matiereSelect').value;
+            const niveau = document.getElementById('niveauSelect').value;
+            const key = getKey(matiere, niveau);
+            const question = questionsData[key].find(q => q.id === id);
+
+            if (!question) return;
+
+            document.getElementById('modalTitle').textContent = 'Modifier la question';
+            document.getElementById('editingId').value = id;
+            document.getElementById('questionType').value = question.type;
+            document.getElementById('questionText').value = question.question;
+            document.getElementById('timeOverride').value = question.time_override || '';
+
+            updateAnswersEditor();
+
+            // Remplir les réponses
+            setTimeout(() => {
+                if (question.type === 'qcm') {
+                    question.reponses.forEach((r, i) => {
+                        document.getElementById(`answer${i}`).value = r;
+                    });
+                    document.querySelector(`input[name="correctAnswer"][value="${question.reponse_correcte}"]`).checked = true;
+                } else if (question.type === 'vrai_faux') {
+                    document.getElementById('vraiReponse').value = question.reponse_correcte ? 'true' : 'false';
+                } else {
+                    document.getElementById('texteReponse').value = question.reponse_correcte;
+                }
+            }, 0);
+
+            document.getElementById('questionModal').classList.add('active');
+        }
+
+        function duplicateQuestion(id) {
+            const matiere = document.getElementById('matiereSelect').value;
+            const niveau = document.getElementById('niveauSelect').value;
+            const key = getKey(matiere, niveau);
+            const question = questionsData[key].find(q => q.id === id);
+
+            if (!question) return;
+
+            const newQuestion = JSON.parse(JSON.stringify(question));
+            newQuestion.id = getNextId(key);
+            newQuestion.question = question.question + ' (copie)';
+
+            questionsData[key].push(newQuestion);
+            saveToLocalStorage();
+            loadQuestions();
+            updateStats();
+        }
+
+        function deleteQuestion(id) {
+            if (!confirm('Êtes-vous sûr de vouloir supprimer cette question ?')) return;
+
+            const matiere = document.getElementById('matiereSelect').value;
+            const niveau = document.getElementById('niveauSelect').value;
+            const key = getKey(matiere, niveau);
+
+            questionsData[key] = questionsData[key].filter(q => q.id !== id);
+            saveToLocalStorage();
+            loadQuestions();
+            updateStats();
+        }
+
+        function updateJsonOutput() {
+            const matiere = document.getElementById('matiereSelect').value;
+            const niveau = document.getElementById('niveauSelect').value;
+
+            if (!matiere || !niveau) {
+                document.getElementById('jsonOutput').value = '';
+                return;
+            }
+
+            const key = getKey(matiere, niveau);
+            const output = {
+                matiere: matiere,
+                niveau: niveau,
+                questions: questionsData[key] || []
+            };
+
+            document.getElementById('jsonOutput').value = JSON.stringify(output, null, 2);
+        }
+
+        function exportAll() {
+            const allData = {
+                version: currentVersion,
+                updated_at: new Date().toISOString(),
+                questions: questionsData
+            };
+
+            const blob = new Blob([JSON.stringify(allData, null, 2)], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `pokecole_questions_${currentVersion}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        function copyToClipboard() {
+            const output = document.getElementById('jsonOutput');
+            output.select();
+            document.execCommand('copy');
+            alert('JSON copié dans le presse-papier !');
+        }
+
+        function saveToLocalStorage() {
+            localStorage.setItem('pokecole_questions', JSON.stringify(questionsData));
+            localStorage.setItem('pokecole_version', currentVersion);
+            updateJsonOutput();
+        }
+
+        function loadFromLocalStorage() {
+            const saved = localStorage.getItem('pokecole_questions');
+            const savedVersion = localStorage.getItem('pokecole_version');
+
+            if (saved) {
+                questionsData = JSON.parse(saved);
+            }
+            if (savedVersion) {
+                currentVersion = savedVersion;
+            }
+        }
+
+        function updateStats() {
+            let totalQuestions = 0;
+            let byMatiere = {};
+
+            for (const key in questionsData) {
+                const [matiere] = key.split('_');
+                const count = questionsData[key].length;
+                totalQuestions += count;
+                byMatiere[matiere] = (byMatiere[matiere] || 0) + count;
+            }
+
+            const statsHtml = `
+                <div class="stat-card">
+                    <div class="number">${totalQuestions}</div>
+                    <div class="label">Questions totales</div>
+                </div>
+                ${Object.entries(byMatiere).map(([m, c]) => `
+                    <div class="stat-card">
+                        <div class="number">${c}</div>
+                        <div class="label">${m.charAt(0).toUpperCase() + m.slice(1)}</div>
+                    </div>
+                `).join('')}
+            `;
+
+            document.getElementById('stats').innerHTML = statsHtml;
+        }
+
+        // Permettre l'import de fichiers JSON existants
+        function importExistingQuestions() {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = '.json';
+            input.multiple = true;
+            input.onchange = async (e) => {
+                for (const file of e.target.files) {
+                    const text = await file.text();
+                    try {
+                        const data = JSON.parse(text);
+                        if (data.matiere && data.niveau && data.questions) {
+                            const key = getKey(data.matiere, data.niveau);
+                            questionsData[key] = data.questions;
+                        }
+                    } catch (err) {
+                        console.error('Erreur import:', file.name, err);
+                    }
+                }
+                saveToLocalStorage();
+                loadQuestions();
+                updateStats();
+                alert('Import terminé !');
+            };
+            input.click();
+        }
+    </script>
+</body>
+</html>
