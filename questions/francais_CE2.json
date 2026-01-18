@@ -1,0 +1,120 @@
+{
+  "matiere": "francais",
+  "niveau": "CE2",
+  "version": "2026.01.18.2038",
+  "questions": [
+    {
+      "id": 1,
+      "type": "vrai_faux",
+      "question": "\"Ouvre la porte.\" est une phrase déclarative.",
+      "time_override": 15,
+      "additional_feedback": "C'est une phrase impérative même si elle ne se termine pas par un point d'exclamation. Elle indique un ordre ou un conseil",
+      "reponse_correcte": false
+    },
+    {
+      "id": 2,
+      "type": "qcm",
+      "question": "Une phrase interrogative se termine par...",
+      "time_override": 10,
+      "additional_feedback": "Une phrase interrogative se termine par un point d'interrogation \"?\"",
+      "reponses": [
+        "?",
+        "!",
+        ".",
+        "..."
+      ],
+      "reponse_correcte": 0
+    },
+    {
+      "id": 3,
+      "type": "qcm",
+      "question": "\"Léa ouvre la porte.\" est une phrase...",
+      "time_override": 15,
+      "reponses": [
+        "interrogative",
+        "déclarative",
+        "imperative",
+        "sportive"
+      ],
+      "reponse_correcte": 1
+    },
+    {
+      "id": 4,
+      "type": "qcm",
+      "question": "Une phrase interrogative sert à...",
+      "time_override": 15,
+      "additional_feedback": "Quand on dit interrogative il faut penser à point d'interrogation",
+      "reponses": [
+        "donner un ordre",
+        "donner une information",
+        "donner un conseil",
+        "poser une question"
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 5,
+      "type": "qcm",
+      "question": "La phrase négative de \"Léa ira au zoo.\" est...",
+      "time_override": 20,
+      "reponses": [
+        "Léa ira-t-elle au zoo ?",
+        "Est-ce que Léa ira au zoo ?",
+        "Va au zoo Léa !",
+        "Léa n'ira pas au zoo."
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 6,
+      "type": "vrai_faux",
+      "question": "Un nom propre est toujours précédé d'un déterminant.",
+      "time_override": 15,
+      "additional_feedback": "Les noms communs sont toujours précédés d'un determinant. Pas les noms propres. On ne dit pas le Nathan joue au football...",
+      "reponse_correcte": false
+    },
+    {
+      "id": 7,
+      "type": "vrai_faux",
+      "question": "Un nom propre commence toujours par une majuscule.",
+      "time_override": 15,
+      "reponse_correcte": true
+    },
+    {
+      "id": 8,
+      "type": "qcm",
+      "question": "Un déterminant...",
+      "time_override": 20,
+      "additional_feedback": "Le déterminant détermine si le nom est féminin ou masculin",
+      "reponses": [
+        "est toujours placé après le nom",
+        "détermine le genre",
+        "est toujours un article",
+        "remplace le nom"
+      ],
+      "reponse_correcte": 1
+    },
+    {
+      "id": 9,
+      "type": "qcm",
+      "question": "Un déterminant...",
+      "time_override": 20,
+      "additional_feedback": "Le déterminant détermine si le nom est singulier ou pluriel",
+      "reponses": [
+        "est toujours placé après le nom",
+        "est indéfini",
+        "est toujours un article",
+        "détermine le nombre"
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 10,
+      "type": "vrai_faux",
+      "question": "Un déterminant est placé avant le nom.",
+      "time_override": 15,
+      "reponse_correcte": true
+    }
+  ],
+  "updated_at": "2026-01-18T19:38:05.480Z"
+}
