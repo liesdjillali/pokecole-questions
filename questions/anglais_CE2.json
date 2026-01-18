@@ -1,7 +1,7 @@
 {
   "matiere": "anglais",
   "niveau": "CE2",
-  "version": "2026.01.18.1947",
+  "version": "2026.01.18.1959",
   "questions": [
     {
       "id": 1,
@@ -208,7 +208,43 @@
       "type": "vrai_faux",
       "question": "l'Australie est un pays de langue anglaise.",
       "reponse_correcte": true
+    },
+    {
+      "id": 22,
+      "type": "vrai_faux",
+      "question": "\"Draw\" signifie \"écoute\"",
+      "time_override": 10,
+      "additional_feedback": "\"Draw\" signifie dessine",
+      "reponse_correcte": false
+    },
+    {
+      "id": 23,
+      "type": "vrai_faux",
+      "question": "\"Thursday\" signifie \"Mardi\"",
+      "time_override": 10,
+      "additional_feedback": "\"Thursday\" signifie \"Jeudi\". Tu as confondu avec \"Tuesday\"",
+      "reponse_correcte": false
+    },
+    {
+      "id": 24,
+      "type": "vrai_faux",
+      "question": "\"Wednesday\" est juste avant \"Thursday\"",
+      "time_override": 10,
+      "reponse_correcte": true
+    },
+    {
+      "id": 25,
+      "type": "qcm",
+      "question": "Que signifie la question \"How old are you?\"",
+      "time_override": 15,
+      "reponses": [
+        "Quel jour est-il ?",
+        "Quelle heure est-il ?",
+        "Quel âge as-tu?",
+        "Quel temps fait-il ?"
+      ],
+      "reponse_correcte": 2
     }
   ],
-  "updated_at": "2026-01-18T18:47:19.162Z"
+  "updated_at": "2026-01-18T18:59:36.110Z"
 }
