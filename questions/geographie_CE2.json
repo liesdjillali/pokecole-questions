@@ -1,65 +1,7 @@
 {
   "matiere": "geographie",
   "niveau": "CE2",
-  "version": "2026.01.19.1302",
-  "questions": [
-    {
-      "id": 1,
-      "type": "texte",
-      "question": "CÃÂ©superrr",
-      "additional_feedback": "CÃÂ©super",
-      "reponse_correcte": "CÃÂ©superr"
-    },
-    {
-      "id": 2,
-      "type": "qcm",
-      "question": "R",
-      "additional_feedback": "H",
-      "reponses": [
-        "H",
-        "R",
-        "Hu",
-        "I"
-      ],
-      "reponse_correcte": 1
-    },
-    {
-      "id": 3,
-      "type": "vrai_faux",
-      "question": "R",
-      "additional_feedback": "R",
-      "reponse_correcte": true
-    },
-    {
-      "id": 4,
-      "type": "vrai_faux",
-      "question": "T",
-      "reponse_correcte": true
-    },
-    {
-      "id": 5,
-      "type": "vrai_faux",
-      "question": "U",
-      "reponse_correcte": true
-    },
-    {
-      "id": 6,
-      "type": "vrai_faux",
-      "question": "Y",
-      "reponse_correcte": true
-    },
-    {
-      "id": 7,
-      "type": "vrai_faux",
-      "question": "N",
-      "reponse_correcte": true
-    },
-    {
-      "id": 8,
-      "type": "vrai_faux",
-      "question": "I",
-      "reponse_correcte": true
-    }
-  ],
-  "updated_at": "2026-01-19T12:02:12.164Z"
+  "version": "2026.01.19.1309",
+  "questions": [],
+  "updated_at": "2026-01-19T12:09:30.234Z"
 }
