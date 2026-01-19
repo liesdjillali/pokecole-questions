@@ -145,7 +145,7 @@ async function loadMissingImages() {
 
         if (missingRes.ok) {
             const data = await missingRes.json();
-            const content = JSON.parse(atob(data.content));
+            const content = JSON.parse(decodeURIComponent(escape(atob(data.content))));
             missingImages = content.images || {};
         } else if (missingRes.status !== 404) {
             throw new Error('Erreur ' + missingRes.status);
@@ -158,7 +158,7 @@ async function loadMissingImages() {
 
         if (manualRes.ok) {
             const data = await manualRes.json();
-            const content = JSON.parse(atob(data.content));
+            const content = JSON.parse(decodeURIComponent(escape(atob(data.content))));
             manualImages = content.images || {};
         }
 
