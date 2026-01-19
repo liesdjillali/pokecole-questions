@@ -1,7 +1,7 @@
 {
   "matiere": "francais",
   "niveau": "CE2",
-  "version": "2026.01.19.1417",
+  "version": "2026.01.19.1429",
   "questions": [
     {
       "id": 1,
@@ -176,7 +176,56 @@
         "défini / féminin / pluriel"
       ],
       "reponse_correcte": 2
+    },
+    {
+      "id": 18,
+      "type": "texte",
+      "question": "Conjugue le verbe \"marcher\" à l'imparfait à la deuxième personne du pluriel. Vous _____ ",
+      "time_override": 60,
+      "reponse_correcte": "marchiez"
+    },
+    {
+      "id": 19,
+      "type": "texte",
+      "question": "Conjugue le verbe \"parler\" à l'imparfait à la première personne du pluriel. Nous _____",
+      "time_override": 60,
+      "reponse_correcte": "parlions"
+    },
+    {
+      "id": 20,
+      "type": "texte",
+      "question": "Conjugue le verbe \"parler\" à l'imparfait à la troisième personne du pluriel. Ils/Elles _____",
+      "time_override": 60,
+      "reponse_correcte": "parlaient"
+    },
+    {
+      "id": 21,
+      "type": "texte",
+      "question": "Conjugue le verbe \"être\" au présent de l'indicatif à la première personne du pluriel. Nous _____",
+      "time_override": 60,
+      "reponse_correcte": "sommes"
+    },
+    {
+      "id": 22,
+      "type": "texte",
+      "question": "Conjugue le verbe \"avoir\" au présent de l'indicatif à la troisième personne du singulier. Il/Elle/On _____",
+      "time_override": 60,
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 23,
+      "type": "texte",
+      "question": "Conjugue le verbe \"aller\" au présent de l'indicatif à la première personne du singulier. Je _____",
+      "time_override": 60,
+      "reponse_correcte": "vais"
+    },
+    {
+      "id": 24,
+      "type": "texte",
+      "question": "Conjugue le verbe \"faire\" au présent de l'indicatif à la deuxième personne du pluriel. Vous _____",
+      "time_override": 60,
+      "reponse_correcte": "faites"
     }
   ],
-  "updated_at": "2026-01-19T13:17:53.931Z"
+  "updated_at": "2026-01-19T13:29:52.303Z"
 }
