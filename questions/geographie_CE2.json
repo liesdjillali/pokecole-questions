@@ -1,7 +1,7 @@
 {
   "matiere": "geographie",
   "niveau": "CE2",
-  "version": "2026.01.19.1259",
+  "version": "2026.01.19.1300",
   "questions": [
     {
       "id": 1,
@@ -9,7 +9,20 @@
       "question": "CÃ©superrr",
       "additional_feedback": "CÃ©super",
       "reponse_correcte": "CÃ©superr"
+    },
+    {
+      "id": 2,
+      "type": "qcm",
+      "question": "R",
+      "additional_feedback": "H",
+      "reponses": [
+        "H",
+        "R",
+        "Hu",
+        "I"
+      ],
+      "reponse_correcte": 1
     }
   ],
-  "updated_at": "2026-01-19T11:59:56.949Z"
+  "updated_at": "2026-01-19T12:00:25.308Z"
 }
