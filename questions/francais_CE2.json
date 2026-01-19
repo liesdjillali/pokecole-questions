@@ -1,7 +1,7 @@
 {
   "matiere": "francais",
   "niveau": "CE2",
-  "version": "2026.01.19.1437",
+  "version": "2026.01.19.1439",
   "questions": [
     {
       "id": 1,
@@ -239,7 +239,14 @@
       "question": "Conjugue le verbe \"dire\" au présent de l'indicatif à la deuxième personne du pluriel. Vous _____",
       "time_override": 60,
       "reponse_correcte": "dites"
+    },
+    {
+      "id": 27,
+      "type": "texte",
+      "question": "Conjugue le verbe \"vouloir\" au présent de l'indicatif à la première personne du singulier. Je _____",
+      "time_override": 60,
+      "reponse_correcte": "veux"
     }
   ],
-  "updated_at": "2026-01-19T13:37:46.362Z"
+  "updated_at": "2026-01-19T13:39:55.504Z"
 }
