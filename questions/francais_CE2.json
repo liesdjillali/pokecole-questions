@@ -1,7 +1,7 @@
 {
   "matiere": "francais",
   "niveau": "CE2",
-  "version": "2026.01.19.1439",
+  "version": "2026.01.19.2302",
   "questions": [
     {
       "id": 1,
@@ -134,7 +134,7 @@
     {
       "id": 13,
       "type": "qcm",
-      "question": "L'djectif...",
+      "question": "L'adjectif...",
       "time_override": 20,
       "reponses": [
         "donne son genre au nom",
@@ -248,5 +248,5 @@
       "reponse_correcte": "veux"
     }
   ],
-  "updated_at": "2026-01-19T13:39:55.504Z"
+  "updated_at": "2026-01-19T22:02:51.383Z"
 }
