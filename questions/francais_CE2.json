@@ -1,7 +1,7 @@
 {
   "matiere": "francais",
   "niveau": "CE2",
-  "version": "2026.01.19.1310",
+  "version": "2026.01.19.1413",
   "questions": [
     {
       "id": 1,
@@ -122,7 +122,35 @@
       "time_override": 20,
       "additional_feedback": "une maison, c'est féminin donc il faut un \"e\". Et on parle de plusieurs maisons donc il faut aussi un \"s\"",
       "reponse_correcte": "es"
+    },
+    {
+      "id": 12,
+      "type": "vrai_faux",
+      "question": "L'adjectif est toujours placé avant le nom",
+      "time_override": 15,
+      "additional_feedback": "L'adjectif peut être placé avant ou après le nom",
+      "reponse_correcte": false
+    },
+    {
+      "id": 13,
+      "type": "qcm",
+      "question": "L'djectif...",
+      "time_override": 20,
+      "reponses": [
+        "donne son genre au nom",
+        "donne des précisions sur le nom",
+        "est invariable",
+        "remplace un nom"
+      ],
+      "reponse_correcte": 1
+    },
+    {
+      "id": 14,
+      "type": "vrai_faux",
+      "question": "Le pronom personnel remplace un nom ou un groupe nominal.",
+      "time_override": 15,
+      "reponse_correcte": true
     }
   ],
-  "updated_at": "2026-01-19T12:10:57.099Z"
+  "updated_at": "2026-01-19T13:13:22.939Z"
 }
