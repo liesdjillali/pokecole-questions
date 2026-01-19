@@ -1,7 +1,7 @@
 {
   "matiere": "francais",
   "niveau": "CE2",
-  "version": "2026.01.19.1413",
+  "version": "2026.01.19.1415",
   "questions": [
     {
       "id": 1,
@@ -150,7 +150,20 @@
       "question": "Le pronom personnel remplace un nom ou un groupe nominal.",
       "time_override": 15,
       "reponse_correcte": true
+    },
+    {
+      "id": 15,
+      "type": "qcm",
+      "question": "Un mot invariable est un mot...",
+      "time_override": 20,
+      "reponses": [
+        "toujours placé avant le verbe",
+        "qui ne s'accorde qu'avec le sujet",
+        "qui ne dépasse jamais 4 lettres",
+        "dont l'ortographe ne varie pas"
+      ],
+      "reponse_correcte": 3
     }
   ],
-  "updated_at": "2026-01-19T13:13:22.939Z"
+  "updated_at": "2026-01-19T13:15:49.883Z"
 }
