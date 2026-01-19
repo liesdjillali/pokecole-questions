@@ -1,7 +1,7 @@
 {
   "matiere": "francais",
   "niveau": "CE2",
-  "version": "2026.01.19.1432",
+  "version": "2026.01.19.1437",
   "questions": [
     {
       "id": 1,
@@ -232,7 +232,14 @@
       "question": "Conjugue le verbe \"venir\" au présent de l'indicatif à la troisième personne du pluriel. Ils/Elles _____",
       "time_override": 60,
       "reponse_correcte": "viennent"
+    },
+    {
+      "id": 26,
+      "type": "texte",
+      "question": "Conjugue le verbe \"dire\" au présent de l'indicatif à la deuxième personne du pluriel. Vous _____",
+      "time_override": 60,
+      "reponse_correcte": "dites"
     }
   ],
-  "updated_at": "2026-01-19T13:32:11.871Z"
+  "updated_at": "2026-01-19T13:37:46.362Z"
 }
