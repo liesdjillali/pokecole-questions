@@ -1,7 +1,7 @@
 {
   "matiere": "francais",
   "niveau": "CE2",
-  "version": "2026.01.19.1415",
+  "version": "2026.01.19.1417",
   "questions": [
     {
       "id": 1,
@@ -163,7 +163,20 @@
         "dont l'ortographe ne varie pas"
       ],
       "reponse_correcte": 3
+    },
+    {
+      "id": 16,
+      "type": "qcm",
+      "question": "\"la\" est un article",
+      "time_override": 25,
+      "reponses": [
+        "indéfini / féminin / singulier",
+        "défini / masculin / singulier",
+        "défini / féminin / singulier",
+        "défini / féminin / pluriel"
+      ],
+      "reponse_correcte": 2
     }
   ],
-  "updated_at": "2026-01-19T13:15:49.883Z"
+  "updated_at": "2026-01-19T13:17:53.931Z"
 }
