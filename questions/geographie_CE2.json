@@ -1,0 +1,15 @@
+{
+  "matiere": "geographie",
+  "niveau": "CE2",
+  "version": "2026.01.19.1259",
+  "questions": [
+    {
+      "id": 1,
+      "type": "texte",
+      "question": "Césuperrr",
+      "additional_feedback": "Césuper",
+      "reponse_correcte": "Césuperr"
+    }
+  ],
+  "updated_at": "2026-01-19T11:59:45.710Z"
+}
