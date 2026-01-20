@@ -1,221 +1,37 @@
 {
 	"logos": {
-		"2011bw": {
-			"name": "Promo McDonald's 2012",
-			"reported_at": "2026-01-20T09:06:16"
+		"mep": {
+			"name": "MEP Black Star Promos",
+			"reported_at": "2026-01-20T21:36:23"
 		},
-		"2013bw": {
-			"name": "Promo McDonald's 2013",
-			"reported_at": "2026-01-20T09:06:16"
+		"pop1": {
+			"name": "POP Série 1",
+			"reported_at": "2026-01-20T21:36:23"
 		},
-		"2014xy": {
-			"name": "Promo McDonald's 2014",
-			"reported_at": "2026-01-20T09:06:16"
+		"pop2": {
+			"name": "POP Série 2",
+			"reported_at": "2026-01-20T21:36:23"
 		},
-		"2015xy": {
-			"name": "Promo McDonald's 2015",
-			"reported_at": "2026-01-20T09:06:16"
+		"pop3": {
+			"name": "POP Série 3",
+			"reported_at": "2026-01-20T21:36:23"
 		},
-		"2016xy": {
-			"name": "Promo McDonald's 2016",
-			"reported_at": "2026-01-20T09:06:16"
+		"pop4": {
+			"name": "POP Série 4",
+			"reported_at": "2026-01-20T21:36:23"
 		},
-		"2017sm": {
-			"name": "Promo McDonald's 2017",
-			"reported_at": "2026-01-20T09:06:16"
+		"pop7": {
+			"name": "POP Série 7",
+			"reported_at": "2026-01-20T21:36:23"
 		},
-		"2018sm-fr": {
-			"name": "Promo McDonald's 2018",
-			"reported_at": "2026-01-20T09:06:16"
+		"pop9": {
+			"name": "POP Série 9",
+			"reported_at": "2026-01-20T21:36:23"
 		},
-		"2019sm-fr": {
-			"name": "Promo McDonald's 2019",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"2021swsh": {
-			"name": "Promo McDonald's 2021",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"A1": {
-			"name": "Puissance Génétique",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"A1a": {
-			"name": "L’Île Fabuleuse",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"A2": {
-			"name": "Choc Spatio-Temporel",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"A2a": {
-			"name": "Lumière Triomphale",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"A2b": {
-			"name": "Réjouissances Rayonnantes",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"A3": {
-			"name": "Gardiens Astraux",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"A3a": {
-			"name": "Crise Interdimensionnelle",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"A3b": {
-			"name": "La Clairière d'Évoli",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"A4": {
-			"name": "Sagesse Entre Ciel et Mer",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"A4a": {
-			"name": "Source Secrète",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"B1a": {
-			"name": "Embrasement Écarlate",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"P-A": {
-			"name": "Promo-A",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"base1": {
-			"name": "Set de Base",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"basep": {
-			"name": "Wizards Black Star Promos",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"bwp": {
-			"name": "Promo BW",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"dpp": {
-			"name": "Promo DP",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"exu": {
-			"name": "EX Forces Cachées Collection Zarbi",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"hgssp": {
-			"name": "Promo HGSS",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"np": {
-			"name": "Promo Nintendo",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"rc": {
-			"name": "Radiant Collection",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"sma": {
-			"name": "Carte Alternative A Jaune",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"smp": {
-			"name": "Promo SM",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-bw-e": {
-			"name": "BW Kit du dresseur (Minitaupe)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-bw-z": {
-			"name": "BW Kit du dresseur (Zoroark)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-dp-l": {
-			"name": "DP Kit dresseur (Lucario)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-dp-m": {
-			"name": "DP Kit dresseur (Manaphy)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-ex-latia": {
-			"name": "EX Kit dresseur (Latias)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-ex-latio": {
-			"name": "EX Kit dresseur (Latios)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-ex-m": {
-			"name": "EX Kit dresseur (Négapi)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-ex-p": {
-			"name": "EX Kit dresseur (Positi)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-hs-g": {
-			"name": "HS Kit du dresseur (Léviator)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-hs-r": {
-			"name": "HS Kit du dresseur (Raichu)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-sm-l": {
-			"name": "SM Kit du dresseur (Lougarox)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-sm-r": {
-			"name": "SM Kit du dresseur (Raichu d'Alola)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-xy-b": {
-			"name": "XY Kit du dresseur (Scalproie)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-xy-latia": {
-			"name": "XY Kit du dresseur (Latias)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-xy-latio": {
-			"name": "XY Kit du dresseur (Latios)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-xy-n": {
-			"name": "XY Kit du dresseur (Bruyverne)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-xy-p": {
-			"name": "XY Kit du dresseur (Pikachu Libre)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-xy-su": {
-			"name": "XY Kit du dresseur (Suicune)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-xy-sy": {
-			"name": "XY Kit du dresseur (Nymphali)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"tk-xy-w": {
-			"name": "XY Kit du dresseur (Grodoudou)",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"wp": {
-			"name": "W Promotional",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"xya": {
-			"name": "carte alternative A Jaune",
-			"reported_at": "2026-01-20T09:06:16"
-		},
-		"xyp": {
-			"name": "Promo XY",
-			"reported_at": "2026-01-20T09:06:16"
+		"svp": {
+			"name": "SVP Black Star Promos",
+			"reported_at": "2026-01-20T21:36:23"
 		}
 	},
-	"updated_at": "2026-01-20T21:32:21"
+	"updated_at": "2026-01-20T21:36:24"
 }
