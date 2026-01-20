@@ -72,19 +72,42 @@
         <div style="margin-top:15px;display:flex;gap:10px;flex-wrap:wrap">
             <button onclick="saveConfig()" class="btn-primary">💾 Sauvegarder</button>
             <button onclick="testConnection()" class="btn-secondary">🔗 Tester</button>
-            <button onclick="loadMissingImages()" class="btn-secondary">📥 Charger images manquantes</button>
+            <button onclick="loadAllMissingAssets()" class="btn-secondary">📥 Charger assets manquants</button>
         </div>
     </div>
 
-    <div class="stats-bar" id="statsBar">
-        <div class="stat-box"><div class="number" id="statMissing">-</div><div class="label">Manquantes</div></div>
-        <div class="stat-box"><div class="number" id="statUploaded">-</div><div class="label">Uploadées</div></div>
-        <div class="stat-box"><div class="number" id="statPending">-</div><div class="label">En attente</div></div>
+    <!-- Onglets pour les différentes sections -->
+    <div class="tabs" style="display:flex;gap:10px;margin-bottom:20px">
+        <button id="tabCards" onclick="switchTab('cards')" class="btn-secondary" style="opacity:1">🎴 Cartes</button>
+        <button id="tabSets" onclick="switchTab('sets')" class="btn-secondary" style="opacity:0.6">📦 Logos Sets</button>
     </div>
 
-    <h2>🖼️ Images Manquantes</h2>
-    <div class="cards-grid" id="cardsGrid">
-        <div class="loading">Chargez la configuration GitHub puis cliquez sur "Charger images manquantes"</div>
+    <!-- Section Cartes -->
+    <div id="cardsSection">
+        <div class="stats-bar" id="statsBar">
+            <div class="stat-box"><div class="number" id="statMissing">-</div><div class="label">Manquantes</div></div>
+            <div class="stat-box"><div class="number" id="statUploaded">-</div><div class="label">Uploadées</div></div>
+            <div class="stat-box"><div class="number" id="statPending">-</div><div class="label">En attente</div></div>
+        </div>
+
+        <h2>🖼️ Images de Cartes Manquantes</h2>
+        <div class="cards-grid" id="cardsGrid">
+            <div class="loading">Chargez la configuration GitHub puis cliquez sur "Charger assets manquants"</div>
+        </div>
+    </div>
+
+    <!-- Section Logos de Sets -->
+    <div id="setsSection" style="display:none">
+        <div class="stats-bar" id="setsStatsBar">
+            <div class="stat-box"><div class="number" id="statSetsMissing">-</div><div class="label">Manquants</div></div>
+            <div class="stat-box"><div class="number" id="statSetsUploaded">-</div><div class="label">Uploadés</div></div>
+            <div class="stat-box"><div class="number" id="statSetsPending">-</div><div class="label">En attente</div></div>
+        </div>
+
+        <h2>📦 Logos de Sets Manquants</h2>
+        <div class="cards-grid" id="setsGrid">
+            <div class="loading">Chargez la configuration GitHub puis cliquez sur "Charger assets manquants"</div>
+        </div>
     </div>
 </div>
 
@@ -92,6 +115,9 @@
 let githubConfig = {repo:'', token:''};
 let missingImages = {};
 let manualImages = {};
+let missingSetLogos = {};
+let manualSetLogos = {};
+let currentTab = 'cards';
 
 document.addEventListener('DOMContentLoaded', () => {
     loadConfig();
@@ -128,13 +154,26 @@ async function testConnection() {
     }
 }
 
+function switchTab(tab) {
+    currentTab = tab;
+    document.getElementById('cardsSection').style.display = tab === 'cards' ? 'block' : 'none';
+    document.getElementById('setsSection').style.display = tab === 'sets' ? 'block' : 'none';
+    document.getElementById('tabCards').style.opacity = tab === 'cards' ? '1' : '0.6';
+    document.getElementById('tabSets').style.opacity = tab === 'sets' ? '1' : '0.6';
+}
+
+async function loadAllMissingAssets() {
+    await loadMissingImages();
+    await loadMissingSetLogos();
+}
+
 async function loadMissingImages() {
     if (!githubConfig.repo || !githubConfig.token) {
         showStatus('Configurez GitHub d\'abord', 'error');
         return;
     }
 
-    showStatus('Chargement...', 'info');
+    showStatus('Chargement des images manquantes...', 'info');
     document.getElementById('cardsGrid').innerHTML = '<div class="loading">Chargement en cours...</div>';
 
     try {
@@ -164,10 +203,50 @@ async function loadMissingImages() {
 
         updateStats();
         renderCards();
-        showStatus(`✅ ${Object.keys(missingImages).length} image(s) manquante(s) chargée(s)`, 'success');
+        showStatus(`✅ ${Object.keys(missingImages).length} image(s) de cartes manquante(s)`, 'success');
     } catch(e) {
         showStatus('❌ ' + e.message, 'error');
         document.getElementById('cardsGrid').innerHTML = '<div class="empty-state">Erreur de chargement</div>';
+    }
+}
+
+async function loadMissingSetLogos() {
+    if (!githubConfig.repo || !githubConfig.token) {
+        return;
+    }
+
+    document.getElementById('setsGrid').innerHTML = '<div class="loading">Chargement en cours...</div>';
+
+    try {
+        // Charger les logos manquants
+        const missingRes = await fetch(`https://api.github.com/repos/${githubConfig.repo}/contents/images/missing_set_logos.json`, {
+            headers: {'Authorization': `token ${githubConfig.token}`}
+        });
+
+        if (missingRes.ok) {
+            const data = await missingRes.json();
+            const content = JSON.parse(decodeURIComponent(escape(atob(data.content))));
+            missingSetLogos = content.logos || {};
+        } else if (missingRes.status !== 404) {
+            console.log('Pas de logos manquants');
+        }
+
+        // Charger les logos manuels existants
+        const manualRes = await fetch(`https://api.github.com/repos/${githubConfig.repo}/contents/images/manual_set_logos.json`, {
+            headers: {'Authorization': `token ${githubConfig.token}`}
+        });
+
+        if (manualRes.ok) {
+            const data = await manualRes.json();
+            const content = JSON.parse(decodeURIComponent(escape(atob(data.content))));
+            manualSetLogos = content.logos || {};
+        }
+
+        updateSetStats();
+        renderSetLogos();
+    } catch(e) {
+        console.error('Erreur chargement logos:', e);
+        document.getElementById('setsGrid').innerHTML = '<div class="empty-state">Erreur de chargement</div>';
     }
 }
 
@@ -179,6 +258,16 @@ function updateStats() {
     document.getElementById('statMissing').textContent = missing;
     document.getElementById('statUploaded').textContent = uploaded;
     document.getElementById('statPending').textContent = pending;
+}
+
+function updateSetStats() {
+    const missing = Object.keys(missingSetLogos).length;
+    const uploaded = Object.keys(manualSetLogos).length;
+    const pending = missing - Object.keys(missingSetLogos).filter(id => manualSetLogos[id]).length;
+
+    document.getElementById('statSetsMissing').textContent = missing;
+    document.getElementById('statSetsUploaded').textContent = uploaded;
+    document.getElementById('statSetsPending').textContent = pending;
 }
 
 function renderCards() {
@@ -397,6 +486,170 @@ async function removeImage(cardId) {
         updateStats();
         renderCards();
         showStatus(`✅ Image supprimée pour ${cardId}`, 'success');
+    } catch(e) {
+        showStatus('❌ ' + e.message, 'error');
+    }
+}
+
+// ============== LOGOS DE SETS ==============
+
+function renderSetLogos() {
+    const grid = document.getElementById('setsGrid');
+    const logos = Object.entries(missingSetLogos);
+
+    if (logos.length === 0) {
+        grid.innerHTML = '<div class="empty-state">🎉 Aucun logo de set manquant!</div>';
+        return;
+    }
+
+    grid.innerHTML = logos.map(([id, info]) => {
+        const hasLogo = manualSetLogos[id];
+        return `
+            <div class="card-item ${hasLogo ? 'has-image' : ''}">
+                <h4>${info.name || id}</h4>
+                <div class="card-id">ID: ${id}</div>
+                <div class="card-date">Signalé: ${info.reported_at || 'N/A'}</div>
+                <div class="preview ${hasLogo ? '' : 'empty'}" style="height:80px">
+                    ${hasLogo ? `<img src="${manualSetLogos[id]}" alt="${id}" style="max-height:70px">` : '📦 Pas de logo'}
+                </div>
+                <div class="actions">
+                    <input type="file" id="setfile_${id.replace(/[^a-zA-Z0-9]/g,'_')}" class="upload-input" accept="image/*" onchange="uploadSetLogo('${id}', this)">
+                    <button onclick="document.getElementById('setfile_${id.replace(/[^a-zA-Z0-9]/g,'_')}').click()" class="btn-warning">📤 Upload</button>
+                    ${hasLogo ? `<button onclick="removeSetLogo('${id}')" class="btn-danger">🗑️</button>` : ''}
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+async function uploadSetLogo(setId, input) {
+    if (!input.files || !input.files[0]) return;
+
+    const file = input.files[0];
+    showStatus(`Traitement du logo ${setId}...`, 'info');
+
+    try {
+        // Traiter l'image (compression si nécessaire)
+        const imageData = await processImage(file);
+
+        // Upload sur GitHub
+        const fileName = `images/manual_set_logos/${setId.replace(/[^a-zA-Z0-9-]/g, '_')}.png`;
+
+        // Vérifier si le fichier existe déjà
+        let sha = null;
+        try {
+            const checkRes = await fetch(`https://api.github.com/repos/${githubConfig.repo}/contents/${fileName}`, {
+                headers: {'Authorization': `token ${githubConfig.token}`}
+            });
+            if (checkRes.ok) {
+                const existing = await checkRes.json();
+                sha = existing.sha;
+            }
+        } catch(e) {}
+
+        const body = {
+            message: `Add manual logo for set ${setId}`,
+            content: imageData.base64,
+            branch: 'master'
+        };
+        if (sha) body.sha = sha;
+
+        const uploadRes = await fetch(`https://api.github.com/repos/${githubConfig.repo}/contents/${fileName}`, {
+            method: 'PUT',
+            headers: {
+                'Authorization': `token ${githubConfig.token}`,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(body)
+        });
+
+        if (!uploadRes.ok) throw new Error('Erreur upload: ' + uploadRes.status);
+
+        const uploadData = await uploadRes.json();
+        const imageUrl = uploadData.content.download_url;
+
+        // Mettre à jour manual_set_logos.json
+        manualSetLogos[setId] = imageUrl;
+        await saveManualSetLogosJson();
+
+        updateSetStats();
+        renderSetLogos();
+        showStatus(`✅ Logo uploadé pour ${setId}`, 'success');
+    } catch(e) {
+        showStatus('❌ ' + e.message, 'error');
+    }
+
+    input.value = '';
+}
+
+async function saveManualSetLogosJson() {
+    const content = JSON.stringify({logos: manualSetLogos, updated_at: new Date().toISOString()}, null, 2);
+    const base64 = btoa(unescape(encodeURIComponent(content)));
+
+    // Vérifier SHA existant
+    let sha = null;
+    try {
+        const checkRes = await fetch(`https://api.github.com/repos/${githubConfig.repo}/contents/images/manual_set_logos.json`, {
+            headers: {'Authorization': `token ${githubConfig.token}`}
+        });
+        if (checkRes.ok) {
+            const existing = await checkRes.json();
+            sha = existing.sha;
+        }
+    } catch(e) {}
+
+    const body = {
+        message: 'Update manual_set_logos.json',
+        content: base64,
+        branch: 'master'
+    };
+    if (sha) body.sha = sha;
+
+    await fetch(`https://api.github.com/repos/${githubConfig.repo}/contents/images/manual_set_logos.json`, {
+        method: 'PUT',
+        headers: {
+            'Authorization': `token ${githubConfig.token}`,
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(body)
+    });
+}
+
+async function removeSetLogo(setId) {
+    if (!confirm(`Supprimer le logo pour ${setId} ?`)) return;
+
+    try {
+        showStatus('Suppression...', 'info');
+
+        // Supprimer le fichier image
+        const fileName = `images/manual_set_logos/${setId.replace(/[^a-zA-Z0-9-]/g, '_')}.png`;
+        const checkRes = await fetch(`https://api.github.com/repos/${githubConfig.repo}/contents/${fileName}`, {
+            headers: {'Authorization': `token ${githubConfig.token}`}
+        });
+
+        if (checkRes.ok) {
+            const existing = await checkRes.json();
+            await fetch(`https://api.github.com/repos/${githubConfig.repo}/contents/${fileName}`, {
+                method: 'DELETE',
+                headers: {
+                    'Authorization': `token ${githubConfig.token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    message: `Remove manual logo for set ${setId}`,
+                    sha: existing.sha,
+                    branch: 'master'
+                })
+            });
+        }
+
+        // Mettre à jour manual_set_logos.json
+        delete manualSetLogos[setId];
+        await saveManualSetLogosJson();
+
+        updateSetStats();
+        renderSetLogos();
+        showStatus(`✅ Logo supprimé pour ${setId}`, 'success');
     } catch(e) {
         showStatus('❌ ' + e.message, 'error');
     }
