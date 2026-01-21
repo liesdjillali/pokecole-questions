@@ -1,7 +1,7 @@
 {
   "matiere": "francais",
   "niveau": "CE2",
-  "version": "2026.01.21.1343",
+  "version": "2026.01.21.1344",
   "questions": [
     {
       "id": 1,
@@ -128,7 +128,7 @@
       "type": "vrai_faux",
       "question": "L'adjectif est toujours placé avant le nom",
       "time_override": 15,
-      "additional_feedback": "L'adjectif peut être placé avant ou après le nom",
+      "additional_feedback": "L'adjectif peut être placé avant ou après le nom. => Une JOLIE maison BLEUE",
       "reponse_correcte": false
     },
     {
@@ -353,5 +353,5 @@
       "reponse_correcte": "êtes venus"
     }
   ],
-  "updated_at": "2026-01-21T12:43:32.412Z"
+  "updated_at": "2026-01-21T12:44:44.563Z"
 }
