@@ -1,7 +1,7 @@
 {
   "matiere": "mathematiques",
   "niveau": "CE2",
-  "version": "2026.01.21.1348",
+  "version": "2026.01.21.1642",
   "questions": [
     {
       "id": 1,
@@ -205,7 +205,88 @@
       "question": "Combien font 7x9 ?",
       "time_override": 10,
       "reponse_correcte": "63"
+    },
+    {
+      "id": 27,
+      "type": "texte",
+      "question": "Léa a 52 billes et Yanis en a 12 de plus. Combien de billes à Yanis ?",
+      "time_override": 120,
+      "additional_feedback": "52 + 12 = 64",
+      "reponse_correcte": "64"
+    },
+    {
+      "id": 28,
+      "type": "texte",
+      "question": "Léa a 52 billes et c'est 12 de plus que Hugo. Combien de billes à Hugo ?",
+      "time_override": 120,
+      "additional_feedback": "52 - 12 = 40",
+      "reponse_correcte": "40"
+    },
+    {
+      "id": 29,
+      "type": "texte",
+      "question": "Dimitri a 15 billes. En tout, avec Léo, ils ont 35 billes. Combien de billes a Léo ?",
+      "time_override": 120,
+      "additional_feedback": "35 - 15 = 20",
+      "reponse_correcte": "20"
+    },
+    {
+      "id": 30,
+      "type": "texte",
+      "question": "Pablo a 32 billes. Nathan en a 27. Combien de billes ont-ils à eux deux ?",
+      "time_override": 120,
+      "additional_feedback": "32 + 27 = 59",
+      "reponse_correcte": "59"
+    },
+    {
+      "id": 31,
+      "type": "texte",
+      "question": "Combien font 100x53 ?",
+      "time_override": 15,
+      "reponse_correcte": "5300"
+    },
+    {
+      "id": 32,
+      "type": "qcm",
+      "question": "Complète avec la bonne valeur :\n7895 > _____ > 7658",
+      "time_override": 15,
+      "reponses": [
+        "7560",
+        "7980",
+        "7675",
+        "7655"
+      ],
+      "reponse_correcte": 2
+    },
+    {
+      "id": 33,
+      "type": "qcm",
+      "question": "Complète avec la bonne valeur :\n5500 < _____ < 5590",
+      "time_override": 15,
+      "reponses": [
+        "5460",
+        "5595",
+        "5650",
+        "5520"
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 34,
+      "type": "texte",
+      "question": "Combien font 20x12x5 ?",
+      "time_override": 30,
+      "additional_feedback": "20x12x5 = 5x20x12 = (5x20)x12 = 100x12 = 1200",
+      "reponse_correcte": "1200"
+    },
+    {
+      "id": 35,
+      "type": "texte",
+      "question": "Combien font 2x9x50 ?",
+      "time_override": 30,
+      "additional_feedback": "2x9x50 = 2x50x9 = (2x50)x9 = 100x9 = 900",
+      "reponse_correcte": "900"
     }
   ],
-  "updated_at": "2026-01-21T12:48:27.836Z"
+  "updated_at": "2026-01-21T15:42:55.688Z"
 }
