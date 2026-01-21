@@ -1,7 +1,7 @@
 {
   "matiere": "francais",
   "niveau": "CE2",
-  "version": "2026.01.21.1342",
+  "version": "2026.01.21.1343",
   "questions": [
     {
       "id": 1,
@@ -60,7 +60,7 @@
       "reponses": [
         "Léa ira-t-elle au zoo ?",
         "Est-ce que Léa ira au zoo ?",
-        "Va au zoo Léa !",
+        "Va au zoo, Léa !",
         "Léa n'ira pas au zoo."
       ],
       "reponse_correcte": 3
@@ -353,5 +353,5 @@
       "reponse_correcte": "êtes venus"
     }
   ],
-  "updated_at": "2026-01-21T12:42:16.659Z"
+  "updated_at": "2026-01-21T12:43:32.412Z"
 }
