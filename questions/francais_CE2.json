@@ -1,7 +1,7 @@
 {
   "matiere": "francais",
   "niveau": "CE2",
-  "version": "2026.01.21.1130",
+  "version": "2026.01.21.1342",
   "questions": [
     {
       "id": 1,
@@ -258,9 +258,100 @@
       "id": 29,
       "type": "texte",
       "question": "Conjugue le verbe \"faire\" à l'imparfait à la troisième personne du pluriel. Ils/Elles _____",
-      "time_override": 60,
+      "time_override": 75,
       "reponse_correcte": "faisaient"
+    },
+    {
+      "id": 30,
+      "type": "texte",
+      "question": "Conjugue le verbe \"venir\" à l'imparfait à la deuxième personne du pluriel. Vous _____",
+      "time_override": 60,
+      "reponse_correcte": "veniez"
+    },
+    {
+      "id": 31,
+      "type": "texte",
+      "question": "Conjugue le verbe \"voir\" à l'imparfait à la première personne du pluriel. Nous _____",
+      "time_override": 60,
+      "reponse_correcte": "voyions"
+    },
+    {
+      "id": 32,
+      "type": "texte",
+      "question": "Conjugue le verbe \"tomber\" au passé composé à la première personne du pluriel. Nous _____ _____ (Ici \"Nous\" est au masculin)",
+      "time_override": 120,
+      "reponse_correcte": "sommes tombés"
+    },
+    {
+      "id": 33,
+      "type": "texte",
+      "question": "Conjugue le verbe \"écouter\" au passé composé à la deuxième personne du singulier. Tu _____ _____",
+      "time_override": 120,
+      "reponse_correcte": "as écouté"
+    },
+    {
+      "id": 34,
+      "type": "texte",
+      "question": "Conjugue le verbe \"tomber\" au passé composé à la troisième personne du pluriel. Elles _____ _____ (Attention, c'est au féminin)",
+      "time_override": 120,
+      "reponse_correcte": "sont tombées"
+    },
+    {
+      "id": 35,
+      "type": "texte",
+      "question": "Conjugue le verbe \"avoir\" au passé composé à la première personne du singulier. J'_____ _____",
+      "time_override": 120,
+      "reponse_correcte": "ai eu"
+    },
+    {
+      "id": 36,
+      "type": "texte",
+      "question": "Conjugue le verbe \"être\" au passé composé à la première personne du pluriel. Nous _____ _____",
+      "time_override": 120,
+      "reponse_correcte": "avons été"
+    },
+    {
+      "id": 37,
+      "type": "texte",
+      "question": "Conjugue le verbe \"prendre\" au passé composé à la troisième personne du pluriel. Ils/Elles _____ _____",
+      "time_override": 120,
+      "reponse_correcte": "ont pris"
+    },
+    {
+      "id": 38,
+      "type": "texte",
+      "question": "Conjugue le verbe \"faire\" au passé composé à la troisième personne du singulier. Il/Elle/On _____ _____",
+      "time_override": 120,
+      "reponse_correcte": "a fait"
+    },
+    {
+      "id": 39,
+      "type": "texte",
+      "question": "Conjugue le verbe \"vouloir\" au passé composé à la deuxième personne du pluriel. Vous _____ _____",
+      "time_override": 120,
+      "reponse_correcte": "avez voulu"
+    },
+    {
+      "id": 40,
+      "type": "texte",
+      "question": "Conjugue le verbe \"pouvoir\" au passé composé à la première personne du pluriel. Nous _____ _____",
+      "time_override": 120,
+      "reponse_correcte": "avons pu"
+    },
+    {
+      "id": 41,
+      "type": "texte",
+      "question": "Conjugue le verbe \"tomber\" au passé composé à la troisième personne du singulier. Elle _____ _____ (Attention, c'est au féminin)",
+      "time_override": 120,
+      "reponse_correcte": "est allée"
+    },
+    {
+      "id": 42,
+      "type": "texte",
+      "question": "Conjugue le verbe \"venir\" au passé composé à la deuxième personne du pluriel. Vous _____ _____ (Ici, \"vous\" est au masculin)",
+      "time_override": 120,
+      "reponse_correcte": "êtes venus"
     }
   ],
-  "updated_at": "2026-01-21T10:30:40.209Z"
+  "updated_at": "2026-01-21T12:42:16.659Z"
 }
