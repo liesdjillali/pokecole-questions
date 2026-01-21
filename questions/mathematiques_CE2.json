@@ -1,7 +1,7 @@
 {
   "matiere": "mathematiques",
   "niveau": "CE2",
-  "version": "2026.01.18.1900",
+  "version": "2026.01.21.1348",
   "questions": [
     {
       "id": 1,
@@ -177,7 +177,35 @@
       "question": "Combien font 5x7 ?",
       "time_override": 10,
       "reponse_correcte": "35"
+    },
+    {
+      "id": 23,
+      "type": "texte",
+      "question": "Combien font 6x7 ?",
+      "time_override": 10,
+      "reponse_correcte": "42"
+    },
+    {
+      "id": 24,
+      "type": "texte",
+      "question": "Combien font 6x9 ?",
+      "time_override": 10,
+      "reponse_correcte": "54"
+    },
+    {
+      "id": 25,
+      "type": "texte",
+      "question": "Combien font 7x8 ?",
+      "time_override": 10,
+      "reponse_correcte": "56"
+    },
+    {
+      "id": 26,
+      "type": "texte",
+      "question": "Combien font 7x9 ?",
+      "time_override": 10,
+      "reponse_correcte": "63"
     }
   ],
-  "updated_at": "2026-01-18T18:00:02.320Z"
+  "updated_at": "2026-01-21T12:48:27.836Z"
 }
