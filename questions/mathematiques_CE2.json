@@ -1,7 +1,7 @@
 {
   "matiere": "mathematiques",
   "niveau": "CE2",
-  "version": "2026.01.21.1658",
+  "version": "2026.01.22.849",
   "questions": [
     {
       "id": 1,
@@ -288,5 +288,5 @@
       "reponse_correcte": "900"
     }
   ],
-  "updated_at": "2026-01-21T15:58:03.593Z"
+  "updated_at": "2026-01-22T07:49:57.198Z"
 }
