@@ -1,7 +1,7 @@
 {
   "matiere": "francais",
   "niveau": "CE2",
-  "version": "2026.01.21.1344",
+  "version": "2026.01.22.918",
   "questions": [
     {
       "id": 1,
@@ -343,7 +343,7 @@
       "type": "texte",
       "question": "Conjugue le verbe \"tomber\" au passé composé à la troisième personne du singulier. Elle _____ _____ (Attention, c'est au féminin)",
       "time_override": 120,
-      "reponse_correcte": "est allée"
+      "reponse_correcte": "est tombée"
     },
     {
       "id": 42,
@@ -353,5 +353,5 @@
       "reponse_correcte": "êtes venus"
     }
   ],
-  "updated_at": "2026-01-21T12:44:44.563Z"
+  "updated_at": "2026-01-22T08:18:38.232Z"
 }
