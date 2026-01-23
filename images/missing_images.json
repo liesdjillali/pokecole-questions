@@ -15,6 +15,11 @@
 			"reported_at": "2026-01-23T10:03:36",
 			"set": "Diamant & Perle"
 		},
+		"dp2-31": {
+			"name": "Nidoqueen",
+			"reported_at": "2026-01-23T10:03:44",
+			"set": "Trésors Mystérieux"
+		},
 		"tk-sm-l-12": {
 			"name": "Manglouton",
 			"reported_at": "2026-01-22T21:40:13",
@@ -26,5 +31,5 @@
 			"set": "XY Kit du dresseur (Latios)"
 		}
 	},
-	"updated_at": "2026-01-23T10:03:37"
+	"updated_at": "2026-01-23T10:03:44"
 }
