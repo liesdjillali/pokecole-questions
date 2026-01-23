@@ -5,6 +5,11 @@
 			"reported_at": "2026-01-23T09:30:36",
 			"set": "La Clairière d'Évoli"
 		},
+		"dp1-126": {
+			"name": "Énergie Électrique",
+			"reported_at": "2026-01-23T10:03:17",
+			"set": "Diamant & Perle"
+		},
 		"tk-sm-l-12": {
 			"name": "Manglouton",
 			"reported_at": "2026-01-22T21:40:13",
@@ -16,5 +21,5 @@
 			"set": "XY Kit du dresseur (Latios)"
 		}
 	},
-	"updated_at": "2026-01-23T10:02:37"
+	"updated_at": "2026-01-23T10:03:18"
 }
