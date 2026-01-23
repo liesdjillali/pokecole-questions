@@ -10,6 +10,11 @@
 			"reported_at": "2026-01-23T10:03:17",
 			"set": "Diamant & Perle"
 		},
+		"dp1-21": {
+			"name": "Vortente",
+			"reported_at": "2026-01-23T10:03:36",
+			"set": "Diamant & Perle"
+		},
 		"tk-sm-l-12": {
 			"name": "Manglouton",
 			"reported_at": "2026-01-22T21:40:13",
@@ -21,5 +26,5 @@
 			"set": "XY Kit du dresseur (Latios)"
 		}
 	},
-	"updated_at": "2026-01-23T10:03:18"
+	"updated_at": "2026-01-23T10:03:37"
 }
