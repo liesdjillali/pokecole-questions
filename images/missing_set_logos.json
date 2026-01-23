@@ -1,5 +1,9 @@
 {
 	"logos": {
+		"jumbo": {
+			"name": "Cartes Jumbo",
+			"reported_at": "2026-01-23T12:30:16"
+		},
 		"mep": {
 			"name": "MEP Black Star Promos",
 			"reported_at": "2026-01-20T21:54:37"
@@ -33,5 +37,5 @@
 			"reported_at": "2026-01-20T21:54:37"
 		}
 	},
-	"updated_at": "2026-01-23T11:39:07"
+	"updated_at": "2026-01-23T12:30:17"
 }
