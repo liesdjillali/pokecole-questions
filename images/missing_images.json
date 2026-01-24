@@ -1,10 +1,15 @@
 {
 	"images": {
+		"2021swsh-12": {
+			"name": "Chimpenfeu",
+			"reported_at": "2026-01-24T16:00:41",
+			"set": "Promo McDonald's 2021"
+		},
 		"tk-xy-su-4": {
 			"name": "Évoli",
 			"reported_at": "2026-01-22T00:15:56",
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-24T15:35:21"
+	"updated_at": "2026-01-24T16:00:42"
 }
