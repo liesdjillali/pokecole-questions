@@ -5,6 +5,11 @@
 			"reported_at": "2026-01-23T09:30:36",
 			"set": "La Clairière d'Évoli"
 		},
+		"A4a-101": {
+			"name": "Simiabraz-ex",
+			"reported_at": "2026-01-24T01:01:41",
+			"set": "Source Secrète"
+		},
 		"dp1-126": {
 			"name": "Énergie Électrique",
 			"reported_at": "2026-01-23T10:03:17",
@@ -36,5 +41,5 @@
 			"set": "XY Kit du dresseur (Latios)"
 		}
 	},
-	"updated_at": "2026-01-24T00:43:35"
+	"updated_at": "2026-01-24T01:01:41"
 }
