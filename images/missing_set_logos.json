@@ -1,9 +1,41 @@
 {
 	"logos": {
-		"P-A": {
-			"name": "Promo-A",
-			"reported_at": "2026-01-22T20:48:08"
+		"jumbo": {
+			"name": "Cartes Jumbo",
+			"reported_at": "2026-01-23T12:30:16"
+		},
+		"mep": {
+			"name": "MEP Black Star Promos",
+			"reported_at": "2026-01-20T21:54:37"
+		},
+		"pop1": {
+			"name": "POP Série 1",
+			"reported_at": "2026-01-20T21:54:37"
+		},
+		"pop2": {
+			"name": "POP Série 2",
+			"reported_at": "2026-01-20T21:54:37"
+		},
+		"pop3": {
+			"name": "POP Série 3",
+			"reported_at": "2026-01-20T21:54:37"
+		},
+		"pop4": {
+			"name": "POP Série 4",
+			"reported_at": "2026-01-20T21:54:37"
+		},
+		"pop7": {
+			"name": "POP Série 7",
+			"reported_at": "2026-01-20T21:54:37"
+		},
+		"pop9": {
+			"name": "POP Série 9",
+			"reported_at": "2026-01-20T21:54:37"
+		},
+		"svp": {
+			"name": "SVP Black Star Promos",
+			"reported_at": "2026-01-20T21:54:37"
 		}
 	},
-	"updated_at": "2026-01-28T18:27:11"
+	"updated_at": "2026-01-28T19:20:54"
 }
