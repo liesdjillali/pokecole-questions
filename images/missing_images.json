@@ -10,6 +10,11 @@
 			"reported_at": "2026-01-24T16:01:01",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"sm3.5-22": {
+			"name": "Mustébouée",
+			"reported_at": "2026-01-28T18:34:45",
+			"set": "Légendes Brillantes"
+		},
 		"sm3.5-51": {
 			"name": "Baggaïd",
 			"reported_at": "2026-01-26T22:52:24",
@@ -21,5 +26,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-28T18:13:49"
+	"updated_at": "2026-01-28T18:34:46"
 }
