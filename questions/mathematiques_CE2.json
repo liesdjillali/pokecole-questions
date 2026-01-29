@@ -1,7 +1,7 @@
 {
   "matiere": "mathematiques",
   "niveau": "CE2",
-  "version": "2026.01.22.849",
+  "version": "2026.01.29.2014",
   "questions": [
     {
       "id": 1,
@@ -26,7 +26,7 @@
         "4 côtés égaux et 2 angles droits",
         "les côtés opposés égaux et 4 angles droits",
         "4 côtés egaux",
-        "4 angles droits"
+        "2 angles droits "
       ],
       "reponse_correcte": 1
     },
@@ -288,5 +288,5 @@
       "reponse_correcte": "900"
     }
   ],
-  "updated_at": "2026-01-22T07:49:57.198Z"
+  "updated_at": "2026-01-29T19:14:32.577Z"
 }
