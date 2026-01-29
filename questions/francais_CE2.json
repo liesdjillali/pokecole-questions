@@ -1,7 +1,7 @@
 {
   "matiere": "francais",
   "niveau": "CE2",
-  "version": "2026.01.29.2123",
+  "version": "2026.01.29.2132",
   "questions": [
     {
       "id": 1,
@@ -403,7 +403,21 @@
         "Ce sont ses cartes (à lui)"
       ],
       "reponse_correcte": 3
+    },
+    {
+      "id": 47,
+      "type": "qcm",
+      "question": "Complète le trou \"____ animal court très vite.\"",
+      "time_override": 45,
+      "additional_feedback": "\"Animal\" est masculin (on dit UN animal) donc c'est \"Cet\" et non pas \"Cette\"",
+      "reponses": [
+        "Cette",
+        "Sept",
+        "Cet",
+        "Set"
+      ],
+      "reponse_correcte": 2
     }
   ],
-  "updated_at": "2026-01-29T20:23:54.550Z"
+  "updated_at": "2026-01-29T20:32:10.682Z"
 }
