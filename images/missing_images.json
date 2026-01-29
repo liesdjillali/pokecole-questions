@@ -20,6 +20,11 @@
 			"reported_at": "2026-01-24T16:01:01",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"dp6-93": {
+			"name": "Noeunoeuf",
+			"reported_at": "2026-01-29T22:04:31",
+			"set": "Éveil des Légendes"
+		},
 		"sm3.5-22": {
 			"name": "Mustébouée",
 			"reported_at": "2026-01-28T18:34:45",
@@ -36,5 +41,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-29T22:03:58"
+	"updated_at": "2026-01-29T22:04:32"
 }
