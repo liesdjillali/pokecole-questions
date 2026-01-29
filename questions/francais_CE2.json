@@ -1,7 +1,7 @@
 {
   "matiere": "francais",
   "niveau": "CE2",
-  "version": "2026.01.29.2132",
+  "version": "2026.01.29.2139",
   "questions": [
     {
       "id": 1,
@@ -417,7 +417,20 @@
         "Set"
       ],
       "reponse_correcte": 2
+    },
+    {
+      "id": 48,
+      "type": "qcm",
+      "question": "Quel mot n'est pas de la famille du mot \"Mer\"",
+      "time_override": 45,
+      "reponses": [
+        "Marin",
+        "Maritime",
+        "Océan",
+        "Amerrissage"
+      ],
+      "reponse_correcte": 2
     }
   ],
-  "updated_at": "2026-01-29T20:32:10.682Z"
+  "updated_at": "2026-01-29T20:39:17.747Z"
 }
