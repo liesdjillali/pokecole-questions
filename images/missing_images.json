@@ -20,6 +20,11 @@
 			"reported_at": "2026-01-24T16:01:01",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"dp6-76": {
+			"name": "Zarbi J",
+			"reported_at": "2026-01-29T22:05:14",
+			"set": "Éveil des Légendes"
+		},
 		"dp6-93": {
 			"name": "Noeunoeuf",
 			"reported_at": "2026-01-29T22:04:31",
@@ -46,5 +51,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-29T22:04:57"
+	"updated_at": "2026-01-29T22:05:15"
 }
