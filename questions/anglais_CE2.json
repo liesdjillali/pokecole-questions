@@ -1,7 +1,7 @@
 {
   "matiere": "anglais",
   "niveau": "CE2",
-  "version": "2026.01.18.1959",
+  "version": "2026.01.29.2015",
   "questions": [
     {
       "id": 1,
@@ -206,7 +206,7 @@
     {
       "id": 21,
       "type": "vrai_faux",
-      "question": "l'Australie est un pays de langue anglaise.",
+      "question": "En Australie on parle anglais.",
       "reponse_correcte": true
     },
     {
@@ -246,5 +246,5 @@
       "reponse_correcte": 2
     }
   ],
-  "updated_at": "2026-01-18T18:59:36.110Z"
+  "updated_at": "2026-01-29T19:15:30.880Z"
 }
