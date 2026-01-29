@@ -5,6 +5,11 @@
 			"reported_at": "2026-01-24T16:00:41",
 			"set": "Promo McDonald's 2021"
 		},
+		"A4-022": {
+			"name": "Scarhino",
+			"reported_at": "2026-01-29T18:57:16",
+			"set": "Sagesse Entre Ciel et Mer"
+		},
 		"A4-210": {
 			"name": "Ho-Oh-ex",
 			"reported_at": "2026-01-24T16:01:01",
@@ -26,5 +31,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-29T18:41:35"
+	"updated_at": "2026-01-29T18:57:17"
 }
