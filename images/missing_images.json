@@ -20,6 +20,11 @@
 			"reported_at": "2026-01-24T16:01:01",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"dp2-114": {
+			"name": "Rapide Ball",
+			"reported_at": "2026-01-29T22:06:57",
+			"set": "Trésors Mystérieux"
+		},
 		"dp4-95": {
 			"name": "Goelise",
 			"reported_at": "2026-01-29T22:06:14",
@@ -61,5 +66,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-29T22:06:14"
+	"updated_at": "2026-01-29T22:06:57"
 }
