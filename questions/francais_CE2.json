@@ -1,7 +1,7 @@
 {
   "matiere": "francais",
   "niveau": "CE2",
-  "version": "2026.01.29.2112",
+  "version": "2026.01.29.2123",
   "questions": [
     {
       "id": 1,
@@ -351,7 +351,59 @@
       "question": "Conjugue le verbe \"venir\" au passé composé à la deuxième personne du pluriel. Vous _____ _____ (Ici, \"vous\" est au masculin)",
       "time_override": 180,
       "reponse_correcte": "êtes venus"
+    },
+    {
+      "id": 43,
+      "type": "qcm",
+      "question": "Quelle est la bonne orthographe ?",
+      "time_override": 45,
+      "reponses": [
+        "C'est enfin Noël !",
+        "Ces enfin Noël !",
+        "S'est enfin Noël !",
+        "Ses enfin Noël !"
+      ],
+      "reponse_correcte": 0
+    },
+    {
+      "id": 44,
+      "type": "qcm",
+      "question": "Quelle est la bonne orthographe ?",
+      "time_override": 45,
+      "reponses": [
+        "C'est pommes là sont bonnes.",
+        "Ces pommes là sont bonnes.",
+        "Ses pommes là sont bonnes.",
+        "S'est pommes là sont bonnes."
+      ],
+      "reponse_correcte": 1
+    },
+    {
+      "id": 45,
+      "type": "qcm",
+      "question": "Quelle est la bonne orthographe ?",
+      "time_override": 45,
+      "reponses": [
+        "Il ces fait mal au genou.",
+        "Il c'est fait mal au genou.",
+        "Il s'est fait mal au genou.",
+        "Il ses fait mal au genou."
+      ],
+      "reponse_correcte": 2
+    },
+    {
+      "id": 46,
+      "type": "qcm",
+      "question": "Quelle est la bonne orthographe ?",
+      "time_override": 60,
+      "reponses": [
+        "Ce sont ces cartes (à lui)",
+        "Ce sont s'est cartes (à lui)",
+        "Ce sont c'est cartes (à lui)",
+        "Ce sont ses cartes (à lui)"
+      ],
+      "reponse_correcte": 3
     }
   ],
-  "updated_at": "2026-01-29T20:12:57.892Z"
+  "updated_at": "2026-01-29T20:23:54.550Z"
 }
