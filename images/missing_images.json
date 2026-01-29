@@ -55,6 +55,11 @@
 			"reported_at": "2026-01-29T22:05:44",
 			"set": "Tonnerre Perdu"
 		},
+		"sm8-69": {
+			"name": "Prédastérie",
+			"reported_at": "2026-01-29T22:07:32",
+			"set": "Tonnerre Perdu"
+		},
 		"sm8-97": {
 			"name": "Giratina",
 			"reported_at": "2026-01-29T22:04:56",
@@ -66,5 +71,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-29T22:06:57"
+	"updated_at": "2026-01-29T22:07:33"
 }
