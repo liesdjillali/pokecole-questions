@@ -40,6 +40,11 @@
 			"reported_at": "2026-01-29T22:04:31",
 			"set": "Éveil des Légendes"
 		},
+		"hgssp-HGSS07": {
+			"name": "Aligatueur",
+			"reported_at": "2026-01-29T22:08:06",
+			"set": "Promo HGSS"
+		},
 		"sm3.5-22": {
 			"name": "Mustébouée",
 			"reported_at": "2026-01-28T18:34:45",
@@ -71,5 +76,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-29T22:07:33"
+	"updated_at": "2026-01-29T22:08:06"
 }
