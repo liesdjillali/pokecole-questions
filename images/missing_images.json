@@ -40,6 +40,11 @@
 			"reported_at": "2026-01-26T22:52:24",
 			"set": "Légendes Brillantes"
 		},
+		"sm8-65": {
+			"name": "Otaquin",
+			"reported_at": "2026-01-29T22:05:44",
+			"set": "Tonnerre Perdu"
+		},
 		"sm8-97": {
 			"name": "Giratina",
 			"reported_at": "2026-01-29T22:04:56",
@@ -51,5 +56,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-29T22:05:15"
+	"updated_at": "2026-01-29T22:05:44"
 }
