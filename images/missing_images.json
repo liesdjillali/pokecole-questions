@@ -25,6 +25,11 @@
 			"reported_at": "2026-01-24T16:01:01",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"A4a-019": {
+			"name": "Lippoutou",
+			"reported_at": "2026-01-30T12:17:35",
+			"set": "Source Secrète"
+		},
 		"dp2-114": {
 			"name": "Rapide Ball",
 			"reported_at": "2026-01-29T22:06:57",
@@ -91,5 +96,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-30T12:17:21"
+	"updated_at": "2026-01-30T12:17:36"
 }
