@@ -30,6 +30,11 @@
 			"reported_at": "2026-01-29T22:06:57",
 			"set": "Trésors Mystérieux"
 		},
+		"dp2-91": {
+			"name": "Nidoran♀",
+			"reported_at": "2026-01-30T12:17:21",
+			"set": "Trésors Mystérieux"
+		},
 		"dp4-95": {
 			"name": "Goelise",
 			"reported_at": "2026-01-29T22:06:14",
@@ -86,5 +91,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-30T12:13:28"
+	"updated_at": "2026-01-30T12:17:21"
 }
