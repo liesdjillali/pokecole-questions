@@ -35,6 +35,11 @@
 			"reported_at": "2026-01-30T15:27:56",
 			"set": "Wizards Black Star Promos"
 		},
+		"det1-13": {
+			"name": "Mackogneur",
+			"reported_at": "2026-01-30T20:08:30",
+			"set": "Détective Pikachu"
+		},
 		"dp2-114": {
 			"name": "Rapide Ball",
 			"reported_at": "2026-01-29T22:06:57",
@@ -116,5 +121,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-30T20:08:19"
+	"updated_at": "2026-01-30T20:08:30"
 }
