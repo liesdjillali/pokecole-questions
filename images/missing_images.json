@@ -75,11 +75,16 @@
 			"reported_at": "2026-01-29T22:04:56",
 			"set": "Tonnerre Perdu"
 		},
+		"smp-SM86": {
+			"name": "Pikachu",
+			"reported_at": "2026-01-30T12:13:28",
+			"set": "Promo SM"
+		},
 		"tk-xy-su-4": {
 			"name": "Évoli",
 			"reported_at": "2026-01-22T00:15:56",
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-29T22:08:44"
+	"updated_at": "2026-01-30T12:13:28"
 }
