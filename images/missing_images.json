@@ -55,6 +55,11 @@
 			"reported_at": "2026-01-30T12:17:42",
 			"set": "Merveilles Secrètes"
 		},
+		"dp4-17": {
+			"name": "Brouhabam",
+			"reported_at": "2026-01-30T21:31:54",
+			"set": "Duels au Sommets"
+		},
 		"dp4-95": {
 			"name": "Goelise",
 			"reported_at": "2026-01-29T22:06:14",
@@ -126,5 +131,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-30T21:05:25"
+	"updated_at": "2026-01-30T21:31:55"
 }
