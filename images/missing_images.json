@@ -55,6 +55,11 @@
 			"reported_at": "2026-01-29T22:06:14",
 			"set": "Duels au Sommets"
 		},
+		"dp5-92": {
+			"name": "Appel à l'énergie",
+			"reported_at": "2026-01-30T20:08:19",
+			"set": "Aube Majestueuse"
+		},
 		"dp6-76": {
 			"name": "Zarbi J",
 			"reported_at": "2026-01-29T22:05:14",
@@ -111,5 +116,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-30T17:58:42"
+	"updated_at": "2026-01-30T20:08:19"
 }
