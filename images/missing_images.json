@@ -70,6 +70,11 @@
 			"reported_at": "2026-01-30T20:08:19",
 			"set": "Aube Majestueuse"
 		},
+		"dp6-39": {
+			"name": "Registeel",
+			"reported_at": "2026-01-30T21:36:54",
+			"set": "Éveil des Légendes"
+		},
 		"dp6-76": {
 			"name": "Zarbi J",
 			"reported_at": "2026-01-29T22:05:14",
@@ -131,5 +136,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-30T21:31:55"
+	"updated_at": "2026-01-30T21:36:54"
 }
