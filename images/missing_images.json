@@ -30,6 +30,11 @@
 			"reported_at": "2026-01-30T12:17:35",
 			"set": "Source Secrète"
 		},
+		"basep-23": {
+			"name": "Électhor",
+			"reported_at": "2026-01-30T15:27:56",
+			"set": "Wizards Black Star Promos"
+		},
 		"dp2-114": {
 			"name": "Rapide Ball",
 			"reported_at": "2026-01-29T22:06:57",
@@ -101,5 +106,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-30T15:25:45"
+	"updated_at": "2026-01-30T15:27:57"
 }
