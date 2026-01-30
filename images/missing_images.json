@@ -25,6 +25,11 @@
 			"reported_at": "2026-01-23T10:03:44",
 			"set": "Trésors Mystérieux"
 		},
+		"dp5-23": {
+			"name": "Voltali",
+			"reported_at": "2026-01-30T17:44:45",
+			"set": "Aube Majestueuse"
+		},
 		"dp5-44": {
 			"name": "Prinplouf",
 			"reported_at": "2026-01-30T17:18:42",
@@ -56,5 +61,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-01-30T17:43:43"
+	"updated_at": "2026-01-30T17:44:45"
 }
