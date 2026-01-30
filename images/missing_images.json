@@ -130,6 +130,11 @@
 			"reported_at": "2026-01-30T21:05:25",
 			"set": "Promo SM"
 		},
+		"smp-SM238": {
+			"name": "Givrali",
+			"reported_at": "2026-01-30T22:16:24",
+			"set": "Promo SM"
+		},
 		"smp-SM86": {
 			"name": "Pikachu",
 			"reported_at": "2026-01-30T12:13:28",
@@ -146,5 +151,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-30T22:15:59"
+	"updated_at": "2026-01-30T22:16:25"
 }
