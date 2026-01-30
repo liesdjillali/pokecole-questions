@@ -65,6 +65,11 @@
 			"reported_at": "2026-01-30T12:17:42",
 			"set": "Merveilles Secrètes"
 		},
+		"dp3-65": {
+			"name": "Floravol",
+			"reported_at": "2026-01-30T22:16:50",
+			"set": "Merveilles Secrètes"
+		},
 		"dp4-17": {
 			"name": "Brouhabam",
 			"reported_at": "2026-01-30T21:31:54",
@@ -151,5 +156,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-01-30T22:16:25"
+	"updated_at": "2026-01-30T22:16:51"
 }
