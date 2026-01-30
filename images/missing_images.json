@@ -25,6 +25,11 @@
 			"reported_at": "2026-01-23T10:03:44",
 			"set": "Trésors Mystérieux"
 		},
+		"dp5-44": {
+			"name": "Prinplouf",
+			"reported_at": "2026-01-30T17:18:42",
+			"set": "Aube Majestueuse"
+		},
 		"smp-SM164": {
 			"name": "Deoxys",
 			"reported_at": "2026-01-24T00:31:17",
@@ -41,5 +46,5 @@
 			"set": "XY Kit du dresseur (Latios)"
 		}
 	},
-	"updated_at": "2026-01-30T17:13:31"
+	"updated_at": "2026-01-30T17:18:42"
 }
