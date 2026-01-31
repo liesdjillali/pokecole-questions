@@ -140,6 +140,11 @@
 			"reported_at": "2026-01-29T22:04:56",
 			"set": "Tonnerre Perdu"
 		},
+		"sma-SV71": {
+			"name": "Engloutyran-GX",
+			"reported_at": "2026-01-31T16:52:51",
+			"set": "Carte Alternative A Jaune"
+		},
 		"smp-SM133": {
 			"name": "Fulguris GX",
 			"reported_at": "2026-01-30T21:05:25",
@@ -176,5 +181,5 @@
 			"set": "XY Kit du dresseur (Nymphali)"
 		}
 	},
-	"updated_at": "2026-01-31T16:52:43"
+	"updated_at": "2026-01-31T16:52:52"
 }
