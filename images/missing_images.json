@@ -154,7 +154,12 @@
 			"name": "Évoli",
 			"reported_at": "2026-01-22T00:15:56",
 			"set": "XY Kit du dresseur (Suicune)"
+		},
+		"tk-xy-sy-19": {
+			"name": "Passerouge",
+			"reported_at": "2026-01-31T15:59:51",
+			"set": "XY Kit du dresseur (Nymphali)"
 		}
 	},
-	"updated_at": "2026-01-30T22:17:21"
+	"updated_at": "2026-01-31T15:59:51"
 }
