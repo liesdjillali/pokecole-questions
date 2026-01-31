@@ -85,6 +85,11 @@
 			"reported_at": "2026-01-29T22:06:14",
 			"set": "Duels au Sommets"
 		},
+		"dp5-53": {
+			"name": "Laporeille",
+			"reported_at": "2026-01-31T16:52:14",
+			"set": "Aube Majestueuse"
+		},
 		"dp5-92": {
 			"name": "Appel à l'énergie",
 			"reported_at": "2026-01-30T20:08:19",
@@ -166,5 +171,5 @@
 			"set": "XY Kit du dresseur (Nymphali)"
 		}
 	},
-	"updated_at": "2026-01-31T16:52:07"
+	"updated_at": "2026-01-31T16:52:15"
 }
