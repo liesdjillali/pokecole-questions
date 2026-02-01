@@ -45,6 +45,11 @@
 			"reported_at": "2026-01-30T12:17:35",
 			"set": "Source Secrète"
 		},
+		"A4a-041": {
+			"name": "Triopikeur",
+			"reported_at": "2026-02-01T12:47:33",
+			"set": "Source Secrète"
+		},
 		"basep-23": {
 			"name": "Électhor",
 			"reported_at": "2026-01-30T15:27:56",
@@ -181,5 +186,5 @@
 			"set": "XY Kit du dresseur (Nymphali)"
 		}
 	},
-	"updated_at": "2026-01-31T16:52:52"
+	"updated_at": "2026-02-01T12:47:33"
 }
