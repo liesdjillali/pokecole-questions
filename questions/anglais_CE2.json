@@ -1,7 +1,7 @@
 {
   "matiere": "anglais",
   "niveau": "CE2",
-  "version": "2026.01.29.2149",
+  "version": "2026.02.01.1310",
   "questions": [
     {
       "id": 1,
@@ -245,7 +245,79 @@
         "Quel temps fait-il ?"
       ],
       "reponse_correcte": 2
+    },
+    {
+      "id": 26,
+      "type": "qcm",
+      "question": "\"Guinea pig\" est",
+      "time_override": 30,
+      "reponses": [
+        "Un gros cochon",
+        "Une limace",
+        "Un cochon d'Inde",
+        "Un hamster"
+      ],
+      "reponse_correcte": 2
+    },
+    {
+      "id": 27,
+      "type": "qcm",
+      "question": "\"Mouse\" est",
+      "time_override": 30,
+      "reponses": [
+        "Une souris",
+        "Un rat",
+        "Un hamster",
+        "Une tortue"
+      ],
+      "reponse_correcte": 0
+    },
+    {
+      "id": 28,
+      "type": "qcm",
+      "question": "\"Tortoise\" est",
+      "time_override": 30,
+      "reponses": [
+        "Un hamster",
+        "Une limace",
+        "Une truite",
+        "Une tortue"
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 29,
+      "type": "qcm",
+      "question": "\"Rabbit\" est ",
+      "time_override": 30,
+      "reponses": [
+        "Un rat",
+        "Une chenille",
+        "Un lapin",
+        "Une limace"
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 30,
+      "type": "vrai_faux",
+      "question": "Un hamster en anglais est aussi un hamster",
+      "time_override": 30,
+      "reponse_correcte": true
+    },
+    {
+      "id": 31,
+      "type": "qcm",
+      "question": "\"Goldfish\" est",
+      "time_override": 30,
+      "reponses": [
+        "Un poisson chat",
+        "Un poisson doré",
+        "Un poisson rouge",
+        "Un poisson d'argent"
+      ],
+      "reponse_correcte": 2
     }
   ],
-  "updated_at": "2026-01-29T20:49:17.409Z"
+  "updated_at": "2026-02-01T12:10:49.212Z"
 }
