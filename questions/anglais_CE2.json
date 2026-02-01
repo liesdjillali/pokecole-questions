@@ -1,7 +1,7 @@
 {
   "matiere": "anglais",
   "niveau": "CE2",
-  "version": "2026.02.01.1310",
+  "version": "2026.02.01.1843",
   "questions": [
     {
       "id": 1,
@@ -296,7 +296,7 @@
         "Un lapin",
         "Une limace"
       ],
-      "reponse_correcte": 3
+      "reponse_correcte": 2
     },
     {
       "id": 30,
@@ -319,5 +319,5 @@
       "reponse_correcte": 2
     }
   ],
-  "updated_at": "2026-02-01T12:10:49.212Z"
+  "updated_at": "2026-02-01T17:43:39.544Z"
 }
