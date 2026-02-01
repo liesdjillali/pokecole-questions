@@ -1,13 +1,13 @@
 {
   "matiere": "mathematiques",
   "niveau": "CE2",
-  "version": "2026.01.29.2144",
+  "version": "2026.02.01.1452",
   "questions": [
     {
       "id": 1,
       "type": "qcm",
       "question": "Tous les parallélogrammes qui ont leurs 4 côtés égaux sont des ...",
-      "time_override": 45,
+      "time_override": 10,
       "additional_feedback": "Les carrés doivent aussi avoir 4 angles droits, les rectangles ont les côtés opposés égaux et 4 angles droits",
       "reponses": [
         "carrés",
@@ -21,7 +21,7 @@
       "id": 2,
       "type": "qcm",
       "question": "Un rectangle est un parallélogramme défini par...",
-      "time_override": 45,
+      "time_override": 30,
       "reponses": [
         "4 côtés égaux et 2 angles droits",
         "les côtés opposés égaux et 4 angles droits",
@@ -34,7 +34,7 @@
       "id": 3,
       "type": "vrai_faux",
       "question": "1/4 est égal à 4/8",
-      "time_override": 30,
+      "time_override": 15,
       "additional_feedback": "1/4 est égal à 2/8",
       "reponse_correcte": false
     },
@@ -69,16 +69,16 @@
     {
       "id": 8,
       "type": "qcm",
-      "question": "Combien font 50x12x2 ?",
-      "time_override": 45,
-      "additional_feedback": "50x12x2 = (50x2)x12 = 100x12 = 1200",
+      "question": "Combien font 50x19x2 ?",
+      "time_override": 30,
+      "additional_feedback": "50x19x2 = (50x2)x19 = 100x19 = 1900",
       "reponses": [
-        "120",
-        "1200",
+        "1900",
+        "190",
         "519",
         "5190"
       ],
-      "reponse_correcte": 1
+      "reponse_correcte": 0
     },
     {
       "id": 9,
@@ -210,7 +210,7 @@
       "id": 27,
       "type": "texte",
       "question": "Léa a 52 billes et Yanis en a 12 de plus. Combien de billes à Yanis ?",
-      "time_override": 180,
+      "time_override": 120,
       "additional_feedback": "52 + 12 = 64",
       "reponse_correcte": "64"
     },
@@ -218,7 +218,7 @@
       "id": 28,
       "type": "texte",
       "question": "Léa a 52 billes et c'est 12 de plus que Hugo. Combien de billes à Hugo ?",
-      "time_override": 180,
+      "time_override": 120,
       "additional_feedback": "52 - 12 = 40",
       "reponse_correcte": "40"
     },
@@ -226,7 +226,7 @@
       "id": 29,
       "type": "texte",
       "question": "Dimitri a 15 billes. En tout, avec Léo, ils ont 35 billes. Combien de billes a Léo ?",
-      "time_override": 180,
+      "time_override": 120,
       "additional_feedback": "35 - 15 = 20",
       "reponse_correcte": "20"
     },
@@ -234,7 +234,7 @@
       "id": 30,
       "type": "texte",
       "question": "Pablo a 32 billes. Nathan en a 27. Combien de billes ont-ils à eux deux ?",
-      "time_override": 180,
+      "time_override": 120,
       "additional_feedback": "32 + 27 = 59",
       "reponse_correcte": "59"
     },
@@ -242,14 +242,14 @@
       "id": 31,
       "type": "texte",
       "question": "Combien font 100x53 ?",
-      "time_override": 30,
+      "time_override": 15,
       "reponse_correcte": "5300"
     },
     {
       "id": 32,
       "type": "qcm",
       "question": "Complète avec la bonne valeur :\n7895 > _____ > 7658",
-      "time_override": 30,
+      "time_override": 15,
       "reponses": [
         "7560",
         "7980",
@@ -262,7 +262,7 @@
       "id": 33,
       "type": "qcm",
       "question": "Complète avec la bonne valeur :\n5500 < _____ < 5590",
-      "time_override": 30,
+      "time_override": 15,
       "reponses": [
         "5460",
         "5595",
@@ -274,19 +274,40 @@
     {
       "id": 34,
       "type": "texte",
-      "question": "Combien font 20x19x5 ?",
-      "time_override": 60,
-      "additional_feedback": "20x19x5 = 5x20x19 = (5x20)x19 = 100x19 = 1900",
-      "reponse_correcte": "1900"
+      "question": "Combien font 20x12x5 ?",
+      "time_override": 30,
+      "additional_feedback": "20x12x5 = 5x20x12 = (5x20)x12 = 100x12 = 1200",
+      "reponse_correcte": "1200"
     },
     {
       "id": 35,
       "type": "texte",
       "question": "Combien font 2x9x50 ?",
-      "time_override": 60,
+      "time_override": 30,
       "additional_feedback": "2x9x50 = 2x50x9 = (2x50)x9 = 100x9 = 900",
       "reponse_correcte": "900"
+    },
+    {
+      "id": 36,
+      "type": "texte",
+      "question": "Combien font 8x8 ?",
+      "time_override": 15,
+      "reponse_correcte": "64"
+    },
+    {
+      "id": 37,
+      "type": "texte",
+      "question": "Combien font 8x9 ?",
+      "time_override": 15,
+      "reponse_correcte": "72"
+    },
+    {
+      "id": 38,
+      "type": "texte",
+      "question": "Combien font 9x9 ?",
+      "time_override": 15,
+      "reponse_correcte": "81"
     }
   ],
-  "updated_at": "2026-01-29T20:44:40.474Z"
+  "updated_at": "2026-02-01T13:52:51.528Z"
 }
