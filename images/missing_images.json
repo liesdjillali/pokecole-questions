@@ -50,6 +50,11 @@
 			"reported_at": "2026-01-24T00:31:17",
 			"set": "Promo SM"
 		},
+		"tk-bw-z-2": {
+			"name": "Miradar",
+			"reported_at": "2026-02-02T17:22:07",
+			"set": "BW Kit du dresseur (Zoroark)"
+		},
 		"tk-sm-l-12": {
 			"name": "Manglouton",
 			"reported_at": "2026-01-22T21:40:13",
@@ -66,5 +71,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-02T17:21:18"
+	"updated_at": "2026-02-02T17:22:07"
 }
