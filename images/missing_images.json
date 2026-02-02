@@ -65,11 +65,16 @@
 			"reported_at": "2026-01-23T09:30:18",
 			"set": "XY Kit du dresseur (Latios)"
 		},
+		"tk-xy-n-29": {
+			"name": "Échange",
+			"reported_at": "2026-02-02T21:17:15",
+			"set": "XY Kit du dresseur (Bruyverne)"
+		},
 		"tk-xy-w-9": {
 			"name": "Énergie Fée",
 			"reported_at": "2026-01-30T17:27:45",
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-02T21:08:21"
+	"updated_at": "2026-02-02T21:17:16"
 }
