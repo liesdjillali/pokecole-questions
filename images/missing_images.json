@@ -20,6 +20,11 @@
 			"reported_at": "2026-01-23T10:03:36",
 			"set": "Diamant & Perle"
 		},
+		"dp1-27": {
+			"name": "Ectoplasma",
+			"reported_at": "2026-02-02T14:14:14",
+			"set": "Diamant & Perle"
+		},
 		"dp2-31": {
 			"name": "Nidoqueen",
 			"reported_at": "2026-01-23T10:03:44",
@@ -61,5 +66,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-02T14:13:26"
+	"updated_at": "2026-02-02T14:14:15"
 }
