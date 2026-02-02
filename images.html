@@ -371,10 +371,10 @@ async function processImage(file) {
                 let width = img.width;
                 let height = img.height;
 
-                // Redimensionner si trop grande (max 800px de large)
+                // ÉTAPE 1: Redimensionner si trop grande (max 800px de large)
                 const maxWidth = 800;
                 if (width > maxWidth) {
-                    height = (height * maxWidth) / width;
+                    height = Math.round((height * maxWidth) / width);
                     width = maxWidth;
                 }
 
@@ -385,30 +385,35 @@ async function processImage(file) {
                 // Dessiner l'image (conserve la transparence)
                 ctx.drawImage(img, 0, 0, width, height);
 
-                // Compresser si nécessaire (cible < 300Ko)
-                let quality = 0.9;
+                // ÉTAPE 2: Compresser si nécessaire (cible < 700Ko)
+                // 700Ko en bytes = 716800, en base64 ça fait environ 955733 caractères
+                const maxSizeBase64 = 955733; // ~700Ko une fois décodé
                 let base64 = canvas.toDataURL('image/png');
 
-                // Si PNG trop lourd, essayer avec compression progressive
-                while (base64.length > 400000 && quality > 0.3) { // ~300Ko en base64
-                    quality -= 0.1;
-                    // Pour garder la transparence, on reste en PNG mais on réduit la taille
-                    const newWidth = Math.floor(width * 0.9);
-                    const newHeight = Math.floor(height * 0.9);
+                // Si PNG trop lourd, réduire progressivement la taille (par pas de 5%)
+                // tout en gardant une qualité acceptable
+                let scale = 1.0;
+                while (base64.length > maxSizeBase64 && scale > 0.4) {
+                    scale -= 0.05;
+                    const newWidth = Math.round(width * scale);
+                    const newHeight = Math.round(height * scale);
                     canvas.width = newWidth;
                     canvas.height = newHeight;
                     ctx.drawImage(img, 0, 0, newWidth, newHeight);
                     base64 = canvas.toDataURL('image/png');
-                    width = newWidth;
-                    height = newHeight;
+                    console.log(`Compression: ${newWidth}x${newHeight}, taille: ${Math.round(base64.length * 0.75 / 1024)}Ko`);
                 }
+
+                const finalWidth = canvas.width;
+                const finalHeight = canvas.height;
 
                 // Retirer le préfixe data:image/png;base64,
                 const pureBase64 = base64.split(',')[1];
+                const finalSizeKo = Math.round(pureBase64.length * 0.75 / 1024);
 
-                console.log(`Image traitée: ${width}x${height}, taille: ${Math.round(pureBase64.length * 0.75 / 1024)}Ko`);
+                console.log(`Image traitée: ${finalWidth}x${finalHeight}, taille finale: ${finalSizeKo}Ko`);
 
-                resolve({base64: pureBase64, width, height});
+                resolve({base64: pureBase64, width: finalWidth, height: finalHeight});
             };
             img.onerror = reject;
             img.src = e.target.result;
