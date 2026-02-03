@@ -120,6 +120,11 @@
 			"reported_at": "2026-02-02T20:06:32",
 			"set": "Éveil des Légendes"
 		},
+		"dp6-58": {
+			"name": "Lanturn",
+			"reported_at": "2026-02-03T20:15:58",
+			"set": "Éveil des Légendes"
+		},
 		"dp6-76": {
 			"name": "Zarbi J",
 			"reported_at": "2026-01-29T22:05:14",
@@ -201,5 +206,5 @@
 			"set": "XY Kit du dresseur (Nymphali)"
 		}
 	},
-	"updated_at": "2026-02-03T20:15:23"
+	"updated_at": "2026-02-03T20:15:58"
 }
