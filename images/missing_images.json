@@ -234,7 +234,12 @@
 			"name": "Passerouge",
 			"reported_at": "2026-01-31T15:59:51",
 			"set": "XY Kit du dresseur (Nymphali)"
+		},
+		"tk-xy-w-29": {
+			"name": "Roucool",
+			"reported_at": "2026-02-03T20:35:53",
+			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-03T20:35:51"
+	"updated_at": "2026-02-03T20:35:54"
 }
