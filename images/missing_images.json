@@ -75,6 +75,11 @@
 			"reported_at": "2026-01-29T22:06:57",
 			"set": "Trésors Mystérieux"
 		},
+		"dp2-34": {
+			"name": "Monaflemit",
+			"reported_at": "2026-02-03T20:35:50",
+			"set": "Trésors Mystérieux"
+		},
 		"dp2-91": {
 			"name": "Nidoran♀",
 			"reported_at": "2026-01-30T12:17:21",
@@ -231,5 +236,5 @@
 			"set": "XY Kit du dresseur (Nymphali)"
 		}
 	},
-	"updated_at": "2026-02-03T20:32:57"
+	"updated_at": "2026-02-03T20:35:51"
 }
