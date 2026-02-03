@@ -75,6 +75,11 @@
 			"reported_at": "2026-01-29T22:06:57",
 			"set": "Trésors Mystérieux"
 		},
+		"dp2-22": {
+			"name": "Éoko",
+			"reported_at": "2026-02-03T21:04:40",
+			"set": "Trésors Mystérieux"
+		},
 		"dp2-34": {
 			"name": "Monaflemit",
 			"reported_at": "2026-02-03T20:35:50",
@@ -266,5 +271,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-03T20:44:52"
+	"updated_at": "2026-02-03T21:04:40"
 }
