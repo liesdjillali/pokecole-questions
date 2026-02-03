@@ -165,6 +165,11 @@
 			"reported_at": "2026-01-29T22:08:06",
 			"set": "Promo HGSS"
 		},
+		"sm11-99": {
+			"name": "Malamandre",
+			"reported_at": "2026-02-03T20:40:11",
+			"set": "Harmonie des Esprits"
+		},
 		"sm3.5-22": {
 			"name": "Mustébouée",
 			"reported_at": "2026-01-28T18:34:45",
@@ -246,5 +251,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-03T20:39:22"
+	"updated_at": "2026-02-03T20:40:12"
 }
