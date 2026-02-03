@@ -1,9 +1,13 @@
 {
 	"logos": {
+		"sv01": {
+			"name": "Écarlate et Violet",
+			"reported_at": "2026-02-03T13:29:02"
+		},
 		"xy4": {
 			"name": "Vigueur Spectrale",
 			"reported_at": "2026-02-03T12:29:58"
 		}
 	},
-	"updated_at": "2026-02-03T12:29:58"
+	"updated_at": "2026-02-03T13:29:03"
 }
