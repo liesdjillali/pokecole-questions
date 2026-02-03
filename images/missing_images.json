@@ -110,6 +110,11 @@
 			"reported_at": "2026-01-31T16:52:14",
 			"set": "Aube Majestueuse"
 		},
+		"dp5-59": {
+			"name": "Apitrini",
+			"reported_at": "2026-02-03T20:32:08",
+			"set": "Aube Majestueuse"
+		},
 		"dp5-92": {
 			"name": "Appel à l'énergie",
 			"reported_at": "2026-01-30T20:08:19",
@@ -216,5 +221,5 @@
 			"set": "XY Kit du dresseur (Nymphali)"
 		}
 	},
-	"updated_at": "2026-02-03T20:31:53"
+	"updated_at": "2026-02-03T20:32:09"
 }
