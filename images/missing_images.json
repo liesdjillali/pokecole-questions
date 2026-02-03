@@ -80,6 +80,11 @@
 			"reported_at": "2026-01-30T12:17:42",
 			"set": "Merveilles Secrètes"
 		},
+		"dp3-38": {
+			"name": "Heliatronc",
+			"reported_at": "2026-02-03T20:15:22",
+			"set": "Merveilles Secrètes"
+		},
 		"dp3-65": {
 			"name": "Floravol",
 			"reported_at": "2026-01-30T22:16:50",
@@ -196,5 +201,5 @@
 			"set": "XY Kit du dresseur (Nymphali)"
 		}
 	},
-	"updated_at": "2026-02-03T20:10:48"
+	"updated_at": "2026-02-03T20:15:23"
 }
