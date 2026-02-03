@@ -165,6 +165,11 @@
 			"reported_at": "2026-01-29T22:04:31",
 			"set": "Éveil des Légendes"
 		},
+		"dp7-22": {
+			"name": "Galopa",
+			"reported_at": "2026-02-03T20:44:46",
+			"set": "Tempête"
+		},
 		"hgssp-HGSS07": {
 			"name": "Aligatueur",
 			"reported_at": "2026-01-29T22:08:06",
@@ -261,5 +266,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-03T20:44:30"
+	"updated_at": "2026-02-03T20:44:52"
 }
