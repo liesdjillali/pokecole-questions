@@ -225,6 +225,11 @@
 			"reported_at": "2026-01-30T22:16:24",
 			"set": "Promo SM"
 		},
+		"smp-SM56": {
+			"name": "Sucreine GX",
+			"reported_at": "2026-02-03T20:44:03",
+			"set": "Promo SM"
+		},
 		"smp-SM86": {
 			"name": "Pikachu",
 			"reported_at": "2026-01-30T12:13:28",
@@ -251,5 +256,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-03T20:40:12"
+	"updated_at": "2026-02-03T20:44:04"
 }
