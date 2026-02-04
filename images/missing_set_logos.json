@@ -1,9 +1,13 @@
 {
 	"logos": {
-		"P-A": {
-			"name": "Promo-A",
-			"reported_at": "2026-01-22T20:48:08"
+		"sv01": {
+			"name": "Écarlate et Violet",
+			"reported_at": "2026-02-03T13:29:02"
+		},
+		"xy4": {
+			"name": "Vigueur Spectrale",
+			"reported_at": "2026-02-03T12:29:58"
 		}
 	},
-	"updated_at": "2026-02-03T20:46:18"
+	"updated_at": "2026-02-04T07:34:51"
 }
