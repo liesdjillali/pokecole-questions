@@ -60,6 +60,11 @@
 			"reported_at": "2026-02-03T20:29:47",
 			"set": "Source Secrète"
 		},
+		"A4a-008": {
+			"name": "Limagma",
+			"reported_at": "2026-02-06T19:17:31",
+			"set": "Source Secrète"
+		},
 		"A4a-019": {
 			"name": "Lippoutou",
 			"reported_at": "2026-01-30T12:17:35",
@@ -296,5 +301,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-06T19:17:24"
+	"updated_at": "2026-02-06T19:17:32"
 }
