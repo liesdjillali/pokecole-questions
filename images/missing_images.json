@@ -75,6 +75,11 @@
 			"reported_at": "2026-01-30T20:08:30",
 			"set": "Détective Pikachu"
 		},
+		"dp1-78": {
+			"name": "Melo",
+			"reported_at": "2026-02-06T19:15:35",
+			"set": "Diamant & Perle"
+		},
 		"dp2-114": {
 			"name": "Rapide Ball",
 			"reported_at": "2026-01-29T22:06:57",
@@ -281,5 +286,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-06T19:11:38"
+	"updated_at": "2026-02-06T19:15:36"
 }
