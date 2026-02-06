@@ -40,6 +40,11 @@
 			"reported_at": "2026-02-01T13:03:56",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"A4-142": {
+			"name": "Capumain",
+			"reported_at": "2026-02-06T19:40:52",
+			"set": "Sagesse Entre Ciel et Mer"
+		},
 		"A4-192": {
 			"name": "Nostenfer-ex",
 			"reported_at": "2026-01-29T22:03:57",
@@ -306,5 +311,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-06T19:32:35"
+	"updated_at": "2026-02-06T19:40:53"
 }
