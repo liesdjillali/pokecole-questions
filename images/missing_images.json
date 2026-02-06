@@ -275,6 +275,11 @@
 			"reported_at": "2026-01-30T17:54:11",
 			"set": "SM Kit du dresseur (Lougarox)"
 		},
+		"tk-xy-su-16": {
+			"name": "Tiplouf",
+			"reported_at": "2026-02-06T19:32:34",
+			"set": "XY Kit du dresseur (Suicune)"
+		},
 		"tk-xy-su-28": {
 			"name": "Énergie Eau",
 			"reported_at": "2026-02-04T21:41:13",
@@ -301,5 +306,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-06T19:17:32"
+	"updated_at": "2026-02-06T19:32:35"
 }
