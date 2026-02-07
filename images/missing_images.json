@@ -205,6 +205,11 @@
 			"reported_at": "2026-02-03T20:44:46",
 			"set": "Tempête"
 		},
+		"hgss2-TWO": {
+			"name": "Lithographie d'Alpha",
+			"reported_at": "2026-02-07T15:29:29",
+			"set": "Déchaînement"
+		},
 		"hgssp-HGSS07": {
 			"name": "Aligatueur",
 			"reported_at": "2026-01-29T22:08:06",
@@ -316,5 +321,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-07T15:22:43"
+	"updated_at": "2026-02-07T15:29:30"
 }
