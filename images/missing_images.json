@@ -300,6 +300,11 @@
 			"reported_at": "2026-02-07T16:14:55",
 			"set": "SM Kit du dresseur (Raichu d'Alola)"
 		},
+		"tk-xy-n-17": {
+			"name": "Énergie Psy",
+			"reported_at": "2026-02-07T16:14:59",
+			"set": "XY Kit du dresseur (Bruyverne)"
+		},
 		"tk-xy-su-16": {
 			"name": "Tiplouf",
 			"reported_at": "2026-02-06T19:32:34",
@@ -331,5 +336,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-07T16:14:56"
+	"updated_at": "2026-02-07T16:15:00"
 }
