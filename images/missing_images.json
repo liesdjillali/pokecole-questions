@@ -295,6 +295,11 @@
 			"reported_at": "2026-01-30T17:54:11",
 			"set": "SM Kit du dresseur (Lougarox)"
 		},
+		"tk-sm-r-4": {
+			"name": "Nounourson",
+			"reported_at": "2026-02-07T16:14:55",
+			"set": "SM Kit du dresseur (Raichu d'Alola)"
+		},
 		"tk-xy-su-16": {
 			"name": "Tiplouf",
 			"reported_at": "2026-02-06T19:32:34",
@@ -326,5 +331,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-07T15:29:47"
+	"updated_at": "2026-02-07T16:14:56"
 }
