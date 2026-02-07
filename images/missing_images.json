@@ -285,6 +285,11 @@
 			"reported_at": "2026-02-03T20:44:03",
 			"set": "Promo SM"
 		},
+		"smp-SM59": {
+			"name": "Marshadow GX",
+			"reported_at": "2026-02-07T16:15:14",
+			"set": "Promo SM"
+		},
 		"smp-SM86": {
 			"name": "Pikachu",
 			"reported_at": "2026-01-30T12:13:28",
@@ -336,5 +341,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-07T16:15:00"
+	"updated_at": "2026-02-07T16:15:15"
 }
