@@ -1,7 +1,7 @@
 {
   "matiere": "mathematiques",
   "niveau": "CE2",
-  "version": "2026.02.07.1503",
+  "version": "2026.02.07.1517",
   "questions": [
     {
       "id": 1,
@@ -323,7 +323,77 @@
       "time_override": 130,
       "additional_feedback": "18 = 6x... (3)",
       "reponse_correcte": "3"
+    },
+    {
+      "id": 41,
+      "type": "qcm",
+      "question": "1000g (grammes) =",
+      "time_override": 30,
+      "additional_feedback": "1kg = 1000g",
+      "reponses": [
+        "1kg (kilogramme)",
+        "1dg (decigramme)",
+        "1cg (centigramme)",
+        "10kg (kilogrammes)"
+      ],
+      "reponse_correcte": 0
+    },
+    {
+      "id": 42,
+      "type": "qcm",
+      "question": "10dg (decigrammes) =",
+      "time_override": 30,
+      "additional_feedback": "1g = 10dg",
+      "reponses": [
+        "1kg (kilogramme)",
+        "1g (gramme)",
+        "1cg (centigramme)",
+        "100g (grammes)"
+      ],
+      "reponse_correcte": 1
+    },
+    {
+      "id": 43,
+      "type": "qcm",
+      "question": "10cm =",
+      "time_override": 45,
+      "additional_feedback": "1cm =10mm",
+      "reponses": [
+        "1km",
+        "1m",
+        "100dm",
+        "100mm"
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 44,
+      "type": "qcm",
+      "question": "1cm = ",
+      "time_override": 45,
+      "additional_feedback": "1cm =10mm",
+      "reponses": [
+        "1km",
+        "1m",
+        "10mm",
+        "10dm"
+      ],
+      "reponse_correcte": 2
+    },
+    {
+      "id": 45,
+      "type": "qcm",
+      "question": "1dm =  ",
+      "time_override": 45,
+      "additional_feedback": "1dm =10cm=100mm",
+      "reponses": [
+        "1m",
+        "100mm",
+        "100cm",
+        "10mm"
+      ],
+      "reponse_correcte": 1
     }
   ],
-  "updated_at": "2026-02-07T14:03:03.473Z"
+  "updated_at": "2026-02-07T14:17:39.326Z"
 }
