@@ -1,7 +1,7 @@
 {
   "matiere": "mathematiques",
   "niveau": "CE2",
-  "version": "2026.02.01.1452",
+  "version": "2026.02.07.1503",
   "questions": [
     {
       "id": 1,
@@ -307,7 +307,23 @@
       "question": "Combien font 9x9 ?",
       "time_override": 15,
       "reponse_correcte": "81"
+    },
+    {
+      "id": 39,
+      "type": "texte",
+      "question": "J'ai 12 cubes. Je veux les répartir équitablement dans 3 bols. Combien y aura-t-il de cubes dans chaque bol ?",
+      "time_override": 120,
+      "additional_feedback": "12 = 3x... (4)",
+      "reponse_correcte": "4"
+    },
+    {
+      "id": 40,
+      "type": "texte",
+      "question": "J'ai 18 cubes. Je les répartis dans des bols en mettant 6 cubes dans chaque bol. Combien de bols puis-je remplir ?",
+      "time_override": 130,
+      "additional_feedback": "18 = 6x... (3)",
+      "reponse_correcte": "3"
     }
   ],
-  "updated_at": "2026-02-01T13:52:51.528Z"
+  "updated_at": "2026-02-07T14:03:03.473Z"
 }
