@@ -160,6 +160,11 @@
 			"reported_at": "2026-01-29T22:06:14",
 			"set": "Duels au Sommets"
 		},
+		"dp5-46": {
+			"name": "Insécateur",
+			"reported_at": "2026-02-08T10:45:40",
+			"set": "Aube Majestueuse"
+		},
 		"dp5-53": {
 			"name": "Laporeille",
 			"reported_at": "2026-01-31T16:52:14",
@@ -341,5 +346,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-07T22:56:52"
+	"updated_at": "2026-02-08T10:45:41"
 }
