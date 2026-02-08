@@ -225,6 +225,11 @@
 			"reported_at": "2026-01-29T22:08:06",
 			"set": "Promo HGSS"
 		},
+		"sm11-7": {
+			"name": "Larveyette",
+			"reported_at": "2026-02-08T10:46:52",
+			"set": "Harmonie des Esprits"
+		},
 		"sm11-99": {
 			"name": "Malamandre",
 			"reported_at": "2026-02-03T20:40:11",
@@ -346,5 +351,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-08T10:45:41"
+	"updated_at": "2026-02-08T10:46:53"
 }
