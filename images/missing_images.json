@@ -150,6 +150,11 @@
 			"reported_at": "2026-02-03T20:39:21",
 			"set": "Duels au Sommets"
 		},
+		"dp4-43": {
+			"name": "Lineon",
+			"reported_at": "2026-02-08T10:48:04",
+			"set": "Duels au Sommets"
+		},
 		"dp4-47": {
 			"name": "Chrysacier",
 			"reported_at": "2026-02-03T20:44:28",
@@ -351,5 +356,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-08T10:46:53"
+	"updated_at": "2026-02-08T10:48:06"
 }
