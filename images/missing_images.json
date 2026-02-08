@@ -40,6 +40,11 @@
 			"reported_at": "2026-02-01T13:03:56",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"A4-095": {
+			"name": "Scorvol",
+			"reported_at": "2026-02-08T16:00:00",
+			"set": "Sagesse Entre Ciel et Mer"
+		},
 		"A4-106": {
 			"name": "Golgopathe",
 			"reported_at": "2026-02-07T15:22:43",
@@ -366,5 +371,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-08T15:55:59"
+	"updated_at": "2026-02-08T16:00:01"
 }
