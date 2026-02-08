@@ -335,6 +335,11 @@
 			"reported_at": "2026-02-07T16:14:55",
 			"set": "SM Kit du dresseur (Raichu d'Alola)"
 		},
+		"tk-xy-latia-17": {
+			"name": "Énergie Psy",
+			"reported_at": "2026-02-08T16:06:41",
+			"set": "XY Kit du dresseur (Latias)"
+		},
 		"tk-xy-n-17": {
 			"name": "Énergie Psy",
 			"reported_at": "2026-02-07T16:14:59",
@@ -371,5 +376,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-08T16:00:01"
+	"updated_at": "2026-02-08T16:06:42"
 }
