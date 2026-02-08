@@ -135,6 +135,11 @@
 			"reported_at": "2026-02-03T20:15:22",
 			"set": "Merveilles Secrètes"
 		},
+		"dp3-41": {
+			"name": "Cheniselle Cape Plante",
+			"reported_at": "2026-02-08T15:55:58",
+			"set": "Merveilles Secrètes"
+		},
 		"dp3-59": {
 			"name": "Scarabrute",
 			"reported_at": "2026-02-03T20:32:57",
@@ -361,5 +366,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-08T15:55:50"
+	"updated_at": "2026-02-08T15:55:59"
 }
