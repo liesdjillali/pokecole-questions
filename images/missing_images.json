@@ -85,6 +85,11 @@
 			"reported_at": "2026-02-01T12:47:33",
 			"set": "Source Secrète"
 		},
+		"A4a-088": {
+			"name": "Raikou-ex",
+			"reported_at": "2026-02-08T15:55:49",
+			"set": "Source Secrète"
+		},
 		"basep-23": {
 			"name": "Électhor",
 			"reported_at": "2026-01-30T15:27:56",
@@ -356,5 +361,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-08T13:41:41"
+	"updated_at": "2026-02-08T15:55:50"
 }
