@@ -3,7 +3,11 @@
 		"P-A": {
 			"name": "Promo-A",
 			"reported_at": "2026-01-22T20:48:08"
+		},
+		"me02.5": {
+			"name": "Héros Transcendants",
+			"reported_at": "2026-02-09T21:28:44"
 		}
 	},
-	"updated_at": "2026-02-09T18:38:12"
+	"updated_at": "2026-02-09T21:28:44"
 }
