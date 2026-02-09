@@ -1,7 +1,7 @@
 {
   "matiere": "mathematiques",
   "niveau": "CE2",
-  "version": "2026.02.09.2032",
+  "version": "2026.02.09.2059",
   "questions": [
     {
       "id": 1,
@@ -397,11 +397,91 @@
     {
       "id": 46,
       "type": "texte",
-      "question": "7 + ... = 15",
+      "question": "Complète \n7 + ... = 15",
       "time_override": 30,
       "additional_feedback": "15 - 7 = 8",
       "reponse_correcte": "8"
+    },
+    {
+      "id": 47,
+      "type": "texte",
+      "question": "Complète \n... + 4 = 7",
+      "time_override": 30,
+      "additional_feedback": "7 - 4 = 3",
+      "reponse_correcte": "3"
+    },
+    {
+      "id": 48,
+      "type": "texte",
+      "question": "Complète \n6 + ... = 11",
+      "time_override": 30,
+      "additional_feedback": "11 - 6 = 5",
+      "reponse_correcte": "5"
+    },
+    {
+      "id": 49,
+      "type": "texte",
+      "question": "Complète \n12 = 3 + ....",
+      "time_override": 30,
+      "additional_feedback": "12 - 3 = 9",
+      "reponse_correcte": "9"
+    },
+    {
+      "id": 50,
+      "type": "texte",
+      "question": "Complète \n5 + ... = 13",
+      "time_override": 30,
+      "additional_feedback": "13 - 5 = 8",
+      "reponse_correcte": "8"
+    },
+    {
+      "id": 51,
+      "type": "texte",
+      "question": "Complète \n... + 8 = 12",
+      "time_override": 30,
+      "additional_feedback": "12 - 8 = 4",
+      "reponse_correcte": "4"
+    },
+    {
+      "id": 52,
+      "type": "texte",
+      "question": "Complète \n14 = 4 + ...",
+      "time_override": 30,
+      "additional_feedback": "14 - 4 = 10",
+      "reponse_correcte": "10"
+    },
+    {
+      "id": 53,
+      "type": "texte",
+      "question": "Complète \n... + 9 = 18",
+      "time_override": 30,
+      "additional_feedback": "18 - 9 = 9",
+      "reponse_correcte": "9"
+    },
+    {
+      "id": 54,
+      "type": "texte",
+      "question": "Complète \n10 = ... + 2",
+      "time_override": 30,
+      "additional_feedback": "10 - 2 = 8",
+      "reponse_correcte": "8"
+    },
+    {
+      "id": 55,
+      "type": "texte",
+      "question": "Complète \n... + 8 = 11",
+      "time_override": 30,
+      "additional_feedback": "11 - 8 = 3",
+      "reponse_correcte": "3"
+    },
+    {
+      "id": 56,
+      "type": "texte",
+      "question": "Complète \n8 = ... + 3",
+      "time_override": 30,
+      "additional_feedback": "8 - 3 = 5",
+      "reponse_correcte": "5"
     }
   ],
-  "updated_at": "2026-02-09T19:32:21.087Z"
+  "updated_at": "2026-02-09T19:59:58.272Z"
 }
