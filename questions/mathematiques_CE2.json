@@ -1,7 +1,7 @@
 {
   "matiere": "mathematiques",
   "niveau": "CE2",
-  "version": "2026.02.07.1517",
+  "version": "2026.02.09.2032",
   "questions": [
     {
       "id": 1,
@@ -393,7 +393,15 @@
         "10mm"
       ],
       "reponse_correcte": 1
+    },
+    {
+      "id": 46,
+      "type": "texte",
+      "question": "7 + ... = 15",
+      "time_override": 30,
+      "additional_feedback": "15 - 7 = 8",
+      "reponse_correcte": "8"
     }
   ],
-  "updated_at": "2026-02-07T14:17:39.326Z"
+  "updated_at": "2026-02-09T19:32:21.087Z"
 }
