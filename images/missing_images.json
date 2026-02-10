@@ -5,6 +5,11 @@
 			"reported_at": "2026-02-09T18:11:34",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"dp1-106": {
+			"name": "Restauration d'énergie",
+			"reported_at": "2026-02-10T21:36:08",
+			"set": "Diamant & Perle"
+		},
 		"sm115-39": {
 			"name": "Mélofée",
 			"reported_at": "2026-02-09T18:11:42",
@@ -21,5 +26,5 @@
 			"set": "Carte Alternative A Jaune"
 		}
 	},
-	"updated_at": "2026-02-10T21:35:57"
+	"updated_at": "2026-02-10T21:36:08"
 }
