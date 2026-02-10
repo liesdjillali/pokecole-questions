@@ -10,11 +10,16 @@
 			"reported_at": "2026-02-09T18:11:42",
 			"set": "Destinées Occultes"
 		},
+		"sma-SV13": {
+			"name": "Voltorbe",
+			"reported_at": "2026-02-10T21:35:57",
+			"set": "Carte Alternative A Jaune"
+		},
 		"sma-SV48": {
 			"name": "Sarmuraï-GX",
 			"reported_at": "2026-02-09T19:33:19",
 			"set": "Carte Alternative A Jaune"
 		}
 	},
-	"updated_at": "2026-02-10T21:31:51"
+	"updated_at": "2026-02-10T21:35:57"
 }
