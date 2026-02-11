@@ -10,6 +10,11 @@
 			"reported_at": "2026-02-10T21:36:08",
 			"set": "Diamant & Perle"
 		},
+		"dp3-30": {
+			"name": "Lippoutou",
+			"reported_at": "2026-02-11T17:17:31",
+			"set": "Merveilles Secrètes"
+		},
 		"dp7-28": {
 			"name": "Steelix",
 			"reported_at": "2026-02-11T13:58:43",
@@ -51,5 +56,5 @@
 			"set": "SM Kit du dresseur (Lougarox)"
 		}
 	},
-	"updated_at": "2026-02-11T16:59:11"
+	"updated_at": "2026-02-11T17:17:31"
 }
