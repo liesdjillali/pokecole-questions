@@ -15,6 +15,11 @@
 			"reported_at": "2026-02-09T18:11:42",
 			"set": "Destinées Occultes"
 		},
+		"sm3.5-33": {
+			"name": "Posipi",
+			"reported_at": "2026-02-11T13:58:14",
+			"set": "Légendes Brillantes"
+		},
 		"sma-SV13": {
 			"name": "Voltorbe",
 			"reported_at": "2026-02-10T21:35:57",
@@ -31,5 +36,5 @@
 			"set": "SM Kit du dresseur (Lougarox)"
 		}
 	},
-	"updated_at": "2026-02-11T13:56:18"
+	"updated_at": "2026-02-11T13:58:15"
 }
