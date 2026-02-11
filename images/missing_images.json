@@ -25,6 +25,11 @@
 			"reported_at": "2026-02-11T13:58:14",
 			"set": "Légendes Brillantes"
 		},
+		"sm7.5-51": {
+			"name": "Draïeul",
+			"reported_at": "2026-02-11T14:07:10",
+			"set": "Majesté Des Dragons"
+		},
 		"sma-SV13": {
 			"name": "Voltorbe",
 			"reported_at": "2026-02-10T21:35:57",
@@ -41,5 +46,5 @@
 			"set": "SM Kit du dresseur (Lougarox)"
 		}
 	},
-	"updated_at": "2026-02-11T13:58:43"
+	"updated_at": "2026-02-11T14:07:10"
 }
