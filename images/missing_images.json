@@ -10,6 +10,11 @@
 			"reported_at": "2026-02-10T21:36:08",
 			"set": "Diamant & Perle"
 		},
+		"dp7-28": {
+			"name": "Steelix",
+			"reported_at": "2026-02-11T13:58:43",
+			"set": "Tempête"
+		},
 		"sm115-39": {
 			"name": "Mélofée",
 			"reported_at": "2026-02-09T18:11:42",
@@ -36,5 +41,5 @@
 			"set": "SM Kit du dresseur (Lougarox)"
 		}
 	},
-	"updated_at": "2026-02-11T13:58:15"
+	"updated_at": "2026-02-11T13:58:43"
 }
