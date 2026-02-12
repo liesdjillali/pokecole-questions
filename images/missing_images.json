@@ -5,6 +5,11 @@
 			"reported_at": "2026-02-09T18:11:34",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"A4-098": {
+			"name": "Mammochon",
+			"reported_at": "2026-02-12T19:26:42",
+			"set": "Sagesse Entre Ciel et Mer"
+		},
 		"A4-116": {
 			"name": "Dimoret",
 			"reported_at": "2026-02-12T19:25:38",
@@ -71,5 +76,5 @@
 			"set": "SM Kit du dresseur (Lougarox)"
 		}
 	},
-	"updated_at": "2026-02-12T19:26:18"
+	"updated_at": "2026-02-12T19:26:43"
 }
