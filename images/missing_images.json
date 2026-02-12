@@ -80,11 +80,16 @@
 			"reported_at": "2026-02-12T19:25:57",
 			"set": "BW Kit du dresseur (Minitaupe)"
 		},
+		"tk-ex-latia-9": {
+			"name": "Recherche d'énergie",
+			"reported_at": "2026-02-12T19:28:25",
+			"set": "EX Kit dresseur (Latias)"
+		},
 		"tk-sm-l-30": {
 			"name": "Lougaroc",
 			"reported_at": "2026-02-10T21:42:56",
 			"set": "SM Kit du dresseur (Lougarox)"
 		}
 	},
-	"updated_at": "2026-02-12T19:28:09"
+	"updated_at": "2026-02-12T19:28:25"
 }
