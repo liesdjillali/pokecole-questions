@@ -70,6 +70,11 @@
 			"reported_at": "2026-02-12T19:26:18",
 			"set": "Promo SM"
 		},
+		"svp-218": {
+			"name": "Persian-ex de la Team Rocket",
+			"reported_at": "2026-02-12T19:28:08",
+			"set": "SVP Black Star Promos"
+		},
 		"tk-bw-e-14": {
 			"name": "Ouvrifier",
 			"reported_at": "2026-02-12T19:25:57",
@@ -81,5 +86,5 @@
 			"set": "SM Kit du dresseur (Lougarox)"
 		}
 	},
-	"updated_at": "2026-02-12T19:27:47"
+	"updated_at": "2026-02-12T19:28:09"
 }
