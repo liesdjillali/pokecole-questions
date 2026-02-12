@@ -55,6 +55,11 @@
 			"reported_at": "2026-02-11T14:07:58",
 			"set": "Promo SM"
 		},
+		"smp-SM55": {
+			"name": "Archéduc",
+			"reported_at": "2026-02-12T19:26:18",
+			"set": "Promo SM"
+		},
 		"tk-bw-e-14": {
 			"name": "Ouvrifier",
 			"reported_at": "2026-02-12T19:25:57",
@@ -66,5 +71,5 @@
 			"set": "SM Kit du dresseur (Lougarox)"
 		}
 	},
-	"updated_at": "2026-02-12T19:25:58"
+	"updated_at": "2026-02-12T19:26:18"
 }
