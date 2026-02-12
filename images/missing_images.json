@@ -5,6 +5,11 @@
 			"reported_at": "2026-02-09T18:11:34",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"A4-116": {
+			"name": "Dimoret",
+			"reported_at": "2026-02-12T19:25:38",
+			"set": "Sagesse Entre Ciel et Mer"
+		},
 		"dp1-106": {
 			"name": "Restauration d'énergie",
 			"reported_at": "2026-02-10T21:36:08",
@@ -56,5 +61,5 @@
 			"set": "SM Kit du dresseur (Lougarox)"
 		}
 	},
-	"updated_at": "2026-02-12T18:45:09"
+	"updated_at": "2026-02-12T19:25:39"
 }
