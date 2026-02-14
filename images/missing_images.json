@@ -40,6 +40,11 @@
 			"reported_at": "2026-01-30T17:18:42",
 			"set": "Aube Majestueuse"
 		},
+		"sm11-69": {
+			"name": "Tokorico",
+			"reported_at": "2026-02-14T14:46:58",
+			"set": "Harmonie des Esprits"
+		},
 		"sm115-43": {
 			"name": "M. Mime",
 			"reported_at": "2026-01-30T17:35:34",
@@ -81,5 +86,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-14T14:46:40"
+	"updated_at": "2026-02-14T14:46:58"
 }
