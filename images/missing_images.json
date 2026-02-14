@@ -25,6 +25,11 @@
 			"reported_at": "2026-02-12T19:27:47",
 			"set": "L'appel des Légendes"
 		},
+		"det1-15": {
+			"name": "Snubbull",
+			"reported_at": "2026-02-14T10:03:00",
+			"set": "Détective Pikachu"
+		},
 		"dp1-106": {
 			"name": "Restauration d'énergie",
 			"reported_at": "2026-02-10T21:36:08",
@@ -116,5 +121,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-14T10:02:40"
+	"updated_at": "2026-02-14T10:03:00"
 }
