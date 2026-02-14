@@ -99,7 +99,12 @@
 			"name": "Lougaroc",
 			"reported_at": "2026-02-10T21:42:56",
 			"set": "SM Kit du dresseur (Lougarox)"
+		},
+		"tk-xy-w-8": {
+			"name": "Énergie Fée",
+			"reported_at": "2026-02-14T09:45:12",
+			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-14T09:44:12"
+	"updated_at": "2026-02-14T09:45:13"
 }
