@@ -50,6 +50,11 @@
 			"reported_at": "2026-01-30T17:35:34",
 			"set": "Destinées Occultes"
 		},
+		"sm115-56": {
+			"name": "Hospitalité d’Erika",
+			"reported_at": "2026-02-14T14:47:45",
+			"set": "Destinées Occultes"
+		},
 		"sm115-68": {
 			"name": "Jessie et James",
 			"reported_at": "2026-02-14T14:47:23",
@@ -91,5 +96,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-14T14:47:24"
+	"updated_at": "2026-02-14T14:47:45"
 }
