@@ -50,6 +50,11 @@
 			"reported_at": "2026-01-30T17:35:34",
 			"set": "Destinées Occultes"
 		},
+		"sm115-68": {
+			"name": "Jessie et James",
+			"reported_at": "2026-02-14T14:47:23",
+			"set": "Destinées Occultes"
+		},
 		"smp-SM164": {
 			"name": "Deoxys",
 			"reported_at": "2026-01-24T00:31:17",
@@ -86,5 +91,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-14T14:46:58"
+	"updated_at": "2026-02-14T14:47:24"
 }
