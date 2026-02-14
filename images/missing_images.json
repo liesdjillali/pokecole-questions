@@ -30,6 +30,11 @@
 			"reported_at": "2026-02-10T21:36:08",
 			"set": "Diamant & Perle"
 		},
+		"dp1-8": {
+			"name": "Magnézone",
+			"reported_at": "2026-02-14T10:02:40",
+			"set": "Diamant & Perle"
+		},
 		"dp3-30": {
 			"name": "Lippoutou",
 			"reported_at": "2026-02-11T17:17:31",
@@ -111,5 +116,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-14T09:56:12"
+	"updated_at": "2026-02-14T10:02:40"
 }
