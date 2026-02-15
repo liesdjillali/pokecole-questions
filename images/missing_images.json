@@ -5,6 +5,11 @@
 			"reported_at": "2026-02-15T13:14:12",
 			"set": "La Clairière d'Évoli"
 		},
+		"dp4-53": {
+			"name": "Airmure",
+			"reported_at": "2026-02-15T16:02:25",
+			"set": "Duels au Sommets"
+		},
 		"sm11-52": {
 			"name": "Concombaffe",
 			"reported_at": "2026-02-15T16:01:59",
@@ -21,5 +26,5 @@
 			"set": "XY Kit du dresseur (Scalproie)"
 		}
 	},
-	"updated_at": "2026-02-15T16:02:00"
+	"updated_at": "2026-02-15T16:02:26"
 }
