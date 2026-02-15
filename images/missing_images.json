@@ -45,6 +45,11 @@
 			"reported_at": "2026-02-11T17:17:31",
 			"set": "Merveilles Secrètes"
 		},
+		"dp4-6": {
+			"name": "Porygon-Z",
+			"reported_at": "2026-02-15T11:08:05",
+			"set": "Duels au Sommets"
+		},
 		"dp4-9": {
 			"name": "Laggron",
 			"reported_at": "2026-02-14T09:44:03",
@@ -131,5 +136,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-15T11:07:58"
+	"updated_at": "2026-02-15T11:08:06"
 }
