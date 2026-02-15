@@ -15,6 +15,11 @@
 			"reported_at": "2026-02-15T16:02:25",
 			"set": "Duels au Sommets"
 		},
+		"dp4-6": {
+			"name": "Porygon-Z",
+			"reported_at": "2026-02-15T16:06:06",
+			"set": "Duels au Sommets"
+		},
 		"dp6-37": {
 			"name": "Regigigas",
 			"reported_at": "2026-02-15T16:03:21",
@@ -36,5 +41,5 @@
 			"set": "XY Kit du dresseur (Scalproie)"
 		}
 	},
-	"updated_at": "2026-02-15T16:03:21"
+	"updated_at": "2026-02-15T16:06:06"
 }
