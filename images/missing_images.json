@@ -1,5 +1,10 @@
 {
 	"images": {
+		"2021swsh-4": {
+			"name": "Tortipouss",
+			"reported_at": "2026-02-15T16:02:42",
+			"set": "Promo McDonald's 2021"
+		},
 		"A3b-015": {
 			"name": "Malamandre",
 			"reported_at": "2026-02-15T13:14:12",
@@ -26,5 +31,5 @@
 			"set": "XY Kit du dresseur (Scalproie)"
 		}
 	},
-	"updated_at": "2026-02-15T16:02:26"
+	"updated_at": "2026-02-15T16:02:42"
 }
