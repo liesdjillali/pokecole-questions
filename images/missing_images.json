@@ -80,6 +80,11 @@
 			"reported_at": "2026-02-10T21:35:57",
 			"set": "Carte Alternative A Jaune"
 		},
+		"sma-SV38": {
+			"name": "Griknot",
+			"reported_at": "2026-02-15T11:08:13",
+			"set": "Carte Alternative A Jaune"
+		},
 		"sma-SV48": {
 			"name": "Sarmuraï-GX",
 			"reported_at": "2026-02-09T19:33:19",
@@ -136,5 +141,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-15T11:08:06"
+	"updated_at": "2026-02-15T11:08:13"
 }
