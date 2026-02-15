@@ -110,6 +110,11 @@
 			"reported_at": "2026-02-14T09:44:12",
 			"set": "BW Kit du dresseur (Minitaupe)"
 		},
+		"tk-bw-z-10": {
+			"name": "Énergie Obscurité",
+			"reported_at": "2026-02-15T11:07:57",
+			"set": "BW Kit du dresseur (Zoroark)"
+		},
 		"tk-ex-latia-9": {
 			"name": "Recherche d'énergie",
 			"reported_at": "2026-02-12T19:28:25",
@@ -126,5 +131,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-15T11:07:50"
+	"updated_at": "2026-02-15T11:07:58"
 }
