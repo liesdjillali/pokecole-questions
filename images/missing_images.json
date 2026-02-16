@@ -10,6 +10,11 @@
 			"reported_at": "2026-02-15T13:14:12",
 			"set": "La Clairière d'Évoli"
 		},
+		"A4a-013": {
+			"name": "Ptitard",
+			"reported_at": "2026-02-16T18:12:55",
+			"set": "Source Secrète"
+		},
 		"dp4-53": {
 			"name": "Airmure",
 			"reported_at": "2026-02-15T16:02:25",
@@ -56,5 +61,5 @@
 			"set": "XY Kit du dresseur (Scalproie)"
 		}
 	},
-	"updated_at": "2026-02-16T18:12:09"
+	"updated_at": "2026-02-16T18:12:55"
 }
