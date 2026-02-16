@@ -30,6 +30,11 @@
 			"reported_at": "2026-02-15T16:03:21",
 			"set": "Éveil des Légendes"
 		},
+		"dpp-DP26": {
+			"name": "Dialga",
+			"reported_at": "2026-02-16T18:12:08",
+			"set": "Promo DP"
+		},
 		"sm11-52": {
 			"name": "Concombaffe",
 			"reported_at": "2026-02-15T16:01:59",
@@ -51,5 +56,5 @@
 			"set": "XY Kit du dresseur (Scalproie)"
 		}
 	},
-	"updated_at": "2026-02-16T18:09:10"
+	"updated_at": "2026-02-16T18:12:09"
 }
