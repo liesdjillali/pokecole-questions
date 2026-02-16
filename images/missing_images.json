@@ -40,6 +40,11 @@
 			"reported_at": "2026-02-16T18:12:08",
 			"set": "Promo DP"
 		},
+		"sm10-69": {
+			"name": "Spectrum",
+			"reported_at": "2026-02-16T18:13:09",
+			"set": "Alliance Infaillible"
+		},
 		"sm11-52": {
 			"name": "Concombaffe",
 			"reported_at": "2026-02-15T16:01:59",
@@ -61,5 +66,5 @@
 			"set": "XY Kit du dresseur (Scalproie)"
 		}
 	},
-	"updated_at": "2026-02-16T18:12:55"
+	"updated_at": "2026-02-16T18:13:09"
 }
