@@ -1,5 +1,10 @@
 {
 	"images": {
+		"2016xy-6": {
+			"name": "Pikachu",
+			"reported_at": "2026-02-18T18:40:30",
+			"set": "Promo McDonald's 2016"
+		},
 		"2021swsh-4": {
 			"name": "Tortipouss",
 			"reported_at": "2026-02-15T16:02:42",
@@ -91,5 +96,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-02-18T18:39:37"
+	"updated_at": "2026-02-18T18:40:31"
 }
