@@ -15,6 +15,11 @@
 			"reported_at": "2026-02-16T18:12:55",
 			"set": "Source Secrète"
 		},
+		"A4a-049": {
+			"name": "Zorua",
+			"reported_at": "2026-02-18T18:11:15",
+			"set": "Source Secrète"
+		},
 		"dp4-53": {
 			"name": "Airmure",
 			"reported_at": "2026-02-15T16:02:25",
@@ -71,5 +76,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-02-18T18:10:51"
+	"updated_at": "2026-02-18T18:11:16"
 }
