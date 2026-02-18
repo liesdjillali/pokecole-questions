@@ -25,6 +25,11 @@
 			"reported_at": "2026-02-18T18:11:15",
 			"set": "Source Secrète"
 		},
+		"dp1-9": {
+			"name": "Manaphy",
+			"reported_at": "2026-02-18T18:40:43",
+			"set": "Diamant & Perle"
+		},
 		"dp3-119": {
 			"name": "La recherche d'Amelle",
 			"reported_at": "2026-02-18T18:39:37",
@@ -96,5 +101,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-02-18T18:40:31"
+	"updated_at": "2026-02-18T18:40:43"
 }
