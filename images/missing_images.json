@@ -64,7 +64,12 @@
 			"name": "Keunotor",
 			"reported_at": "2026-02-15T13:14:20",
 			"set": "XY Kit du dresseur (Scalproie)"
+		},
+		"tk-xy-su-27": {
+			"name": "Lakmécygne",
+			"reported_at": "2026-02-18T18:10:51",
+			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-02-18T18:07:31"
+	"updated_at": "2026-02-18T18:10:51"
 }
