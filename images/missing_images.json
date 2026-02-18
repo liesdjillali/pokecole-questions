@@ -99,7 +99,12 @@
 			"name": "Lakmécygne",
 			"reported_at": "2026-02-18T18:10:51",
 			"set": "XY Kit du dresseur (Suicune)"
+		},
+		"tk-xy-w-8": {
+			"name": "Énergie Fée",
+			"reported_at": "2026-02-18T18:42:48",
+			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-18T18:40:43"
+	"updated_at": "2026-02-18T18:42:48"
 }
