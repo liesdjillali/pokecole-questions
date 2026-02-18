@@ -70,6 +70,11 @@
 			"reported_at": "2026-02-18T18:39:00",
 			"set": "Carte Alternative A Jaune"
 		},
+		"sma-SV83": {
+			"name": "Pêcheur",
+			"reported_at": "2026-02-18T18:39:02",
+			"set": "Carte Alternative A Jaune"
+		},
 		"tk-xy-b-12": {
 			"name": "Keunotor",
 			"reported_at": "2026-02-15T13:14:20",
@@ -81,5 +86,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-02-18T18:39:00"
+	"updated_at": "2026-02-18T18:39:03"
 }
