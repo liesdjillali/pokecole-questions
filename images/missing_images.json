@@ -55,6 +55,11 @@
 			"reported_at": "2026-02-15T16:03:21",
 			"set": "Éveil des Légendes"
 		},
+		"dp6-61": {
+			"name": "Lucario",
+			"reported_at": "2026-02-19T17:17:41",
+			"set": "Éveil des Légendes"
+		},
 		"dpp-DP26": {
 			"name": "Dialga",
 			"reported_at": "2026-02-16T18:12:08",
@@ -116,5 +121,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-19T17:16:07"
+	"updated_at": "2026-02-19T17:17:42"
 }
