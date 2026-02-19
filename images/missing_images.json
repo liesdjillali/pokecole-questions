@@ -100,6 +100,11 @@
 			"reported_at": "2026-02-18T18:39:02",
 			"set": "Carte Alternative A Jaune"
 		},
+		"smp-SM91": {
+			"name": "Silvallié GX",
+			"reported_at": "2026-02-19T17:42:00",
+			"set": "Promo SM"
+		},
 		"tk-sm-l-22": {
 			"name": "Bazoucan",
 			"reported_at": "2026-02-19T17:15:58",
@@ -126,5 +131,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-19T17:41:41"
+	"updated_at": "2026-02-19T17:42:01"
 }
