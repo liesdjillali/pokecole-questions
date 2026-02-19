@@ -40,6 +40,11 @@
 			"reported_at": "2026-01-30T17:18:42",
 			"set": "Aube Majestueuse"
 		},
+		"dpp-DP23": {
+			"name": "Chaglam",
+			"reported_at": "2026-02-19T15:36:37",
+			"set": "Promo DP"
+		},
 		"sm11-69": {
 			"name": "Tokorico",
 			"reported_at": "2026-02-14T14:46:58",
@@ -101,5 +106,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-19T15:35:12"
+	"updated_at": "2026-02-19T15:36:37"
 }
