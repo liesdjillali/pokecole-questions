@@ -90,6 +90,11 @@
 			"reported_at": "2026-02-18T18:39:02",
 			"set": "Carte Alternative A Jaune"
 		},
+		"tk-sm-l-22": {
+			"name": "Bazoucan",
+			"reported_at": "2026-02-19T17:15:58",
+			"set": "SM Kit du dresseur (Lougarox)"
+		},
 		"tk-xy-b-12": {
 			"name": "Keunotor",
 			"reported_at": "2026-02-15T13:14:20",
@@ -106,5 +111,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-19T17:15:05"
+	"updated_at": "2026-02-19T17:15:58"
 }
