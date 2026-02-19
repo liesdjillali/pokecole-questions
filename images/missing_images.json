@@ -30,6 +30,11 @@
 			"reported_at": "2026-01-23T10:03:44",
 			"set": "Trésors Mystérieux"
 		},
+		"dp4-62": {
+			"name": "Cacnea",
+			"reported_at": "2026-02-19T15:36:39",
+			"set": "Duels au Sommets"
+		},
 		"dp5-23": {
 			"name": "Voltali",
 			"reported_at": "2026-01-30T17:44:45",
@@ -106,5 +111,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-19T15:36:37"
+	"updated_at": "2026-02-19T15:36:40"
 }
