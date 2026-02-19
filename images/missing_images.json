@@ -35,6 +35,11 @@
 			"reported_at": "2026-02-18T18:39:37",
 			"set": "Merveilles Secrètes"
 		},
+		"dp3-85": {
+			"name": "Taupiqueur",
+			"reported_at": "2026-02-19T17:41:40",
+			"set": "Merveilles Secrètes"
+		},
 		"dp4-53": {
 			"name": "Airmure",
 			"reported_at": "2026-02-15T16:02:25",
@@ -121,5 +126,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-19T17:38:00"
+	"updated_at": "2026-02-19T17:41:41"
 }
