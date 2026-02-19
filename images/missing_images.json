@@ -100,6 +100,11 @@
 			"reported_at": "2026-02-15T13:14:20",
 			"set": "XY Kit du dresseur (Scalproie)"
 		},
+		"tk-xy-n-14": {
+			"name": "Attrape-Pokémon",
+			"reported_at": "2026-02-19T17:16:06",
+			"set": "XY Kit du dresseur (Bruyverne)"
+		},
 		"tk-xy-su-27": {
 			"name": "Lakmécygne",
 			"reported_at": "2026-02-18T18:10:51",
@@ -111,5 +116,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-02-19T17:15:58"
+	"updated_at": "2026-02-19T17:16:07"
 }
