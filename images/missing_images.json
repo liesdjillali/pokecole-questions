@@ -1,10 +1,5 @@
 {
   "images": {
-    "sm115-21": {
-      "name": "Voltorbe",
-      "reported_at": "2026-02-20T19:39:07",
-      "set": "Destinées Occultes"
-    },
     "tk-xy-b-18": {
       "name": "Énergie Métal",
       "reported_at": "2026-02-20T19:44:48",
@@ -16,5 +11,5 @@
       "set": "XY Kit du dresseur (Pikachu Libre)"
     }
   },
-  "updated_at": "2026-02-20T23:18:35.773Z"
+  "updated_at": "2026-02-20T23:19:25.526Z"
 }
