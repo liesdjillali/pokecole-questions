@@ -10,6 +10,11 @@
 			"reported_at": "2026-02-20T19:37:23",
 			"set": "Diamant & Perle"
 		},
+		"dp6-66": {
+			"name": "Grahyena",
+			"reported_at": "2026-02-20T19:42:48",
+			"set": "Éveil des Légendes"
+		},
 		"dp7-80": {
 			"name": "Voltorbe",
 			"reported_at": "2026-02-20T19:34:05",
@@ -36,5 +41,5 @@
 			"set": "XY Kit du dresseur (Pikachu Libre)"
 		}
 	},
-	"updated_at": "2026-02-20T19:40:43"
+	"updated_at": "2026-02-20T19:42:49"
 }
