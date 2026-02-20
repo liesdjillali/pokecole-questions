@@ -1,20 +1,5 @@
 {
   "images": {
-    "sm115-40": {
-      "name": "Mélodelfe",
-      "reported_at": "2026-02-19T15:35:12",
-      "set": "Destinées Occultes"
-    },
-    "sm115-56": {
-      "name": "Hospitalité d’Erika",
-      "reported_at": "2026-02-14T14:47:45",
-      "set": "Destinées Occultes"
-    },
-    "sm115-68": {
-      "name": "Jessie et James",
-      "reported_at": "2026-02-14T14:47:23",
-      "set": "Destinées Occultes"
-    },
     "tk-xy-n-29": {
       "name": "Échange",
       "reported_at": "2026-02-02T21:17:15",
@@ -31,5 +16,5 @@
       "set": "XY Kit du dresseur (Suicune)"
     }
   },
-  "updated_at": "2026-02-20T10:51:45.264Z"
+  "updated_at": "2026-02-20T10:53:02.436Z"
 }
