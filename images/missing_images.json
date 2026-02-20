@@ -1,10 +1,5 @@
 {
   "images": {
-    "dp1-30": {
-      "name": "Lockpin",
-      "reported_at": "2026-02-20T19:37:23",
-      "set": "Diamant & Perle"
-    },
     "dp6-66": {
       "name": "Grahyena",
       "reported_at": "2026-02-20T19:42:48",
@@ -46,5 +41,5 @@
       "set": "XY Kit du dresseur (Pikachu Libre)"
     }
   },
-  "updated_at": "2026-02-20T23:14:17.468Z"
+  "updated_at": "2026-02-20T23:14:52.370Z"
 }
