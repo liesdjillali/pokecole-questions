@@ -1,0 +1,436 @@
+{
+  "matiere": "francais",
+  "niveau": "CE2",
+  "version": "2026.01.29.2139",
+  "questions": [
+    {
+      "id": 1,
+      "type": "vrai_faux",
+      "question": "\"Ouvre la porte.\" est une phrase déclarative.",
+      "time_override": 30,
+      "additional_feedback": "C'est une phrase impérative même si elle ne se termine pas par un point d'exclamation. Elle indique un ordre ou un conseil",
+      "reponse_correcte": false
+    },
+    {
+      "id": 2,
+      "type": "qcm",
+      "question": "Une phrase interrogative se termine par...",
+      "time_override": 25,
+      "additional_feedback": "Une phrase interrogative se termine par un point d'interrogation \"?\"",
+      "reponses": [
+        "?",
+        "!",
+        ".",
+        "..."
+      ],
+      "reponse_correcte": 0
+    },
+    {
+      "id": 3,
+      "type": "qcm",
+      "question": "\"Léa ouvre la porte.\" est une phrase...",
+      "time_override": 30,
+      "reponses": [
+        "interrogative",
+        "déclarative",
+        "imperative",
+        "sportive"
+      ],
+      "reponse_correcte": 1
+    },
+    {
+      "id": 4,
+      "type": "qcm",
+      "question": "Une phrase interrogative sert à...",
+      "time_override": 30,
+      "additional_feedback": "Quand on dit interrogative il faut penser à point d'interrogation",
+      "reponses": [
+        "donner un ordre",
+        "donner une information",
+        "donner un conseil",
+        "poser une question"
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 5,
+      "type": "qcm",
+      "question": "La phrase négative de \"Léa ira au zoo.\" est...",
+      "time_override": 30,
+      "reponses": [
+        "Léa ira-t-elle au zoo ?",
+        "Est-ce que Léa ira au zoo ?",
+        "Va au zoo, Léa !",
+        "Léa n'ira pas au zoo."
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 6,
+      "type": "vrai_faux",
+      "question": "Un nom propre est toujours précédé d'un déterminant.",
+      "time_override": 30,
+      "additional_feedback": "Les noms communs sont toujours précédés d'un determinant. Pas les noms propres. On ne dit pas le Nathan joue au football...",
+      "reponse_correcte": false
+    },
+    {
+      "id": 7,
+      "type": "vrai_faux",
+      "question": "Un nom propre commence toujours par une majuscule.",
+      "time_override": 30,
+      "reponse_correcte": true
+    },
+    {
+      "id": 8,
+      "type": "qcm",
+      "question": "Un déterminant...",
+      "time_override": 35,
+      "additional_feedback": "Le déterminant détermine si le nom est féminin ou masculin",
+      "reponses": [
+        "est toujours placé après le nom",
+        "détermine le genre",
+        "est toujours un article",
+        "remplace le nom"
+      ],
+      "reponse_correcte": 1
+    },
+    {
+      "id": 9,
+      "type": "qcm",
+      "question": "Un déterminant...",
+      "time_override": 35,
+      "additional_feedback": "Le déterminant détermine si le nom est singulier ou pluriel",
+      "reponses": [
+        "est toujours placé après le nom",
+        "est indéfini",
+        "est toujours un article",
+        "détermine le nombre"
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 10,
+      "type": "vrai_faux",
+      "question": "Un déterminant est placé avant le nom.",
+      "time_override": 30,
+      "reponse_correcte": true
+    },
+    {
+      "id": 11,
+      "type": "texte",
+      "question": "Complète le trou.\nDes joli__ maisons grises.",
+      "time_override": 35,
+      "additional_feedback": "une maison, c'est féminin donc il faut un \"e\". Et on parle de plusieurs maisons donc il faut aussi un \"s\"",
+      "reponse_correcte": "es"
+    },
+    {
+      "id": 12,
+      "type": "vrai_faux",
+      "question": "L'adjectif est toujours placé avant le nom",
+      "time_override": 30,
+      "additional_feedback": "L'adjectif peut être placé avant ou après le nom. => Une JOLIE maison BLEUE",
+      "reponse_correcte": false
+    },
+    {
+      "id": 13,
+      "type": "qcm",
+      "question": "L'adjectif...",
+      "time_override": 35,
+      "reponses": [
+        "donne son genre au nom",
+        "donne des précisions sur le nom",
+        "est invariable",
+        "remplace un nom"
+      ],
+      "reponse_correcte": 1
+    },
+    {
+      "id": 14,
+      "type": "vrai_faux",
+      "question": "Le pronom personnel remplace un nom ou un groupe nominal.",
+      "time_override": 30,
+      "reponse_correcte": true
+    },
+    {
+      "id": 15,
+      "type": "qcm",
+      "question": "Un mot invariable est un mot...",
+      "time_override": 35,
+      "reponses": [
+        "toujours placé avant le verbe",
+        "qui ne s'accorde qu'avec le sujet",
+        "qui ne dépasse jamais 4 lettres",
+        "dont l'ortographe ne varie pas"
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 16,
+      "type": "qcm",
+      "question": "\"la\" est un article",
+      "time_override": 30,
+      "reponses": [
+        "indéfini / féminin / singulier",
+        "défini / masculin / singulier",
+        "défini / féminin / singulier",
+        "défini / féminin / pluriel"
+      ],
+      "reponse_correcte": 2
+    },
+    {
+      "id": 18,
+      "type": "texte",
+      "question": "Conjugue le verbe \"marcher\" à l'imparfait à la deuxième personne du pluriel. Vous _____ ",
+      "time_override": 120,
+      "reponse_correcte": "marchiez"
+    },
+    {
+      "id": 19,
+      "type": "texte",
+      "question": "Conjugue le verbe \"parler\" à l'imparfait à la première personne du pluriel. Nous _____",
+      "time_override": 120,
+      "reponse_correcte": "parlions"
+    },
+    {
+      "id": 20,
+      "type": "texte",
+      "question": "Conjugue le verbe \"parler\" à l'imparfait à la troisième personne du pluriel. Ils/Elles _____",
+      "time_override": 120,
+      "reponse_correcte": "parlaient"
+    },
+    {
+      "id": 21,
+      "type": "texte",
+      "question": "Conjugue le verbe \"être\" au présent de l'indicatif à la première personne du pluriel. Nous _____",
+      "time_override": 120,
+      "reponse_correcte": "sommes"
+    },
+    {
+      "id": 22,
+      "type": "texte",
+      "question": "Conjugue le verbe \"avoir\" au présent de l'indicatif à la troisième personne du singulier. Il/Elle/On _____",
+      "time_override": 120,
+      "reponse_correcte": "a"
+    },
+    {
+      "id": 23,
+      "type": "texte",
+      "question": "Conjugue le verbe \"aller\" au présent de l'indicatif à la première personne du singulier. Je _____",
+      "time_override": 120,
+      "reponse_correcte": "vais"
+    },
+    {
+      "id": 24,
+      "type": "texte",
+      "question": "Conjugue le verbe \"faire\" au présent de l'indicatif à la deuxième personne du pluriel. Vous _____",
+      "time_override": 120,
+      "reponse_correcte": "faites"
+    },
+    {
+      "id": 25,
+      "type": "texte",
+      "question": "Conjugue le verbe \"venir\" au présent de l'indicatif à la troisième personne du pluriel. Ils/Elles _____",
+      "time_override": 120,
+      "reponse_correcte": "viennent"
+    },
+    {
+      "id": 26,
+      "type": "texte",
+      "question": "Conjugue le verbe \"dire\" au présent de l'indicatif à la deuxième personne du pluriel. Vous _____",
+      "time_override": 120,
+      "reponse_correcte": "dites"
+    },
+    {
+      "id": 27,
+      "type": "texte",
+      "question": "Conjugue le verbe \"vouloir\" au présent de l'indicatif à la première personne du singulier. Je _____",
+      "time_override": 120,
+      "reponse_correcte": "veux"
+    },
+    {
+      "id": 28,
+      "type": "texte",
+      "question": "Conjugue le verbe \"parler\" à l'imparfait à la troisième personne du singulier. Il/Elle/On _____",
+      "time_override": 120,
+      "reponse_correcte": "parlait"
+    },
+    {
+      "id": 29,
+      "type": "texte",
+      "question": "Conjugue le verbe \"faire\" à l'imparfait à la troisième personne du pluriel. Ils/Elles _____",
+      "time_override": 140,
+      "reponse_correcte": "faisaient"
+    },
+    {
+      "id": 30,
+      "type": "texte",
+      "question": "Conjugue le verbe \"venir\" à l'imparfait à la deuxième personne du pluriel. Vous _____",
+      "time_override": 120,
+      "reponse_correcte": "veniez"
+    },
+    {
+      "id": 31,
+      "type": "texte",
+      "question": "Conjugue le verbe \"voir\" à l'imparfait à la première personne du pluriel. Nous _____",
+      "time_override": 120,
+      "reponse_correcte": "voyions"
+    },
+    {
+      "id": 32,
+      "type": "texte",
+      "question": "Conjugue le verbe \"tomber\" au passé composé à la première personne du pluriel. Nous _____ _____ (Ici \"Nous\" est au masculin)",
+      "time_override": 180,
+      "reponse_correcte": "sommes tombés"
+    },
+    {
+      "id": 33,
+      "type": "texte",
+      "question": "Conjugue le verbe \"écouter\" au passé composé à la deuxième personne du singulier. Tu _____ _____",
+      "time_override": 180,
+      "reponse_correcte": "as écouté"
+    },
+    {
+      "id": 34,
+      "type": "texte",
+      "question": "Conjugue le verbe \"tomber\" au passé composé à la troisième personne du pluriel. Elles _____ _____ (Attention, c'est au féminin)",
+      "time_override": 180,
+      "reponse_correcte": "sont tombées"
+    },
+    {
+      "id": 35,
+      "type": "texte",
+      "question": "Conjugue le verbe \"avoir\" au passé composé à la première personne du singulier. J'_____ _____",
+      "time_override": 180,
+      "reponse_correcte": "ai eu"
+    },
+    {
+      "id": 36,
+      "type": "texte",
+      "question": "Conjugue le verbe \"être\" au passé composé à la première personne du pluriel. Nous _____ _____",
+      "time_override": 180,
+      "reponse_correcte": "avons été"
+    },
+    {
+      "id": 37,
+      "type": "texte",
+      "question": "Conjugue le verbe \"prendre\" au passé composé à la troisième personne du pluriel. Ils/Elles _____ _____",
+      "time_override": 180,
+      "reponse_correcte": "ont pris"
+    },
+    {
+      "id": 38,
+      "type": "texte",
+      "question": "Conjugue le verbe \"faire\" au passé composé à la troisième personne du singulier. Il/Elle/On _____ _____",
+      "time_override": 180,
+      "reponse_correcte": "a fait"
+    },
+    {
+      "id": 39,
+      "type": "texte",
+      "question": "Conjugue le verbe \"vouloir\" au passé composé à la deuxième personne du pluriel. Vous _____ _____",
+      "time_override": 180,
+      "reponse_correcte": "avez voulu"
+    },
+    {
+      "id": 40,
+      "type": "texte",
+      "question": "Conjugue le verbe \"pouvoir\" au passé composé à la première personne du pluriel. Nous _____ _____",
+      "time_override": 180,
+      "reponse_correcte": "avons pu"
+    },
+    {
+      "id": 41,
+      "type": "texte",
+      "question": "Conjugue le verbe \"tomber\" au passé composé à la troisième personne du singulier. Elle _____ _____ (Attention, c'est au féminin)",
+      "time_override": 180,
+      "reponse_correcte": "est tombée"
+    },
+    {
+      "id": 42,
+      "type": "texte",
+      "question": "Conjugue le verbe \"venir\" au passé composé à la deuxième personne du pluriel. Vous _____ _____ (Ici, \"vous\" est au masculin)",
+      "time_override": 180,
+      "reponse_correcte": "êtes venus"
+    },
+    {
+      "id": 43,
+      "type": "qcm",
+      "question": "Quelle est la bonne orthographe ?",
+      "time_override": 45,
+      "reponses": [
+        "C'est enfin Noël !",
+        "Ces enfin Noël !",
+        "S'est enfin Noël !",
+        "Ses enfin Noël !"
+      ],
+      "reponse_correcte": 0
+    },
+    {
+      "id": 44,
+      "type": "qcm",
+      "question": "Quelle est la bonne orthographe ?",
+      "time_override": 45,
+      "reponses": [
+        "C'est pommes là sont bonnes.",
+        "Ces pommes là sont bonnes.",
+        "Ses pommes là sont bonnes.",
+        "S'est pommes là sont bonnes."
+      ],
+      "reponse_correcte": 1
+    },
+    {
+      "id": 45,
+      "type": "qcm",
+      "question": "Quelle est la bonne orthographe ?",
+      "time_override": 45,
+      "reponses": [
+        "Il ces fait mal au genou.",
+        "Il c'est fait mal au genou.",
+        "Il s'est fait mal au genou.",
+        "Il ses fait mal au genou."
+      ],
+      "reponse_correcte": 2
+    },
+    {
+      "id": 46,
+      "type": "qcm",
+      "question": "Quelle est la bonne orthographe ?",
+      "time_override": 60,
+      "reponses": [
+        "Ce sont ces cartes (à lui)",
+        "Ce sont s'est cartes (à lui)",
+        "Ce sont c'est cartes (à lui)",
+        "Ce sont ses cartes (à lui)"
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 47,
+      "type": "qcm",
+      "question": "Complète le trou \"____ animal court très vite.\"",
+      "time_override": 45,
+      "additional_feedback": "\"Animal\" est masculin (on dit UN animal) donc c'est \"Cet\" et non pas \"Cette\"",
+      "reponses": [
+        "Cette",
+        "Sept",
+        "Cet",
+        "Set"
+      ],
+      "reponse_correcte": 2
+    },
+    {
+      "id": 48,
+      "type": "qcm",
+      "question": "Quel mot n'est pas de la famille du mot \"Mer\"",
+      "time_override": 45,
+      "reponses": [
+        "Marin",
+        "Maritime",
+        "Océan",
+        "Amerrissage"
+      ],
+      "reponse_correcte": 2
+    }
+  ],
+  "updated_at": "2026-01-29T20:39:17.747Z"
+}

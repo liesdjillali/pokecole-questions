@@ -1,0 +1,487 @@
+{
+  "matiere": "mathematiques",
+  "niveau": "CE2",
+  "version": "2026.02.09.2059",
+  "questions": [
+    {
+      "id": 1,
+      "type": "qcm",
+      "question": "Tous les parallélogrammes qui ont leurs 4 côtés égaux sont des ...",
+      "time_override": 10,
+      "additional_feedback": "Les carrés doivent aussi avoir 4 angles droits, les rectangles ont les côtés opposés égaux et 4 angles droits",
+      "reponses": [
+        "carrés",
+        "losanges",
+        "rectangles",
+        "trapèzes"
+      ],
+      "reponse_correcte": 1
+    },
+    {
+      "id": 2,
+      "type": "qcm",
+      "question": "Un rectangle est un parallélogramme défini par...",
+      "time_override": 30,
+      "reponses": [
+        "4 côtés égaux et 2 angles droits",
+        "les côtés opposés égaux et 4 angles droits",
+        "4 côtés egaux",
+        "2 angles droits "
+      ],
+      "reponse_correcte": 1
+    },
+    {
+      "id": 3,
+      "type": "vrai_faux",
+      "question": "1/4 est égal à 4/8",
+      "time_override": 15,
+      "additional_feedback": "1/4 est égal à 2/8",
+      "reponse_correcte": false
+    },
+    {
+      "id": 4,
+      "type": "texte",
+      "question": "Combien font 6x8 ?",
+      "time_override": 10,
+      "reponse_correcte": "48"
+    },
+    {
+      "id": 5,
+      "type": "texte",
+      "question": "Combien font 3x8 ?",
+      "time_override": 10,
+      "reponse_correcte": "24"
+    },
+    {
+      "id": 6,
+      "type": "texte",
+      "question": "Combien font 7x7 ?",
+      "time_override": 10,
+      "reponse_correcte": "49"
+    },
+    {
+      "id": 7,
+      "type": "texte",
+      "question": "Combien font 6x6 ?",
+      "time_override": 10,
+      "reponse_correcte": "36"
+    },
+    {
+      "id": 8,
+      "type": "qcm",
+      "question": "Combien font 50x19x2 ?",
+      "time_override": 30,
+      "additional_feedback": "50x19x2 = (50x2)x19 = 100x19 = 1900",
+      "reponses": [
+        "1900",
+        "190",
+        "519",
+        "5190"
+      ],
+      "reponse_correcte": 0
+    },
+    {
+      "id": 9,
+      "type": "texte",
+      "question": "Combien font 3x3 ?",
+      "time_override": 10,
+      "reponse_correcte": "9"
+    },
+    {
+      "id": 10,
+      "type": "texte",
+      "question": "Combien font 3x4 ?",
+      "time_override": 10,
+      "reponse_correcte": "12"
+    },
+    {
+      "id": 11,
+      "type": "texte",
+      "question": "Combien font 3x5 ?",
+      "time_override": 10,
+      "reponse_correcte": "15"
+    },
+    {
+      "id": 12,
+      "type": "texte",
+      "question": "Combien font 3x6 ?",
+      "time_override": 10,
+      "reponse_correcte": "18"
+    },
+    {
+      "id": 13,
+      "type": "texte",
+      "question": "Combien font 3x7 ?",
+      "time_override": 10,
+      "reponse_correcte": "21"
+    },
+    {
+      "id": 14,
+      "type": "texte",
+      "question": "Combien font 3x9 ?",
+      "time_override": 10,
+      "reponse_correcte": "27"
+    },
+    {
+      "id": 15,
+      "type": "texte",
+      "question": "Combien font 4x4 ?",
+      "time_override": 10,
+      "reponse_correcte": "16"
+    },
+    {
+      "id": 16,
+      "type": "texte",
+      "question": "Combien font 4x5 ?",
+      "time_override": 10,
+      "reponse_correcte": "20"
+    },
+    {
+      "id": 17,
+      "type": "texte",
+      "question": "Combien font 4x6 ?",
+      "time_override": 10,
+      "reponse_correcte": "24"
+    },
+    {
+      "id": 18,
+      "type": "texte",
+      "question": "Combien font 4x7 ?",
+      "time_override": 10,
+      "reponse_correcte": "28"
+    },
+    {
+      "id": 19,
+      "type": "texte",
+      "question": "Combien font 4x8 ?",
+      "time_override": 10,
+      "reponse_correcte": "32"
+    },
+    {
+      "id": 20,
+      "type": "texte",
+      "question": "Combien font 4x9 ?",
+      "time_override": 10,
+      "reponse_correcte": "36"
+    },
+    {
+      "id": 21,
+      "type": "texte",
+      "question": "Combien font 5x6 ?",
+      "time_override": 10,
+      "reponse_correcte": "30"
+    },
+    {
+      "id": 22,
+      "type": "texte",
+      "question": "Combien font 5x7 ?",
+      "time_override": 10,
+      "reponse_correcte": "35"
+    },
+    {
+      "id": 23,
+      "type": "texte",
+      "question": "Combien font 6x7 ?",
+      "time_override": 10,
+      "reponse_correcte": "42"
+    },
+    {
+      "id": 24,
+      "type": "texte",
+      "question": "Combien font 6x9 ?",
+      "time_override": 10,
+      "reponse_correcte": "54"
+    },
+    {
+      "id": 25,
+      "type": "texte",
+      "question": "Combien font 7x8 ?",
+      "time_override": 10,
+      "reponse_correcte": "56"
+    },
+    {
+      "id": 26,
+      "type": "texte",
+      "question": "Combien font 7x9 ?",
+      "time_override": 10,
+      "reponse_correcte": "63"
+    },
+    {
+      "id": 27,
+      "type": "texte",
+      "question": "Léa a 52 billes et Yanis en a 12 de plus. Combien de billes à Yanis ?",
+      "time_override": 120,
+      "additional_feedback": "52 + 12 = 64",
+      "reponse_correcte": "64"
+    },
+    {
+      "id": 28,
+      "type": "texte",
+      "question": "Léa a 52 billes et c'est 12 de plus que Hugo. Combien de billes à Hugo ?",
+      "time_override": 120,
+      "additional_feedback": "52 - 12 = 40",
+      "reponse_correcte": "40"
+    },
+    {
+      "id": 29,
+      "type": "texte",
+      "question": "Dimitri a 15 billes. En tout, avec Léo, ils ont 35 billes. Combien de billes a Léo ?",
+      "time_override": 120,
+      "additional_feedback": "35 - 15 = 20",
+      "reponse_correcte": "20"
+    },
+    {
+      "id": 30,
+      "type": "texte",
+      "question": "Pablo a 32 billes. Nathan en a 27. Combien de billes ont-ils à eux deux ?",
+      "time_override": 120,
+      "additional_feedback": "32 + 27 = 59",
+      "reponse_correcte": "59"
+    },
+    {
+      "id": 31,
+      "type": "texte",
+      "question": "Combien font 100x53 ?",
+      "time_override": 15,
+      "reponse_correcte": "5300"
+    },
+    {
+      "id": 32,
+      "type": "qcm",
+      "question": "Complète avec la bonne valeur :\n7895 > _____ > 7658",
+      "time_override": 15,
+      "reponses": [
+        "7560",
+        "7980",
+        "7675",
+        "7655"
+      ],
+      "reponse_correcte": 2
+    },
+    {
+      "id": 33,
+      "type": "qcm",
+      "question": "Complète avec la bonne valeur :\n5500 < _____ < 5590",
+      "time_override": 15,
+      "reponses": [
+        "5460",
+        "5595",
+        "5650",
+        "5520"
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 34,
+      "type": "texte",
+      "question": "Combien font 20x12x5 ?",
+      "time_override": 30,
+      "additional_feedback": "20x12x5 = 5x20x12 = (5x20)x12 = 100x12 = 1200",
+      "reponse_correcte": "1200"
+    },
+    {
+      "id": 35,
+      "type": "texte",
+      "question": "Combien font 2x9x50 ?",
+      "time_override": 30,
+      "additional_feedback": "2x9x50 = 2x50x9 = (2x50)x9 = 100x9 = 900",
+      "reponse_correcte": "900"
+    },
+    {
+      "id": 36,
+      "type": "texte",
+      "question": "Combien font 8x8 ?",
+      "time_override": 15,
+      "reponse_correcte": "64"
+    },
+    {
+      "id": 37,
+      "type": "texte",
+      "question": "Combien font 8x9 ?",
+      "time_override": 15,
+      "reponse_correcte": "72"
+    },
+    {
+      "id": 38,
+      "type": "texte",
+      "question": "Combien font 9x9 ?",
+      "time_override": 15,
+      "reponse_correcte": "81"
+    },
+    {
+      "id": 39,
+      "type": "texte",
+      "question": "J'ai 12 cubes. Je veux les répartir équitablement dans 3 bols. Combien y aura-t-il de cubes dans chaque bol ?",
+      "time_override": 120,
+      "additional_feedback": "12 = 3x... (4)",
+      "reponse_correcte": "4"
+    },
+    {
+      "id": 40,
+      "type": "texte",
+      "question": "J'ai 18 cubes. Je les répartis dans des bols en mettant 6 cubes dans chaque bol. Combien de bols puis-je remplir ?",
+      "time_override": 130,
+      "additional_feedback": "18 = 6x... (3)",
+      "reponse_correcte": "3"
+    },
+    {
+      "id": 41,
+      "type": "qcm",
+      "question": "1000g (grammes) =",
+      "time_override": 30,
+      "additional_feedback": "1kg = 1000g",
+      "reponses": [
+        "1kg (kilogramme)",
+        "1dg (decigramme)",
+        "1cg (centigramme)",
+        "10kg (kilogrammes)"
+      ],
+      "reponse_correcte": 0
+    },
+    {
+      "id": 42,
+      "type": "qcm",
+      "question": "10dg (decigrammes) =",
+      "time_override": 30,
+      "additional_feedback": "1g = 10dg",
+      "reponses": [
+        "1kg (kilogramme)",
+        "1g (gramme)",
+        "1cg (centigramme)",
+        "100g (grammes)"
+      ],
+      "reponse_correcte": 1
+    },
+    {
+      "id": 43,
+      "type": "qcm",
+      "question": "10cm =",
+      "time_override": 45,
+      "additional_feedback": "1cm =10mm",
+      "reponses": [
+        "1km",
+        "1m",
+        "100dm",
+        "100mm"
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 44,
+      "type": "qcm",
+      "question": "1cm = ",
+      "time_override": 45,
+      "additional_feedback": "1cm =10mm",
+      "reponses": [
+        "1km",
+        "1m",
+        "10mm",
+        "10dm"
+      ],
+      "reponse_correcte": 2
+    },
+    {
+      "id": 45,
+      "type": "qcm",
+      "question": "1dm =  ",
+      "time_override": 45,
+      "additional_feedback": "1dm =10cm=100mm",
+      "reponses": [
+        "1m",
+        "100mm",
+        "100cm",
+        "10mm"
+      ],
+      "reponse_correcte": 1
+    },
+    {
+      "id": 46,
+      "type": "texte",
+      "question": "Complète \n7 + ... = 15",
+      "time_override": 30,
+      "additional_feedback": "15 - 7 = 8",
+      "reponse_correcte": "8"
+    },
+    {
+      "id": 47,
+      "type": "texte",
+      "question": "Complète \n... + 4 = 7",
+      "time_override": 30,
+      "additional_feedback": "7 - 4 = 3",
+      "reponse_correcte": "3"
+    },
+    {
+      "id": 48,
+      "type": "texte",
+      "question": "Complète \n6 + ... = 11",
+      "time_override": 30,
+      "additional_feedback": "11 - 6 = 5",
+      "reponse_correcte": "5"
+    },
+    {
+      "id": 49,
+      "type": "texte",
+      "question": "Complète \n12 = 3 + ....",
+      "time_override": 30,
+      "additional_feedback": "12 - 3 = 9",
+      "reponse_correcte": "9"
+    },
+    {
+      "id": 50,
+      "type": "texte",
+      "question": "Complète \n5 + ... = 13",
+      "time_override": 30,
+      "additional_feedback": "13 - 5 = 8",
+      "reponse_correcte": "8"
+    },
+    {
+      "id": 51,
+      "type": "texte",
+      "question": "Complète \n... + 8 = 12",
+      "time_override": 30,
+      "additional_feedback": "12 - 8 = 4",
+      "reponse_correcte": "4"
+    },
+    {
+      "id": 52,
+      "type": "texte",
+      "question": "Complète \n14 = 4 + ...",
+      "time_override": 30,
+      "additional_feedback": "14 - 4 = 10",
+      "reponse_correcte": "10"
+    },
+    {
+      "id": 53,
+      "type": "texte",
+      "question": "Complète \n... + 9 = 18",
+      "time_override": 30,
+      "additional_feedback": "18 - 9 = 9",
+      "reponse_correcte": "9"
+    },
+    {
+      "id": 54,
+      "type": "texte",
+      "question": "Complète \n10 = ... + 2",
+      "time_override": 30,
+      "additional_feedback": "10 - 2 = 8",
+      "reponse_correcte": "8"
+    },
+    {
+      "id": 55,
+      "type": "texte",
+      "question": "Complète \n... + 8 = 11",
+      "time_override": 30,
+      "additional_feedback": "11 - 8 = 3",
+      "reponse_correcte": "3"
+    },
+    {
+      "id": 56,
+      "type": "texte",
+      "question": "Complète \n8 = ... + 3",
+      "time_override": 30,
+      "additional_feedback": "8 - 3 = 5",
+      "reponse_correcte": "5"
+    }
+  ],
+  "updated_at": "2026-02-09T19:59:58.272Z"
+}

@@ -1,0 +1,323 @@
+{
+  "matiere": "anglais",
+  "niveau": "CE2",
+  "version": "2026.02.01.1845",
+  "questions": [
+    {
+      "id": 1,
+      "type": "texte",
+      "question": "Comment écrit-on \"1\" en anglais ?",
+      "time_override": 60,
+      "reponse_correcte": "one"
+    },
+    {
+      "id": 2,
+      "type": "texte",
+      "question": "Comment écrit-on \"2\" en anglais ?",
+      "time_override": 60,
+      "reponse_correcte": "two"
+    },
+    {
+      "id": 3,
+      "type": "texte",
+      "question": "Comment écrit-on \"3\" en anglais ?",
+      "time_override": 60,
+      "reponse_correcte": "three"
+    },
+    {
+      "id": 4,
+      "type": "texte",
+      "question": "Comment écrit-on \"4\" en anglais ?",
+      "time_override": 60,
+      "reponse_correcte": "four"
+    },
+    {
+      "id": 5,
+      "type": "texte",
+      "question": "Comment écrit-on \"5\" en anglais ?",
+      "time_override": 60,
+      "reponse_correcte": "five"
+    },
+    {
+      "id": 6,
+      "type": "texte",
+      "question": "Comment écrit-on \"6\" en anglais ?",
+      "time_override": 60,
+      "reponse_correcte": "six"
+    },
+    {
+      "id": 7,
+      "type": "texte",
+      "question": "Comment écrit-on \"7\" en anglais ?",
+      "time_override": 60,
+      "reponse_correcte": "seven"
+    },
+    {
+      "id": 8,
+      "type": "texte",
+      "question": "Comment écrit-on \"8\" en anglais ?",
+      "time_override": 60,
+      "reponse_correcte": "eight"
+    },
+    {
+      "id": 9,
+      "type": "texte",
+      "question": "Comment écrit-on \"9\" en anglais ?",
+      "time_override": 60,
+      "reponse_correcte": "nine"
+    },
+    {
+      "id": 10,
+      "type": "texte",
+      "question": "Comment écrit-on \"10\" en anglais ?",
+      "time_override": 60,
+      "reponse_correcte": "ten"
+    },
+    {
+      "id": 11,
+      "type": "qcm",
+      "question": "Comment dit-on \"Il pleut\" en anglais ?",
+      "time_override": 45,
+      "reponses": [
+        "It's cloudy",
+        "It's rainy",
+        "It's stormy",
+        "It's sunny"
+      ],
+      "reponse_correcte": 1
+    },
+    {
+      "id": 12,
+      "type": "qcm",
+      "question": "Comment dit-on \"Il neige\" en anglais ?",
+      "time_override": 45,
+      "reponses": [
+        "It's cloudy",
+        "It's rainy",
+        "It's stormy",
+        "It's snowy"
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 13,
+      "type": "qcm",
+      "question": "Comment dit-on \"Il y a du vent\" en anglais ?",
+      "time_override": 45,
+      "reponses": [
+        "It's cloudy",
+        "It's windy",
+        "It's stormy",
+        "It's snowy"
+      ],
+      "reponse_correcte": 1
+    },
+    {
+      "id": 14,
+      "type": "qcm",
+      "question": "Comment dit-on \"C'est nuageux\" en anglais ?",
+      "time_override": 45,
+      "reponses": [
+        "It's cloudy",
+        "It's windy",
+        "It's stormy",
+        "It's snowy"
+      ],
+      "reponse_correcte": 0
+    },
+    {
+      "id": 15,
+      "type": "qcm",
+      "question": "Comment dit-on \"C'est orageux\" en anglais ?",
+      "time_override": 45,
+      "reponses": [
+        "It's cloudy",
+        "It's windy",
+        "It's stormy",
+        "It's snowy"
+      ],
+      "reponse_correcte": 2
+    },
+    {
+      "id": 16,
+      "type": "qcm",
+      "question": "Comment dit-on \"Bonjour\" en anglais ?",
+      "time_override": 45,
+      "reponses": [
+        "Good morning",
+        "Good evening",
+        "Good afternoon",
+        "Hello"
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 17,
+      "type": "qcm",
+      "question": "Comment dit-on \"Bonjour\" le matin en anglais ?",
+      "time_override": 45,
+      "reponses": [
+        "Good morning",
+        "Good night",
+        "Good afternoon",
+        "Hello"
+      ],
+      "reponse_correcte": 0
+    },
+    {
+      "id": 18,
+      "type": "qcm",
+      "question": "Comment dit-on \"Bon après-midi\" en anglais ?",
+      "time_override": 45,
+      "reponses": [
+        "Good morning",
+        "Good night",
+        "Good afternoon",
+        "Hello"
+      ],
+      "reponse_correcte": 2
+    },
+    {
+      "id": 19,
+      "type": "qcm",
+      "question": "Comment dit-on \"Bonne soirée\" en anglais ?",
+      "time_override": 45,
+      "reponses": [
+        "Good morning",
+        "Good night",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 20,
+      "type": "qcm",
+      "question": "Comment dit-on \"Bonne nuit\" en anglais ?",
+      "time_override": 45,
+      "reponses": [
+        "Good morning",
+        "Good night",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "reponse_correcte": 1
+    },
+    {
+      "id": 21,
+      "type": "vrai_faux",
+      "question": "En Australie on parle anglais.",
+      "time_override": 30,
+      "reponse_correcte": true
+    },
+    {
+      "id": 22,
+      "type": "vrai_faux",
+      "question": "\"Draw\" signifie \"écoute\"",
+      "time_override": 30,
+      "additional_feedback": "\"Draw\" signifie dessine",
+      "reponse_correcte": false
+    },
+    {
+      "id": 23,
+      "type": "vrai_faux",
+      "question": "\"Thursday\" signifie \"Mardi\"",
+      "time_override": 45,
+      "additional_feedback": "\"Thursday\" signifie \"Jeudi\". Tu as confondu avec \"Tuesday\"",
+      "reponse_correcte": false
+    },
+    {
+      "id": 24,
+      "type": "vrai_faux",
+      "question": "Le jour \"Wednesday\" est juste avant le jour \"Thursday\"",
+      "time_override": 45,
+      "reponse_correcte": true
+    },
+    {
+      "id": 25,
+      "type": "qcm",
+      "question": "Que signifie la question \"How old are you?\"",
+      "time_override": 45,
+      "reponses": [
+        "Quel jour est-il ?",
+        "Quelle heure est-il ?",
+        "Quel âge as-tu?",
+        "Quel temps fait-il ?"
+      ],
+      "reponse_correcte": 2
+    },
+    {
+      "id": 26,
+      "type": "qcm",
+      "question": "\"Guinea pig\" est",
+      "time_override": 30,
+      "reponses": [
+        "Un gros cochon",
+        "Une limace",
+        "Un cochon d'Inde",
+        "Un hamster"
+      ],
+      "reponse_correcte": 2
+    },
+    {
+      "id": 27,
+      "type": "qcm",
+      "question": "\"Mouse\" est",
+      "time_override": 30,
+      "reponses": [
+        "Une souris",
+        "Un rat",
+        "Un hamster",
+        "Une tortue"
+      ],
+      "reponse_correcte": 0
+    },
+    {
+      "id": 28,
+      "type": "qcm",
+      "question": "\"Tortoise\" est",
+      "time_override": 30,
+      "reponses": [
+        "Un hamster",
+        "Une limace",
+        "Une truite",
+        "Une tortue"
+      ],
+      "reponse_correcte": 3
+    },
+    {
+      "id": 29,
+      "type": "qcm",
+      "question": "\"Rabbit\" est ",
+      "time_override": 30,
+      "reponses": [
+        "Un rat",
+        "Une chenille",
+        "Un lapin",
+        "Une limace"
+      ],
+      "reponse_correcte": 2
+    },
+    {
+      "id": 30,
+      "type": "vrai_faux",
+      "question": "Un hamster en anglais est aussi un hamster",
+      "time_override": 30,
+      "reponse_correcte": true
+    },
+    {
+      "id": 31,
+      "type": "qcm",
+      "question": "\"Goldfish\" est",
+      "time_override": 30,
+      "reponses": [
+        "Un poisson chat",
+        "Un poisson doré",
+        "Un poisson rouge",
+        "Un poisson d'argent"
+      ],
+      "reponse_correcte": 2
+    }
+  ],
+  "updated_at": "2026-02-01T17:45:33.815Z"
+}
