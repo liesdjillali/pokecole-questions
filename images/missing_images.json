@@ -1,20 +1,10 @@
 {
   "images": {
-    "tk-xy-n-29": {
-      "name": "Échange",
-      "reported_at": "2026-02-02T21:17:15",
-      "set": "XY Kit du dresseur (Bruyverne)"
-    },
-    "tk-xy-su-19": {
-      "name": "Énergie Eau",
-      "reported_at": "2026-02-14T14:46:40",
-      "set": "XY Kit du dresseur (Suicune)"
-    },
     "tk-xy-su-28": {
       "name": "Énergie Eau",
       "reported_at": "2026-02-04T21:41:13",
       "set": "XY Kit du dresseur (Suicune)"
     }
   },
-  "updated_at": "2026-02-20T10:53:02.436Z"
+  "updated_at": "2026-02-20T10:56:06.310Z"
 }
