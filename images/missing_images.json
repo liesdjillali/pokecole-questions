@@ -1,10 +1,5 @@
 {
   "images": {
-    "dp7-58": {
-      "name": "Baudrive",
-      "reported_at": "2026-02-20T20:06:44",
-      "set": "Tempête"
-    },
     "dp7-80": {
       "name": "Voltorbe",
       "reported_at": "2026-02-20T19:34:05",
@@ -36,5 +31,5 @@
       "set": "XY Kit du dresseur (Pikachu Libre)"
     }
   },
-  "updated_at": "2026-02-20T23:15:35.384Z"
+  "updated_at": "2026-02-20T23:16:22.812Z"
 }
