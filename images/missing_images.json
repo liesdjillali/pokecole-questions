@@ -25,6 +25,11 @@
 			"reported_at": "2026-02-20T19:42:48",
 			"set": "Éveil des Légendes"
 		},
+		"dp7-58": {
+			"name": "Baudrive",
+			"reported_at": "2026-02-20T20:06:44",
+			"set": "Tempête"
+		},
 		"dp7-80": {
 			"name": "Voltorbe",
 			"reported_at": "2026-02-20T19:34:05",
@@ -56,5 +61,5 @@
 			"set": "XY Kit du dresseur (Pikachu Libre)"
 		}
 	},
-	"updated_at": "2026-02-20T19:46:07"
+	"updated_at": "2026-02-20T20:06:45"
 }
