@@ -1,10 +1,5 @@
 {
   "images": {
-    "sm11-69": {
-      "name": "Tokorico",
-      "reported_at": "2026-02-14T14:46:58",
-      "set": "Harmonie des Esprits"
-    },
     "sm115-40": {
       "name": "Mélodelfe",
       "reported_at": "2026-02-19T15:35:12",
@@ -36,5 +31,5 @@
       "set": "XY Kit du dresseur (Suicune)"
     }
   },
-  "updated_at": "2026-02-20T10:43:02.071Z"
+  "updated_at": "2026-02-20T10:51:45.264Z"
 }
