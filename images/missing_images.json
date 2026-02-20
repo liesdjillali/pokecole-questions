@@ -1,10 +1,5 @@
 {
   "images": {
-    "col1-19": {
-      "name": "Palkia",
-      "reported_at": "2026-02-20T19:43:40",
-      "set": "L'appel des Légendes"
-    },
     "dp1-30": {
       "name": "Lockpin",
       "reported_at": "2026-02-20T19:37:23",
@@ -51,5 +46,5 @@
       "set": "XY Kit du dresseur (Pikachu Libre)"
     }
   },
-  "updated_at": "2026-02-20T23:13:25.367Z"
+  "updated_at": "2026-02-20T23:14:17.468Z"
 }
