@@ -350,6 +350,12 @@ async function uploadImage(cardId, input) {
         manualImages[cardId] = imageUrl;
         await saveManualImagesJson();
 
+        // Remove from missing_images.json since the image is now uploaded
+        if (missingImages[cardId]) {
+            delete missingImages[cardId];
+            await saveMissingImagesJson();
+        }
+
         updateStats();
         renderCards();
         showStatus(`✅ Image uploadée pour ${cardId}`, 'success');
@@ -456,6 +462,70 @@ async function saveManualImagesJson() {
     });
 }
 
+async function saveMissingImagesJson() {
+    const content = JSON.stringify({images: missingImages, updated_at: new Date().toISOString()}, null, 2);
+    const base64 = btoa(unescape(encodeURIComponent(content)));
+
+    let sha = null;
+    try {
+        const checkRes = await fetch(`https://api.github.com/repos/${githubConfig.repo}/contents/images/missing_images.json`, {
+            headers: {'Authorization': `token ${githubConfig.token}`}
+        });
+        if (checkRes.ok) {
+            const existing = await checkRes.json();
+            sha = existing.sha;
+        }
+    } catch(e) {}
+
+    const body = {
+        message: 'Update missing_images.json (removed uploaded)',
+        content: base64,
+        branch: 'main'
+    };
+    if (sha) body.sha = sha;
+
+    await fetch(`https://api.github.com/repos/${githubConfig.repo}/contents/images/missing_images.json`, {
+        method: 'PUT',
+        headers: {
+            'Authorization': `token ${githubConfig.token}`,
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(body)
+    });
+}
+
+async function saveMissingSetLogosJson() {
+    const content = JSON.stringify({logos: missingSetLogos, updated_at: new Date().toISOString()}, null, 2);
+    const base64 = btoa(unescape(encodeURIComponent(content)));
+
+    let sha = null;
+    try {
+        const checkRes = await fetch(`https://api.github.com/repos/${githubConfig.repo}/contents/images/missing_set_logos.json`, {
+            headers: {'Authorization': `token ${githubConfig.token}`}
+        });
+        if (checkRes.ok) {
+            const existing = await checkRes.json();
+            sha = existing.sha;
+        }
+    } catch(e) {}
+
+    const body = {
+        message: 'Update missing_set_logos.json (removed uploaded)',
+        content: base64,
+        branch: 'main'
+    };
+    if (sha) body.sha = sha;
+
+    await fetch(`https://api.github.com/repos/${githubConfig.repo}/contents/images/missing_set_logos.json`, {
+        method: 'PUT',
+        headers: {
+            'Authorization': `token ${githubConfig.token}`,
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(body)
+    });
+}
+
 async function removeImage(cardId) {
     if (!confirm(`Supprimer l'image pour ${cardId} ?`)) return;
 
@@ -487,6 +557,16 @@ async function removeImage(cardId) {
         // Mettre à jour manual_images.json
         delete manualImages[cardId];
         await saveManualImagesJson();
+
+        // Re-add to missing_images.json since the card no longer has a manual image
+        if (!missingImages[cardId]) {
+            missingImages[cardId] = {
+                name: cardId,
+                set: '',
+                reported_at: new Date().toISOString()
+            };
+            await saveMissingImagesJson();
+        }
 
         updateStats();
         renderCards();
@@ -577,6 +657,12 @@ async function uploadSetLogo(setId, input) {
         manualSetLogos[setId] = imageUrl;
         await saveManualSetLogosJson();
 
+        // Remove from missing_set_logos.json since the logo is now uploaded
+        if (missingSetLogos[setId]) {
+            delete missingSetLogos[setId];
+            await saveMissingSetLogosJson();
+        }
+
         updateSetStats();
         renderSetLogos();
         showStatus(`✅ Logo uploadé pour ${setId}`, 'success');
@@ -651,6 +737,15 @@ async function removeSetLogo(setId) {
         // Mettre à jour manual_set_logos.json
         delete manualSetLogos[setId];
         await saveManualSetLogosJson();
+
+        // Re-add to missing_set_logos.json since the set no longer has a manual logo
+        if (!missingSetLogos[setId]) {
+            missingSetLogos[setId] = {
+                name: setId,
+                reported_at: new Date().toISOString()
+            };
+            await saveMissingSetLogosJson();
+        }
 
         updateSetStats();
         renderSetLogos();
