@@ -45,11 +45,16 @@
 			"reported_at": "2026-02-20T19:39:07",
 			"set": "Destinées Occultes"
 		},
+		"tk-xy-b-18": {
+			"name": "Énergie Métal",
+			"reported_at": "2026-02-20T19:44:48",
+			"set": "XY Kit du dresseur (Scalproie)"
+		},
 		"tk-xy-p-28": {
 			"name": "Dynavolt",
 			"reported_at": "2026-02-20T19:38:41",
 			"set": "XY Kit du dresseur (Pikachu Libre)"
 		}
 	},
-	"updated_at": "2026-02-20T19:44:41"
+	"updated_at": "2026-02-20T19:44:48"
 }
