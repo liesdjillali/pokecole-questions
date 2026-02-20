@@ -15,6 +15,11 @@
 			"reported_at": "2026-02-20T19:34:05",
 			"set": "Tempête"
 		},
+		"hgssp-HGSS19": {
+			"name": "Raikou",
+			"reported_at": "2026-02-20T19:40:42",
+			"set": "Promo HGSS"
+		},
 		"sm11-38": {
 			"name": "Momartik",
 			"reported_at": "2026-02-20T19:35:19",
@@ -31,5 +36,5 @@
 			"set": "XY Kit du dresseur (Pikachu Libre)"
 		}
 	},
-	"updated_at": "2026-02-20T19:39:08"
+	"updated_at": "2026-02-20T19:40:43"
 }
