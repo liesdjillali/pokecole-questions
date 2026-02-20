@@ -5,6 +5,11 @@
 			"reported_at": "2026-02-20T19:37:54",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"A4a-016": {
+			"name": "Tentacruel",
+			"reported_at": "2026-02-20T19:44:40",
+			"set": "Source Secrète"
+		},
 		"col1-19": {
 			"name": "Palkia",
 			"reported_at": "2026-02-20T19:43:40",
@@ -46,5 +51,5 @@
 			"set": "XY Kit du dresseur (Pikachu Libre)"
 		}
 	},
-	"updated_at": "2026-02-20T19:43:40"
+	"updated_at": "2026-02-20T19:44:41"
 }
