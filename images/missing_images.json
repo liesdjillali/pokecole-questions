@@ -1,10 +1,10 @@
 {
-  "images": {
-    "tk-xy-b-18": {
-      "name": "Énergie Métal",
-      "reported_at": "2026-02-20T19:44:48",
-      "set": "XY Kit du dresseur (Scalproie)"
-    }
-  },
-  "updated_at": "2026-02-20T23:21:41.318Z"
+	"images": {
+		"tk-xy-b-18": {
+			"name": "Énergie Métal",
+			"reported_at": "2026-02-20T19:44:48",
+			"set": "XY Kit du dresseur (Scalproie)"
+		}
+	},
+	"updated_at": "2026-02-21T16:04:11"
 }
