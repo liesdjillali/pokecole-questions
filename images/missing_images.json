@@ -9,7 +9,12 @@
 			"name": "Énergie Métal",
 			"reported_at": "2026-02-20T19:44:48",
 			"set": "XY Kit du dresseur (Scalproie)"
+		},
+		"tk-xy-latio-1": {
+			"name": "Skitty",
+			"reported_at": "2026-02-22T18:26:34",
+			"set": "XY Kit du dresseur (Latios)"
 		}
 	},
-	"updated_at": "2026-02-22T17:51:54"
+	"updated_at": "2026-02-22T18:26:34"
 }
