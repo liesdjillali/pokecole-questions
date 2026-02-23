@@ -10,6 +10,11 @@
 			"reported_at": "2026-02-22T21:20:15",
 			"set": "Aube Majestueuse"
 		},
+		"dp6-19": {
+			"name": "Créfadet",
+			"reported_at": "2026-02-23T19:50:53",
+			"set": "Éveil des Légendes"
+		},
 		"tk-xy-b-18": {
 			"name": "Énergie Métal",
 			"reported_at": "2026-02-20T19:44:48",
@@ -21,5 +26,5 @@
 			"set": "XY Kit du dresseur (Latios)"
 		}
 	},
-	"updated_at": "2026-02-23T19:49:28"
+	"updated_at": "2026-02-23T19:50:54"
 }
