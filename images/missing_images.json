@@ -5,6 +5,11 @@
 			"reported_at": "2026-02-21T16:07:31",
 			"set": "Promo McDonald's 2014"
 		},
+		"dp3-86": {
+			"name": "Skélénox",
+			"reported_at": "2026-02-24T20:08:45",
+			"set": "Merveilles Secrètes"
+		},
 		"dp4-4": {
 			"name": "Darkrai",
 			"reported_at": "2026-02-24T18:08:26",
@@ -46,5 +51,5 @@
 			"set": "XY Kit du dresseur (Latios)"
 		}
 	},
-	"updated_at": "2026-02-24T20:08:00"
+	"updated_at": "2026-02-24T20:08:45"
 }
