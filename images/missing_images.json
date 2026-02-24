@@ -35,6 +35,11 @@
 			"reported_at": "2026-02-24T19:27:08",
 			"set": "Carte Alternative A Jaune"
 		},
+		"smp-SM221": {
+			"name": "Pierroteknik",
+			"reported_at": "2026-02-24T20:59:24",
+			"set": "Promo SM"
+		},
 		"smp-SM239": {
 			"name": "Mégapagos GX",
 			"reported_at": "2026-02-24T18:09:31",
@@ -56,5 +61,5 @@
 			"set": "XY Kit du dresseur (Latios)"
 		}
 	},
-	"updated_at": "2026-02-24T20:53:58"
+	"updated_at": "2026-02-24T20:59:25"
 }
