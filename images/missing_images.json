@@ -20,6 +20,11 @@
 			"reported_at": "2026-02-23T19:50:53",
 			"set": "Éveil des Légendes"
 		},
+		"sm115-35": {
+			"name": "Grolem",
+			"reported_at": "2026-02-24T18:09:18",
+			"set": "Destinées Occultes"
+		},
 		"tk-xy-b-18": {
 			"name": "Énergie Métal",
 			"reported_at": "2026-02-20T19:44:48",
@@ -31,5 +36,5 @@
 			"set": "XY Kit du dresseur (Latios)"
 		}
 	},
-	"updated_at": "2026-02-24T18:08:26"
+	"updated_at": "2026-02-24T18:09:19"
 }
