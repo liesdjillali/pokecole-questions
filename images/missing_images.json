@@ -25,6 +25,11 @@
 			"reported_at": "2026-02-24T18:09:18",
 			"set": "Destinées Occultes"
 		},
+		"smp-SM239": {
+			"name": "Mégapagos GX",
+			"reported_at": "2026-02-24T18:09:31",
+			"set": "Promo SM"
+		},
 		"tk-xy-b-18": {
 			"name": "Énergie Métal",
 			"reported_at": "2026-02-20T19:44:48",
@@ -36,5 +41,5 @@
 			"set": "XY Kit du dresseur (Latios)"
 		}
 	},
-	"updated_at": "2026-02-24T18:09:19"
+	"updated_at": "2026-02-24T18:09:32"
 }
