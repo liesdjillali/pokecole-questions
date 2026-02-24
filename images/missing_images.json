@@ -5,6 +5,11 @@
 			"reported_at": "2026-02-21T16:07:31",
 			"set": "Promo McDonald's 2014"
 		},
+		"det1-8": {
+			"name": "Magicarpe",
+			"reported_at": "2026-02-24T22:38:47",
+			"set": "Détective Pikachu"
+		},
 		"dp3-86": {
 			"name": "Skélénox",
 			"reported_at": "2026-02-24T20:08:45",
@@ -61,5 +66,5 @@
 			"set": "XY Kit du dresseur (Latios)"
 		}
 	},
-	"updated_at": "2026-02-24T22:01:40"
+	"updated_at": "2026-02-24T22:38:47"
 }
