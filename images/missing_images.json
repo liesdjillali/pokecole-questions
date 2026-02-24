@@ -5,6 +5,11 @@
 			"reported_at": "2026-02-21T16:07:31",
 			"set": "Promo McDonald's 2014"
 		},
+		"dp4-4": {
+			"name": "Darkrai",
+			"reported_at": "2026-02-24T18:08:26",
+			"set": "Duels au Sommets"
+		},
 		"dp5-58": {
 			"name": "Korillon",
 			"reported_at": "2026-02-22T21:20:15",
@@ -26,5 +31,5 @@
 			"set": "XY Kit du dresseur (Latios)"
 		}
 	},
-	"updated_at": "2026-02-24T18:03:36"
+	"updated_at": "2026-02-24T18:08:26"
 }
