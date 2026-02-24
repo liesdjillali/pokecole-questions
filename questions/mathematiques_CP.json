@@ -1,7 +1,7 @@
 {
   "matiere": "mathematiques",
   "niveau": "CP",
-  "version": "2026.02.24.2215",
+  "version": "2026.02.24.2217",
   "questions": [
     {
       "id": 1,
@@ -85,7 +85,14 @@
       "question": "15 est plus petit que 16",
       "time_override": 15,
       "reponse_correcte": true
+    },
+    {
+      "id": 9,
+      "type": "texte",
+      "question": "3x2=",
+      "time_override": 30,
+      "reponse_correcte": "6"
     }
   ],
-  "updated_at": "2026-02-24T21:15:07.228Z"
+  "updated_at": "2026-02-24T21:17:09.302Z"
 }
