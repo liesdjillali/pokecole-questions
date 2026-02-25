@@ -50,6 +50,11 @@
 			"reported_at": "2026-02-24T18:09:18",
 			"set": "Destinées Occultes"
 		},
+		"sm7.5-28": {
+			"name": "Barpau",
+			"reported_at": "2026-02-25T19:00:15",
+			"set": "Majesté Des Dragons"
+		},
 		"sm7.5-71": {
 			"name": "Reshiram GX",
 			"reported_at": "2026-02-25T18:51:20",
@@ -86,5 +91,5 @@
 			"set": "XY Kit du dresseur (Latios)"
 		}
 	},
-	"updated_at": "2026-02-25T19:00:08"
+	"updated_at": "2026-02-25T19:00:16"
 }
