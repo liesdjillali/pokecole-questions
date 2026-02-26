@@ -20,6 +20,11 @@
 			"reported_at": "2026-02-25T18:52:03",
 			"set": "Diamant & Perle"
 		},
+		"dp3-35": {
+			"name": "Roucarnage",
+			"reported_at": "2026-02-26T20:01:11",
+			"set": "Merveilles Secrètes"
+		},
 		"dp3-86": {
 			"name": "Skélénox",
 			"reported_at": "2026-02-24T20:08:45",
@@ -101,5 +106,5 @@
 			"set": "XY Kit du dresseur (Latios)"
 		}
 	},
-	"updated_at": "2026-02-26T20:00:24"
+	"updated_at": "2026-02-26T20:01:12"
 }
