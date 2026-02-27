@@ -1,9 +1,9 @@
 {
   "files": {
     "mathematiques_CP": {
-      "version": "2026.02.24.2217",
-      "count": 9,
-      "updated_at": "2026-02-24T21:17:09.302Z"
+      "version": "2026.02.27.2112",
+      "count": 21,
+      "updated_at": "2026-02-27T20:12:22.990Z"
     },
     "mathematiques_CE2": {
       "version": "2026.02.09.2059",
@@ -26,5 +26,5 @@
       "updated_at": "2026-01-22T12:46:16.474Z"
     }
   },
-  "updated_at": "2026-02-24T21:17:10.845Z"
+  "updated_at": "2026-02-27T20:12:24.689Z"
 }
