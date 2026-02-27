@@ -5,6 +5,16 @@
 			"reported_at": "2026-02-21T16:07:31",
 			"set": "Promo McDonald's 2014"
 		},
+		"A4a-009": {
+			"name": "Volcaropod",
+			"reported_at": "2026-02-27T21:01:36",
+			"set": ""
+		},
+		"basep-39": {
+			"name": "Feuforêve",
+			"reported_at": "2026-02-27T21:06:04",
+			"set": "Wizards Black Star Promos"
+		},
 		"det1-8": {
 			"name": "Magicarpe",
 			"reported_at": "2026-02-24T22:38:47",
@@ -106,5 +116,5 @@
 			"set": "XY Kit du dresseur (Latios)"
 		}
 	},
-	"updated_at": "2026-02-26T20:09:08"
+	"updated_at": "2026-02-27T21:06:04"
 }
