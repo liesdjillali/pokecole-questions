@@ -1,7 +1,7 @@
 {
   "matiere": "mathematiques",
   "niveau": "CP",
-  "version": "2026.02.24.2217",
+  "version": "2026.02.27.2112",
   "questions": [
     {
       "id": 1,
@@ -92,7 +92,91 @@
       "question": "3x2=",
       "time_override": 30,
       "reponse_correcte": "6"
+    },
+    {
+      "id": 10,
+      "type": "texte",
+      "question": "Complète 5+__=10",
+      "time_override": 30,
+      "reponse_correcte": "5"
+    },
+    {
+      "id": 11,
+      "type": "texte",
+      "question": "Complète 6+__=10",
+      "time_override": 30,
+      "reponse_correcte": "4"
+    },
+    {
+      "id": 12,
+      "type": "texte",
+      "question": "Complète 7+__=10",
+      "time_override": 30,
+      "reponse_correcte": "3"
+    },
+    {
+      "id": 13,
+      "type": "texte",
+      "question": "Complète 8+__=10",
+      "time_override": 30,
+      "reponse_correcte": "2"
+    },
+    {
+      "id": 14,
+      "type": "texte",
+      "question": "Complète 9+__=10",
+      "time_override": 30,
+      "reponse_correcte": "1"
+    },
+    {
+      "id": 15,
+      "type": "texte",
+      "question": "4+4=",
+      "time_override": 25,
+      "reponse_correcte": "8"
+    },
+    {
+      "id": 16,
+      "type": "texte",
+      "question": "5+5=",
+      "time_override": 25,
+      "reponse_correcte": "10"
+    },
+    {
+      "id": 17,
+      "type": "texte",
+      "question": "6+6=",
+      "time_override": 25,
+      "reponse_correcte": "12"
+    },
+    {
+      "id": 18,
+      "type": "texte",
+      "question": "7+7=",
+      "time_override": 25,
+      "reponse_correcte": "14"
+    },
+    {
+      "id": 19,
+      "type": "texte",
+      "question": "8+8=",
+      "time_override": 25,
+      "reponse_correcte": "16"
+    },
+    {
+      "id": 20,
+      "type": "texte",
+      "question": "9+9=",
+      "time_override": 25,
+      "reponse_correcte": "18"
+    },
+    {
+      "id": 21,
+      "type": "texte",
+      "question": "10+10=",
+      "time_override": 25,
+      "reponse_correcte": "20"
     }
   ],
-  "updated_at": "2026-02-24T21:17:09.302Z"
+  "updated_at": "2026-02-27T20:12:22.990Z"
 }
