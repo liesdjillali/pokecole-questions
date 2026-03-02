@@ -1,24 +1,9 @@
 {
   "images": {
-    "smp-SM221": {
-      "name": "Pierroteknik",
-      "reported_at": "2026-02-24T20:59:24",
-      "set": "Promo SM"
-    },
-    "smp-SM239": {
-      "name": "Mégapagos GX",
-      "reported_at": "2026-02-24T18:09:31",
-      "set": "Promo SM"
-    },
     "tk-xy-b-18": {
       "name": "Énergie Métal",
       "reported_at": "2026-02-20T19:44:48",
       "set": "XY Kit du dresseur (Scalproie)"
-    },
-    "tk-xy-latio-1": {
-      "name": "Skitty",
-      "reported_at": "2026-02-22T18:26:34",
-      "set": "XY Kit du dresseur (Latios)"
     },
     "tk-xy-latio-26": {
       "name": "Solaroc",
@@ -26,5 +11,5 @@
       "set": "XY Kit du dresseur (Latios)"
     }
   },
-  "updated_at": "2026-03-02T10:17:12.485Z"
+  "updated_at": "2026-03-02T10:18:53.212Z"
 }
