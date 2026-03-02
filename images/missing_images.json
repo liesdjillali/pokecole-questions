@@ -1,10 +1,5 @@
 {
   "images": {
-    "exu-P": {
-      "name": "Zarbi",
-      "reported_at": "2026-02-25T19:00:08",
-      "set": "EX Forces Cachées Collection Zarbi"
-    },
     "sm115-35": {
       "name": "Grolem",
       "reported_at": "2026-02-24T18:09:18",
@@ -51,5 +46,5 @@
       "set": "XY Kit du dresseur (Latios)"
     }
   },
-  "updated_at": "2026-03-02T10:12:11.477Z"
+  "updated_at": "2026-03-02T10:14:13.321Z"
 }
