@@ -1,15 +1,5 @@
 {
   "images": {
-    "basep-39": {
-      "name": "Feuforêve",
-      "reported_at": "2026-02-27T21:06:04",
-      "set": "Wizards Black Star Promos"
-    },
-    "det1-8": {
-      "name": "Magicarpe",
-      "reported_at": "2026-02-24T22:38:47",
-      "set": "Détective Pikachu"
-    },
     "dp1-120": {
       "name": "Pingoléon",
       "reported_at": "2026-02-25T19:01:15",
@@ -106,5 +96,5 @@
       "set": "XY Kit du dresseur (Latios)"
     }
   },
-  "updated_at": "2026-03-02T10:06:10.210Z"
+  "updated_at": "2026-03-02T10:07:10.716Z"
 }
