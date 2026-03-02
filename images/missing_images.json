@@ -1,20 +1,5 @@
 {
   "images": {
-    "sm115-35": {
-      "name": "Grolem",
-      "reported_at": "2026-02-24T18:09:18",
-      "set": "Destinées Occultes"
-    },
-    "sm7.5-28": {
-      "name": "Barpau",
-      "reported_at": "2026-02-25T19:00:15",
-      "set": "Majesté Des Dragons"
-    },
-    "sm7.5-71": {
-      "name": "Reshiram GX",
-      "reported_at": "2026-02-25T18:51:20",
-      "set": "Majesté Des Dragons"
-    },
     "sma-SV46": {
       "name": "Phyllali-GX",
       "reported_at": "2026-02-24T19:27:08",
@@ -46,5 +31,5 @@
       "set": "XY Kit du dresseur (Latios)"
     }
   },
-  "updated_at": "2026-03-02T10:14:13.321Z"
+  "updated_at": "2026-03-02T10:15:51.037Z"
 }
