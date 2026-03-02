@@ -1,15 +1,4 @@
 {
-  "images": {
-    "tk-xy-b-18": {
-      "name": "Énergie Métal",
-      "reported_at": "2026-02-20T19:44:48",
-      "set": "XY Kit du dresseur (Scalproie)"
-    },
-    "tk-xy-latio-26": {
-      "name": "Solaroc",
-      "reported_at": "2026-02-24T20:19:54",
-      "set": "XY Kit du dresseur (Latios)"
-    }
-  },
-  "updated_at": "2026-03-02T10:18:53.212Z"
+  "images": {},
+  "updated_at": "2026-03-02T10:21:16.093Z"
 }
