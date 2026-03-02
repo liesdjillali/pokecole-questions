@@ -1,10 +1,5 @@
 {
   "images": {
-    "sma-SV46": {
-      "name": "Phyllali-GX",
-      "reported_at": "2026-02-24T19:27:08",
-      "set": "Carte Alternative A Jaune"
-    },
     "smp-SM221": {
       "name": "Pierroteknik",
       "reported_at": "2026-02-24T20:59:24",
@@ -31,5 +26,5 @@
       "set": "XY Kit du dresseur (Latios)"
     }
   },
-  "updated_at": "2026-03-02T10:15:51.037Z"
+  "updated_at": "2026-03-02T10:17:12.485Z"
 }
