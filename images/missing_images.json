@@ -1,10 +1,5 @@
 {
   "images": {
-    "dp1-120": {
-      "name": "Pingoléon",
-      "reported_at": "2026-02-25T19:01:15",
-      "set": "Diamant & Perle"
-    },
     "dp1-70": {
       "name": "Keunotor",
       "reported_at": "2026-02-25T18:52:03",
@@ -96,5 +91,5 @@
       "set": "XY Kit du dresseur (Latios)"
     }
   },
-  "updated_at": "2026-03-02T10:07:10.716Z"
+  "updated_at": "2026-03-02T10:08:25.281Z"
 }
