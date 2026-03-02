@@ -1,20 +1,5 @@
 {
   "images": {
-    "dp4-4": {
-      "name": "Darkrai",
-      "reported_at": "2026-02-24T18:08:26",
-      "set": "Duels au Sommets"
-    },
-    "dp5-43": {
-      "name": "Pachirisu",
-      "reported_at": "2026-02-24T22:46:44",
-      "set": "Aube Majestueuse"
-    },
-    "dp5-58": {
-      "name": "Korillon",
-      "reported_at": "2026-02-22T21:20:15",
-      "set": "Aube Majestueuse"
-    },
     "dp6-19": {
       "name": "Créfadet",
       "reported_at": "2026-02-23T19:50:53",
@@ -76,5 +61,5 @@
       "set": "XY Kit du dresseur (Latios)"
     }
   },
-  "updated_at": "2026-03-02T10:09:46.537Z"
+  "updated_at": "2026-03-02T10:11:07.764Z"
 }
