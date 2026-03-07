@@ -34,7 +34,12 @@
 			"name": "Énergie Combat",
 			"reported_at": "2026-03-04T18:19:47",
 			"set": "BW Kit du dresseur (Minitaupe)"
+		},
+		"tk-sm-l-29": {
+			"name": "Rocabot",
+			"reported_at": "2026-03-07T11:34:37",
+			"set": "SM Kit du dresseur (Lougarox)"
 		}
 	},
-	"updated_at": "2026-03-07T11:34:30"
+	"updated_at": "2026-03-07T11:34:37"
 }
