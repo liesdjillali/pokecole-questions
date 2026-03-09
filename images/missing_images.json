@@ -35,6 +35,11 @@
 			"reported_at": "2026-03-04T18:22:07",
 			"set": "EX Forces Cachées Collection Zarbi"
 		},
+		"sm11-59": {
+			"name": "Magnéton",
+			"reported_at": "2026-03-09T18:08:43",
+			"set": "Harmonie des Esprits"
+		},
 		"sm7.5-39": {
 			"name": "Libégon",
 			"reported_at": "2026-03-07T11:34:30",
@@ -66,5 +71,5 @@
 			"set": "SM Kit du dresseur (Lougarox)"
 		}
 	},
-	"updated_at": "2026-03-09T18:08:27"
+	"updated_at": "2026-03-09T18:08:43"
 }
