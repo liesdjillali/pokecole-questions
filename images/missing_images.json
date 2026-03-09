@@ -15,6 +15,11 @@
 			"reported_at": "2026-03-07T11:35:22",
 			"set": "Trésors Mystérieux"
 		},
+		"dp4-86": {
+			"name": "Tylton",
+			"reported_at": "2026-03-09T18:08:27",
+			"set": "Duels au Sommets"
+		},
 		"dp5-14": {
 			"name": "Electhor",
 			"reported_at": "2026-03-07T11:18:39",
@@ -61,5 +66,5 @@
 			"set": "SM Kit du dresseur (Lougarox)"
 		}
 	},
-	"updated_at": "2026-03-09T18:03:28"
+	"updated_at": "2026-03-09T18:08:27"
 }
