@@ -85,6 +85,11 @@
 			"reported_at": "2026-03-08T19:21:55",
 			"set": "DP Kit dresseur (Manaphy)"
 		},
+		"tk-ex-m-2": {
+			"name": "Salamèche",
+			"reported_at": "2026-03-10T17:10:28",
+			"set": "EX Kit dresseur (Négapi)"
+		},
 		"tk-sm-l-29": {
 			"name": "Rocabot",
 			"reported_at": "2026-03-07T11:34:37",
@@ -101,5 +106,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-03-10T17:09:55"
+	"updated_at": "2026-03-10T17:10:29"
 }
