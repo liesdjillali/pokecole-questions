@@ -130,6 +130,11 @@
 			"reported_at": "2026-03-10T17:10:28",
 			"set": "EX Kit dresseur (Négapi)"
 		},
+		"tk-sm-l-11": {
+			"name": "Passerouge",
+			"reported_at": "2026-03-19T21:54:21",
+			"set": "SM Kit du dresseur (Lougarox)"
+		},
 		"tk-sm-l-29": {
 			"name": "Rocabot",
 			"reported_at": "2026-03-07T11:34:37",
@@ -146,5 +151,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-03-19T21:53:18"
+	"updated_at": "2026-03-19T21:54:21"
 }
