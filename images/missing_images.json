@@ -35,6 +35,11 @@
 			"reported_at": "2026-03-07T11:35:22",
 			"set": "Trésors Mystérieux"
 		},
+		"dp3-127": {
+			"name": "Potion",
+			"reported_at": "2026-03-19T21:53:18",
+			"set": "Merveilles Secrètes"
+		},
 		"dp4-22": {
 			"name": "Latias",
 			"reported_at": "2026-03-19T20:46:22",
@@ -141,5 +146,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-03-19T20:46:53"
+	"updated_at": "2026-03-19T21:53:18"
 }
