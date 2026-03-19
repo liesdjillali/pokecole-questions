@@ -15,6 +15,11 @@
 			"reported_at": "2026-03-07T11:20:31",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"A4a-081": {
+			"name": "Raikou-ex",
+			"reported_at": "2026-03-19T20:46:45",
+			"set": "Source Secrète"
+		},
 		"basep-8": {
 			"name": "Mew",
 			"reported_at": "2026-03-09T20:11:21",
@@ -131,5 +136,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-03-19T20:46:23"
+	"updated_at": "2026-03-19T20:46:46"
 }
