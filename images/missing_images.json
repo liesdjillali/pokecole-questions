@@ -45,6 +45,11 @@
 			"reported_at": "2026-03-09T18:09:37",
 			"set": "Éveil des Légendes"
 		},
+		"dp6-125": {
+			"name": "Tentacool",
+			"reported_at": "2026-03-19T20:30:11",
+			"set": "Éveil des Légendes"
+		},
 		"dp6-84": {
 			"name": "Terhal",
 			"reported_at": "2026-03-11T10:05:31",
@@ -121,5 +126,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-03-19T20:29:19"
+	"updated_at": "2026-03-19T20:30:12"
 }
