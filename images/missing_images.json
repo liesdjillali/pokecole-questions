@@ -25,6 +25,11 @@
 			"reported_at": "2026-03-09T20:11:21",
 			"set": "Wizards Black Star Promos"
 		},
+		"col1-63": {
+			"name": "Wattouat",
+			"reported_at": "2026-03-19T20:46:53",
+			"set": "L'appel des Légendes"
+		},
 		"dp2-33": {
 			"name": "Charkos",
 			"reported_at": "2026-03-07T11:35:22",
@@ -136,5 +141,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-03-19T20:46:46"
+	"updated_at": "2026-03-19T20:46:53"
 }
