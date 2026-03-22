@@ -100,6 +100,11 @@
 			"reported_at": "2026-03-09T18:09:45",
 			"set": "Promo HGSS"
 		},
+		"sm10-66": {
+			"name": "Nostenfer",
+			"reported_at": "2026-03-22T10:12:06",
+			"set": "Alliance Infaillible"
+		},
 		"sm11-59": {
 			"name": "Magnéton",
 			"reported_at": "2026-03-09T18:08:43",
@@ -171,5 +176,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-03-22T10:08:09"
+	"updated_at": "2026-03-22T10:12:07"
 }
