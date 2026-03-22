@@ -170,11 +170,16 @@
 			"reported_at": "2026-03-09T20:11:13",
 			"set": "XY Kit du dresseur (Scalproie)"
 		},
+		"tk-xy-p-4": {
+			"name": "Élekable",
+			"reported_at": "2026-03-22T10:12:27",
+			"set": "XY Kit du dresseur (Pikachu Libre)"
+		},
 		"tk-xy-su-7": {
 			"name": "Couaneton",
 			"reported_at": "2026-03-09T18:09:07",
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-03-22T10:12:07"
+	"updated_at": "2026-03-22T10:12:27"
 }
