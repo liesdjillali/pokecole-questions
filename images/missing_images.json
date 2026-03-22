@@ -125,6 +125,11 @@
 			"reported_at": "2026-03-21T18:18:23",
 			"set": "Destinées Occultes"
 		},
+		"sm7.5-2": {
+			"name": "Reptincel",
+			"reported_at": "2026-03-22T11:12:42",
+			"set": "Majesté Des Dragons"
+		},
 		"sm7.5-39": {
 			"name": "Libégon",
 			"reported_at": "2026-03-07T11:34:30",
@@ -186,5 +191,5 @@
 			"set": "XY Kit du dresseur (Suicune)"
 		}
 	},
-	"updated_at": "2026-03-22T11:07:24"
+	"updated_at": "2026-03-22T11:12:42"
 }
