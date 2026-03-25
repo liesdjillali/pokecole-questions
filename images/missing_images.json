@@ -1,15 +1,5 @@
 {
   "images": {
-    "dp3-127": {
-      "name": "Potion",
-      "reported_at": "2026-03-19T21:53:18",
-      "set": "Merveilles Secrètes"
-    },
-    "dp4-22": {
-      "name": "Latias",
-      "reported_at": "2026-03-19T20:46:22",
-      "set": "Duels au Sommets"
-    },
     "dp4-66": {
       "name": "Abo",
       "reported_at": "2026-03-22T11:07:24",
@@ -146,5 +136,5 @@
       "set": "XY Kit du dresseur (Suicune)"
     }
   },
-  "updated_at": "2026-03-25T16:08:23.140Z"
+  "updated_at": "2026-03-25T16:18:41.618Z"
 }
