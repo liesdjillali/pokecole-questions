@@ -1,15 +1,5 @@
 {
   "images": {
-    "col1-63": {
-      "name": "Wattouat",
-      "reported_at": "2026-03-19T20:46:53",
-      "set": "L'appel des Légendes"
-    },
-    "dp1-129": {
-      "name": "Énergie Obscurité",
-      "reported_at": "2026-03-21T18:18:56",
-      "set": "Diamant & Perle"
-    },
     "dp1-68": {
       "name": "Zarbi D",
       "reported_at": "2026-03-21T18:30:48",
@@ -166,5 +156,5 @@
       "set": "XY Kit du dresseur (Suicune)"
     }
   },
-  "updated_at": "2026-03-25T16:04:26.354Z"
+  "updated_at": "2026-03-25T16:06:18.311Z"
 }
