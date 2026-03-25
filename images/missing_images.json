@@ -1,10 +1,5 @@
 {
   "images": {
-    "basep-8": {
-      "name": "Mew",
-      "reported_at": "2026-03-09T20:11:21",
-      "set": "Wizards Black Star Promos"
-    },
     "col1-63": {
       "name": "Wattouat",
       "reported_at": "2026-03-19T20:46:53",
@@ -171,5 +166,5 @@
       "set": "XY Kit du dresseur (Suicune)"
     }
   },
-  "updated_at": "2026-03-25T16:00:57.091Z"
+  "updated_at": "2026-03-25T16:04:26.354Z"
 }
