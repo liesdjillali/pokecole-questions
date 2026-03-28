@@ -1,13 +1,13 @@
 {
 	"logos": {
-		"P-A": {
-			"name": "Promo-A",
-			"reported_at": "2026-01-22T20:48:08"
+		"sv01": {
+			"name": "Écarlate et Violet",
+			"reported_at": "2026-02-03T13:29:02"
 		},
-		"me02.5": {
-			"name": "Héros Transcendants",
-			"reported_at": "2026-02-09T21:28:44"
+		"xy4": {
+			"name": "Vigueur Spectrale",
+			"reported_at": "2026-02-03T12:29:58"
 		}
 	},
-	"updated_at": "2026-02-20T10:20:56"
+	"updated_at": "2026-03-28T19:28:50"
 }
