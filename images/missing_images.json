@@ -15,6 +15,11 @@
 			"reported_at": "2026-03-29T20:26:00",
 			"set": "Trésors Mystérieux"
 		},
+		"dp4-24": {
+			"name": "Mysdibule",
+			"reported_at": "2026-03-29T20:26:49",
+			"set": "Duels au Sommets"
+		},
 		"dp5-69": {
 			"name": "Amonita",
 			"reported_at": "2026-03-08T19:20:07",
@@ -141,5 +146,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-03-29T20:26:17"
+	"updated_at": "2026-03-29T20:26:49"
 }
