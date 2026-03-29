@@ -1,10 +1,5 @@
 {
   "images": {
-    "dp6-84": {
-      "name": "Terhal",
-      "reported_at": "2026-03-11T10:05:31",
-      "set": "Éveil des Légendes"
-    },
     "exu-X": {
       "name": "Zarbi",
       "reported_at": "2026-03-04T18:22:07",
@@ -71,5 +66,5 @@
       "set": "XY Kit du dresseur (Grodoudou)"
     }
   },
-  "updated_at": "2026-03-29T18:54:06.630Z"
+  "updated_at": "2026-03-29T18:54:48.290Z"
 }
