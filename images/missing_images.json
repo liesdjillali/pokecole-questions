@@ -95,6 +95,11 @@
 			"reported_at": "2026-03-09T20:12:26",
 			"set": "Promo SM"
 		},
+		"svp-191": {
+			"name": "Poussacha",
+			"reported_at": "2026-03-29T20:27:06",
+			"set": "SVP Black Star Promos"
+		},
 		"svp-204": {
 			"name": "Carchacrok-ex de Cynthia",
 			"reported_at": "2026-03-04T18:22:31",
@@ -146,5 +151,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-03-29T20:26:49"
+	"updated_at": "2026-03-29T20:27:07"
 }
