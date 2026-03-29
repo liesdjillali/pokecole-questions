@@ -90,11 +90,6 @@
       "reported_at": "2026-03-08T19:21:55",
       "set": "DP Kit dresseur (Manaphy)"
     },
-    "tk-sm-l-11": {
-      "name": "Passerouge",
-      "reported_at": "2026-03-19T21:54:21",
-      "set": "SM Kit du dresseur (Lougarox)"
-    },
     "tk-sm-l-29": {
       "name": "Rocabot",
       "reported_at": "2026-03-07T11:34:37",
@@ -116,5 +111,5 @@
       "set": "XY Kit du dresseur (Grodoudou)"
     }
   },
-  "updated_at": "2026-03-29T18:45:25.128Z"
+  "updated_at": "2026-03-29T18:46:36.885Z"
 }
