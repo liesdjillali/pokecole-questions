@@ -1,10 +1,5 @@
 {
   "images": {
-    "dp6-113": {
-      "name": "Pomdepik",
-      "reported_at": "2026-03-09T18:09:37",
-      "set": "Éveil des Légendes"
-    },
     "dp6-125": {
       "name": "Tentacool",
       "reported_at": "2026-03-19T20:30:11",
@@ -81,5 +76,5 @@
       "set": "XY Kit du dresseur (Grodoudou)"
     }
   },
-  "updated_at": "2026-03-29T18:52:24.516Z"
+  "updated_at": "2026-03-29T18:53:19.810Z"
 }
