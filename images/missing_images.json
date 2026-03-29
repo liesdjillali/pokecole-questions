@@ -1,10 +1,5 @@
 {
   "images": {
-    "dp6-125": {
-      "name": "Tentacool",
-      "reported_at": "2026-03-19T20:30:11",
-      "set": "Éveil des Légendes"
-    },
     "dp6-84": {
       "name": "Terhal",
       "reported_at": "2026-03-11T10:05:31",
@@ -76,5 +71,5 @@
       "set": "XY Kit du dresseur (Grodoudou)"
     }
   },
-  "updated_at": "2026-03-29T18:53:19.810Z"
+  "updated_at": "2026-03-29T18:54:06.630Z"
 }
