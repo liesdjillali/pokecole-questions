@@ -5,6 +5,11 @@
 			"reported_at": "2026-04-12T10:11:21",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"col1-SL7": {
+			"name": "Lugia",
+			"reported_at": "2026-04-12T10:11:32",
+			"set": "L'appel des Légendes"
+		},
 		"dp7-21": {
 			"name": "Mammochon",
 			"reported_at": "2026-04-09T19:30:22",
@@ -46,5 +51,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-12T10:11:22"
+	"updated_at": "2026-04-12T10:11:33"
 }
