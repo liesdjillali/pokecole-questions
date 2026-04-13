@@ -10,6 +10,11 @@
 			"reported_at": "2026-04-12T10:11:32",
 			"set": "L'appel des Légendes"
 		},
+		"dp2-102": {
+			"name": "Obalie",
+			"reported_at": "2026-04-13T09:54:58",
+			"set": "Trésors Mystérieux"
+		},
 		"dp7-21": {
 			"name": "Mammochon",
 			"reported_at": "2026-04-09T19:30:22",
@@ -51,5 +56,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-13T09:49:26"
+	"updated_at": "2026-04-13T09:54:58"
 }
