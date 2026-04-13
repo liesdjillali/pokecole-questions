@@ -15,6 +15,11 @@
 			"reported_at": "2026-04-13T09:54:58",
 			"set": "Trésors Mystérieux"
 		},
+		"dp4-39": {
+			"name": "Granbull",
+			"reported_at": "2026-04-13T10:30:57",
+			"set": "Duels au Sommets"
+		},
 		"dp7-21": {
 			"name": "Mammochon",
 			"reported_at": "2026-04-09T19:30:22",
@@ -61,5 +66,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-13T10:11:51"
+	"updated_at": "2026-04-13T10:30:58"
 }
