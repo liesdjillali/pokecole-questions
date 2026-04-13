@@ -50,11 +50,16 @@
 			"reported_at": "2026-03-09T18:09:07",
 			"set": "XY Kit du dresseur (Suicune)"
 		},
+		"tk-xy-sy-4": {
+			"name": "Échange",
+			"reported_at": "2026-04-13T09:55:49",
+			"set": "XY Kit du dresseur (Nymphali)"
+		},
 		"tk-xy-w-15": {
 			"name": "Potion",
 			"reported_at": "2026-03-28T11:08:34",
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-13T09:54:58"
+	"updated_at": "2026-04-13T09:55:50"
 }
