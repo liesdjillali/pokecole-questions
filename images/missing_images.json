@@ -45,6 +45,11 @@
 			"reported_at": "2026-04-13T10:30:57",
 			"set": "Duels au Sommets"
 		},
+		"dp4-76": {
+			"name": "Seleroc",
+			"reported_at": "2026-04-18T18:55:13",
+			"set": "Duels au Sommets"
+		},
 		"dp7-21": {
 			"name": "Mammochon",
 			"reported_at": "2026-04-09T19:30:22",
@@ -96,5 +101,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-18T18:54:47"
+	"updated_at": "2026-04-18T18:55:13"
 }
