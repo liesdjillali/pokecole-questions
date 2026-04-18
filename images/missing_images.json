@@ -40,6 +40,11 @@
 			"reported_at": "2026-04-18T12:29:10",
 			"set": "Trésors Mystérieux"
 		},
+		"dp4-25": {
+			"name": "Milobellus",
+			"reported_at": "2026-04-18T18:56:05",
+			"set": "Duels au Sommets"
+		},
 		"dp4-39": {
 			"name": "Granbull",
 			"reported_at": "2026-04-13T10:30:57",
@@ -101,5 +106,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-18T18:55:13"
+	"updated_at": "2026-04-18T18:56:06"
 }
