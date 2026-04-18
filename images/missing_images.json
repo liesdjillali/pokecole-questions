@@ -15,6 +15,11 @@
 			"reported_at": "2026-04-18T10:58:00",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"col1-48": {
+			"name": "Roucoups",
+			"reported_at": "2026-04-18T18:56:13",
+			"set": "L'appel des Légendes"
+		},
 		"col1-SL7": {
 			"name": "Lugia",
 			"reported_at": "2026-04-12T10:11:32",
@@ -106,5 +111,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-18T18:56:06"
+	"updated_at": "2026-04-18T18:56:14"
 }
