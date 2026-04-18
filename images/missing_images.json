@@ -30,6 +30,11 @@
 			"reported_at": "2026-04-13T09:54:58",
 			"set": "Trésors Mystérieux"
 		},
+		"dp2-78": {
+			"name": "Cradopaud",
+			"reported_at": "2026-04-18T12:29:47",
+			"set": "Trésors Mystérieux"
+		},
 		"dp2-82": {
 			"name": "Noeunoeuf",
 			"reported_at": "2026-04-18T12:29:10",
@@ -91,5 +96,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-18T12:29:10"
+	"updated_at": "2026-04-18T12:29:48"
 }
