@@ -45,6 +45,11 @@
 			"reported_at": "2026-04-18T12:29:10",
 			"set": "Trésors Mystérieux"
 		},
+		"dp3-36": {
+			"name": "Posipi",
+			"reported_at": "2026-04-18T18:56:58",
+			"set": "Merveilles Secrètes"
+		},
 		"dp4-25": {
 			"name": "Milobellus",
 			"reported_at": "2026-04-18T18:56:05",
@@ -111,5 +116,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-18T18:56:14"
+	"updated_at": "2026-04-18T18:56:58"
 }
