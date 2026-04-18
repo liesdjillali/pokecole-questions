@@ -10,6 +10,11 @@
 			"reported_at": "2026-04-12T10:11:21",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"A4-226": {
+			"name": "Nidoran♂",
+			"reported_at": "2026-04-18T10:58:00",
+			"set": "Sagesse Entre Ciel et Mer"
+		},
 		"col1-SL7": {
 			"name": "Lugia",
 			"reported_at": "2026-04-12T10:11:32",
@@ -76,5 +81,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-18T10:57:40"
+	"updated_at": "2026-04-18T10:58:00"
 }
