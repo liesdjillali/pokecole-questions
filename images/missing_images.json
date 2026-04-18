@@ -15,6 +15,11 @@
 			"reported_at": "2026-04-12T10:11:32",
 			"set": "L'appel des Légendes"
 		},
+		"dp1-54": {
+			"name": "Magneton",
+			"reported_at": "2026-04-18T10:57:40",
+			"set": "Diamant & Perle"
+		},
 		"dp2-102": {
 			"name": "Obalie",
 			"reported_at": "2026-04-13T09:54:58",
@@ -71,5 +76,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-18T10:57:33"
+	"updated_at": "2026-04-18T10:57:40"
 }
