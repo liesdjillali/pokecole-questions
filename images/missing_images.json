@@ -1,10 +1,5 @@
 {
   "images": {
-    "col1-48": {
-      "name": "Roucoups",
-      "reported_at": "2026-04-18T18:56:13",
-      "set": "L'appel des Légendes"
-    },
     "col1-SL7": {
       "name": "Lugia",
       "reported_at": "2026-04-12T10:11:32",
@@ -106,5 +101,5 @@
       "set": "XY Kit du dresseur (Grodoudou)"
     }
   },
-  "updated_at": "2026-04-19T08:50:27.023Z"
+  "updated_at": "2026-04-19T08:51:23.299Z"
 }
