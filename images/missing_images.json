@@ -5,6 +5,11 @@
 			"reported_at": "2026-04-19T12:17:12",
 			"set": "Détective Pikachu"
 		},
+		"dp1-113": {
+			"name": "Rival",
+			"reported_at": "2026-04-19T12:22:03",
+			"set": "Diamant & Perle"
+		},
 		"dp2-78": {
 			"name": "Cradopaud",
 			"reported_at": "2026-04-18T12:29:47",
@@ -111,5 +116,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-19T12:20:51"
+	"updated_at": "2026-04-19T12:22:03"
 }
