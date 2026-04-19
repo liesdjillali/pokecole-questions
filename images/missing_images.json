@@ -90,11 +90,6 @@
       "reported_at": "2026-03-07T11:20:56",
       "set": "Carte Alternative A Jaune"
     },
-    "smp-SM171": {
-      "name": "Pyroli GX",
-      "reported_at": "2026-04-19T09:54:25",
-      "set": "Promo SM"
-    },
     "smp-SM177": {
       "name": "Meltan",
       "reported_at": "2026-04-18T18:57:42",
@@ -126,5 +121,5 @@
       "set": "XY Kit du dresseur (Grodoudou)"
     }
   },
-  "updated_at": "2026-04-19T08:44:49.467Z"
+  "updated_at": "2026-04-19T08:45:47.707Z"
 }
