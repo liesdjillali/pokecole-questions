@@ -30,6 +30,11 @@
 			"reported_at": "2026-04-18T18:56:58",
 			"set": "Merveilles Secrètes"
 		},
+		"dp4-104": {
+			"name": "Darkrai",
+			"reported_at": "2026-04-19T12:22:10",
+			"set": "Duels au Sommets"
+		},
 		"dp4-39": {
 			"name": "Granbull",
 			"reported_at": "2026-04-13T10:30:57",
@@ -116,5 +121,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-19T12:22:03"
+	"updated_at": "2026-04-19T12:22:11"
 }
