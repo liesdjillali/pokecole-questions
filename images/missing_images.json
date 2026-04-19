@@ -30,6 +30,11 @@
 			"reported_at": "2026-04-13T10:30:57",
 			"set": "Duels au Sommets"
 		},
+		"dp4-54": {
+			"name": "Flagadoss",
+			"reported_at": "2026-04-19T12:20:50",
+			"set": "Duels au Sommets"
+		},
 		"dp4-73": {
 			"name": "Coconfort",
 			"reported_at": "2026-04-19T12:20:28",
@@ -106,5 +111,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-19T12:20:29"
+	"updated_at": "2026-04-19T12:20:51"
 }
