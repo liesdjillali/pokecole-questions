@@ -1,5 +1,10 @@
 {
 	"images": {
+		"A4-015": {
+			"name": "Cotovol",
+			"reported_at": "2026-04-19T09:54:34",
+			"set": "Sagesse Entre Ciel et Mer"
+		},
 		"A4-094": {
 			"name": "Scorplane",
 			"reported_at": "2026-04-18T10:57:33",
@@ -126,5 +131,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-19T09:54:26"
+	"updated_at": "2026-04-19T09:54:35"
 }
