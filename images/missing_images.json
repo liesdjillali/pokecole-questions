@@ -1,5 +1,10 @@
 {
 	"images": {
+		"det1-17": {
+			"name": "Métamorph",
+			"reported_at": "2026-04-19T12:17:12",
+			"set": "Détective Pikachu"
+		},
 		"dp2-78": {
 			"name": "Cradopaud",
 			"reported_at": "2026-04-18T12:29:47",
@@ -81,5 +86,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-19T12:13:26"
+	"updated_at": "2026-04-19T12:17:12"
 }
