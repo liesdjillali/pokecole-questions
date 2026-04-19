@@ -30,6 +30,11 @@
 			"reported_at": "2026-04-13T10:30:57",
 			"set": "Duels au Sommets"
 		},
+		"dp4-73": {
+			"name": "Coconfort",
+			"reported_at": "2026-04-19T12:20:28",
+			"set": "Duels au Sommets"
+		},
 		"dp4-76": {
 			"name": "Seleroc",
 			"reported_at": "2026-04-18T18:55:13",
@@ -101,5 +106,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-19T12:20:15"
+	"updated_at": "2026-04-19T12:20:29"
 }
