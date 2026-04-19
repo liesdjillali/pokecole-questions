@@ -1,10 +1,5 @@
 {
   "images": {
-    "A4-226": {
-      "name": "Nidoran♂",
-      "reported_at": "2026-04-18T10:58:00",
-      "set": "Sagesse Entre Ciel et Mer"
-    },
     "col1-48": {
       "name": "Roucoups",
       "reported_at": "2026-04-18T18:56:13",
@@ -111,5 +106,5 @@
       "set": "XY Kit du dresseur (Grodoudou)"
     }
   },
-  "updated_at": "2026-04-19T08:48:54.630Z"
+  "updated_at": "2026-04-19T08:50:27.023Z"
 }
