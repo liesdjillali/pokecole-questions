@@ -1,10 +1,5 @@
 {
   "images": {
-    "col1-SL7": {
-      "name": "Lugia",
-      "reported_at": "2026-04-12T10:11:32",
-      "set": "L'appel des Légendes"
-    },
     "dp1-54": {
       "name": "Magneton",
       "reported_at": "2026-04-18T10:57:40",
@@ -101,5 +96,5 @@
       "set": "XY Kit du dresseur (Grodoudou)"
     }
   },
-  "updated_at": "2026-04-19T08:51:23.299Z"
+  "updated_at": "2026-04-19T08:52:15.293Z"
 }
