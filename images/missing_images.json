@@ -1,10 +1,5 @@
 {
   "images": {
-    "dp2-102": {
-      "name": "Obalie",
-      "reported_at": "2026-04-13T09:54:58",
-      "set": "Trésors Mystérieux"
-    },
     "dp2-78": {
       "name": "Cradopaud",
       "reported_at": "2026-04-18T12:29:47",
@@ -91,5 +86,5 @@
       "set": "XY Kit du dresseur (Grodoudou)"
     }
   },
-  "updated_at": "2026-04-19T08:53:45.603Z"
+  "updated_at": "2026-04-19T08:57:04.668Z"
 }
