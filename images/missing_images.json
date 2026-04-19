@@ -15,6 +15,11 @@
 			"reported_at": "2026-04-18T12:29:10",
 			"set": "Trésors Mystérieux"
 		},
+		"dp3-124": {
+			"name": "Rival",
+			"reported_at": "2026-04-19T12:20:14",
+			"set": "Merveilles Secrètes"
+		},
 		"dp3-36": {
 			"name": "Posipi",
 			"reported_at": "2026-04-18T18:56:58",
@@ -96,5 +101,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-19T12:18:44"
+	"updated_at": "2026-04-19T12:20:15"
 }
