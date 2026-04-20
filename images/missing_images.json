@@ -100,6 +100,11 @@
 			"reported_at": "2026-04-18T18:57:42",
 			"set": "Promo SM"
 		},
+		"smp-SM203": {
+			"name": "Tokopisco",
+			"reported_at": "2026-04-20T18:10:40",
+			"set": "Promo SM"
+		},
 		"smp-SM205": {
 			"name": "Terrakium",
 			"reported_at": "2026-04-19T12:23:34",
@@ -146,5 +151,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-20T18:10:27"
+	"updated_at": "2026-04-20T18:10:40"
 }
