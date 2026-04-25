@@ -15,6 +15,11 @@
 			"reported_at": "2026-04-19T12:22:03",
 			"set": "Diamant & Perle"
 		},
+		"dp2-51": {
+			"name": "Gravalanch",
+			"reported_at": "2026-04-25T12:57:09",
+			"set": "Trésors Mystérieux"
+		},
 		"dp2-78": {
 			"name": "Cradopaud",
 			"reported_at": "2026-04-18T12:29:47",
@@ -161,5 +166,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-25T12:16:18"
+	"updated_at": "2026-04-25T12:57:09"
 }
