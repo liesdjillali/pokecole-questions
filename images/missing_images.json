@@ -1,5 +1,10 @@
 {
 	"images": {
+		"A4-115": {
+			"name": "Farfuret",
+			"reported_at": "2026-04-27T13:03:02",
+			"set": "Sagesse Entre Ciel et Mer"
+		},
 		"basep-32": {
 			"name": "Queulorior",
 			"reported_at": "2026-04-27T13:01:47",
@@ -196,5 +201,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-27T13:02:59"
+	"updated_at": "2026-04-27T13:03:02"
 }
