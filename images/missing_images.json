@@ -95,6 +95,11 @@
 			"reported_at": "2026-04-19T12:18:43",
 			"set": "Aube Majestueuse"
 		},
+		"dp6-75": {
+			"name": "Tentacruel",
+			"reported_at": "2026-04-27T19:19:45",
+			"set": "Éveil des Légendes"
+		},
 		"dp7-21": {
 			"name": "Mammochon",
 			"reported_at": "2026-04-09T19:30:22",
@@ -221,5 +226,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-27T19:19:15"
+	"updated_at": "2026-04-27T19:19:45"
 }
