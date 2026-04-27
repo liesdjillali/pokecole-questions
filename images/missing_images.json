@@ -5,6 +5,11 @@
 			"reported_at": "2026-04-27T13:01:47",
 			"set": "Wizards Black Star Promos"
 		},
+		"col1-28": {
+			"name": "Magirêve",
+			"reported_at": "2026-04-27T13:02:54",
+			"set": "L'appel des Légendes"
+		},
 		"col1-72": {
 			"name": "Saquedeneu",
 			"reported_at": "2026-04-20T18:11:39",
@@ -186,5 +191,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-27T13:01:48"
+	"updated_at": "2026-04-27T13:02:54"
 }
