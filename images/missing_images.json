@@ -215,6 +215,11 @@
 			"reported_at": "2026-04-19T12:22:55",
 			"set": "SM Kit du dresseur (Lougarox)"
 		},
+		"tk-xy-b-2": {
+			"name": "Énergie Métal",
+			"reported_at": "2026-04-27T19:22:39",
+			"set": "XY Kit du dresseur (Scalproie)"
+		},
 		"tk-xy-latia-9": {
 			"name": "Énergie Psy",
 			"reported_at": "2026-04-27T13:02:58",
@@ -246,5 +251,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-27T19:22:30"
+	"updated_at": "2026-04-27T19:22:39"
 }
