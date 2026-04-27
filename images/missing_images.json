@@ -190,6 +190,11 @@
 			"reported_at": "2026-04-19T12:23:34",
 			"set": "Promo SM"
 		},
+		"smp-SM209": {
+			"name": "Ama-Ama",
+			"reported_at": "2026-04-27T19:23:58",
+			"set": "Promo SM"
+		},
 		"smp-SM38": {
 			"name": "Félinferno GX",
 			"reported_at": "2026-04-27T19:19:15",
@@ -256,5 +261,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-27T19:23:54"
+	"updated_at": "2026-04-27T19:23:58"
 }
