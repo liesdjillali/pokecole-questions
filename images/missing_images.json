@@ -45,6 +45,11 @@
 			"reported_at": "2026-04-19T12:17:12",
 			"set": "Détective Pikachu"
 		},
+		"dp1-11": {
+			"name": "Palkia",
+			"reported_at": "2026-04-27T19:25:31",
+			"set": "Diamant & Perle"
+		},
 		"dp1-113": {
 			"name": "Rival",
 			"reported_at": "2026-04-19T12:22:03",
@@ -281,5 +286,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-27T19:25:28"
+	"updated_at": "2026-04-27T19:25:31"
 }
