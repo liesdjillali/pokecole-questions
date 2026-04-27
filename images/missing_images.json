@@ -1,5 +1,10 @@
 {
 	"images": {
+		"basep-32": {
+			"name": "Queulorior",
+			"reported_at": "2026-04-27T13:01:47",
+			"set": "Wizards Black Star Promos"
+		},
 		"col1-72": {
 			"name": "Saquedeneu",
 			"reported_at": "2026-04-20T18:11:39",
@@ -181,5 +186,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-27T13:00:24"
+	"updated_at": "2026-04-27T13:01:48"
 }
