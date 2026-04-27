@@ -95,6 +95,11 @@
 			"reported_at": "2026-04-13T10:30:57",
 			"set": "Duels au Sommets"
 		},
+		"dp4-40": {
+			"name": "Massko",
+			"reported_at": "2026-04-27T19:25:10",
+			"set": "Duels au Sommets"
+		},
 		"dp4-54": {
 			"name": "Flagadoss",
 			"reported_at": "2026-04-19T12:20:50",
@@ -271,5 +276,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-27T19:24:44"
+	"updated_at": "2026-04-27T19:25:10"
 }
