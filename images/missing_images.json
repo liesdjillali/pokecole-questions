@@ -20,6 +20,11 @@
 			"reported_at": "2026-04-27T13:01:47",
 			"set": "Wizards Black Star Promos"
 		},
+		"cel25-2A": {
+			"name": "Tortank",
+			"reported_at": "2026-04-27T19:20:25",
+			"set": "Célébrations"
+		},
 		"col1-28": {
 			"name": "Magirêve",
 			"reported_at": "2026-04-27T13:02:54",
@@ -231,5 +236,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-27T19:19:47"
+	"updated_at": "2026-04-27T19:20:25"
 }
