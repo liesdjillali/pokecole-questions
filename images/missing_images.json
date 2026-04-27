@@ -65,6 +65,11 @@
 			"reported_at": "2026-04-18T12:29:10",
 			"set": "Trésors Mystérieux"
 		},
+		"dp2-98": {
+			"name": "Lixy",
+			"reported_at": "2026-04-27T19:24:07",
+			"set": "Trésors Mystérieux"
+		},
 		"dp3-124": {
 			"name": "Rival",
 			"reported_at": "2026-04-19T12:20:14",
@@ -261,5 +266,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-27T19:23:58"
+	"updated_at": "2026-04-27T19:24:08"
 }
