@@ -165,6 +165,11 @@
 			"reported_at": "2026-04-19T12:23:34",
 			"set": "Promo SM"
 		},
+		"smp-SM38": {
+			"name": "Félinferno GX",
+			"reported_at": "2026-04-27T19:19:15",
+			"set": "Promo SM"
+		},
 		"tk-bw-e-5": {
 			"name": "Énergie Combat",
 			"reported_at": "2026-03-04T18:19:47",
@@ -216,5 +221,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-27T19:18:57"
+	"updated_at": "2026-04-27T19:19:15"
 }
