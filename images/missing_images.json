@@ -115,6 +115,11 @@
 			"reported_at": "2026-04-18T18:55:13",
 			"set": "Duels au Sommets"
 		},
+		"dp5-50": {
+			"name": "Capumain",
+			"reported_at": "2026-04-27T19:25:27",
+			"set": "Aube Majestueuse"
+		},
 		"dp5-78": {
 			"name": "Tortipouss",
 			"reported_at": "2026-04-19T12:18:43",
@@ -276,5 +281,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-27T19:25:10"
+	"updated_at": "2026-04-27T19:25:28"
 }
