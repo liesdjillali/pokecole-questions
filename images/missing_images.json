@@ -140,6 +140,11 @@
 			"reported_at": "2026-04-20T18:11:58",
 			"set": "Destinées Occultes"
 		},
+		"sm115-51": {
+			"name": "Analyse de Léo",
+			"reported_at": "2026-04-27T19:22:30",
+			"set": "Destinées Occultes"
+		},
 		"sm115-57": {
 			"name": "Exil de Giovanni",
 			"reported_at": "2026-03-21T18:18:23",
@@ -241,5 +246,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-27T19:20:44"
+	"updated_at": "2026-04-27T19:22:30"
 }
