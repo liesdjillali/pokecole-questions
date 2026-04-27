@@ -35,6 +35,11 @@
 			"reported_at": "2026-04-20T18:11:39",
 			"set": "L'appel des Légendes"
 		},
+		"col1-SL3": {
+			"name": "Entei",
+			"reported_at": "2026-04-27T19:24:43",
+			"set": "L'appel des Légendes"
+		},
 		"det1-17": {
 			"name": "Métamorph",
 			"reported_at": "2026-04-19T12:17:12",
@@ -266,5 +271,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-27T19:24:08"
+	"updated_at": "2026-04-27T19:24:44"
 }
