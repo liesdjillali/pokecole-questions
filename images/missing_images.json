@@ -185,6 +185,11 @@
 			"reported_at": "2026-04-20T18:10:27",
 			"set": "XY Kit du dresseur (Latios)"
 		},
+		"tk-xy-su-18": {
+			"name": "Lakmécygne",
+			"reported_at": "2026-04-27T19:18:49",
+			"set": "XY Kit du dresseur (Suicune)"
+		},
 		"tk-xy-su-7": {
 			"name": "Couaneton",
 			"reported_at": "2026-03-09T18:09:07",
@@ -201,5 +206,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-04-27T19:17:57"
+	"updated_at": "2026-04-27T19:18:49"
 }
