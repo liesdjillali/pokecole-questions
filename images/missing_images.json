@@ -190,6 +190,11 @@
 			"reported_at": "2026-04-27T19:18:57",
 			"set": "Majesté Des Dragons"
 		},
+		"sm7.5-68": {
+			"name": "Altaria GX",
+			"reported_at": "2026-05-03T11:48:46",
+			"set": "Majesté Des Dragons"
+		},
 		"sma-SV5": {
 			"name": "Cancrelove",
 			"reported_at": "2026-03-07T11:20:56",
@@ -286,5 +291,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-05-03T11:44:27"
+	"updated_at": "2026-05-03T11:48:46"
 }
