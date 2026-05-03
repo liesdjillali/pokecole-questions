@@ -205,6 +205,11 @@
 			"reported_at": "2026-04-19T12:24:01",
 			"set": "Promo SM"
 		},
+		"smp-SM176": {
+			"name": "Évoli GX",
+			"reported_at": "2026-05-03T11:49:48",
+			"set": "Promo SM"
+		},
 		"smp-SM177": {
 			"name": "Meltan",
 			"reported_at": "2026-04-18T18:57:42",
@@ -291,5 +296,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-05-03T11:48:46"
+	"updated_at": "2026-05-03T11:49:49"
 }
