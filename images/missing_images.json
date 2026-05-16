@@ -5,6 +5,11 @@
 			"reported_at": "2026-04-27T19:19:46",
 			"set": "Collection McDonald's 2014"
 		},
+		"2017sm-3": {
+			"name": "Flamiaou",
+			"reported_at": "2026-05-16T20:24:21",
+			"set": "Collection McDonald's 2017"
+		},
 		"A3b-069": {
 			"name": "Pania",
 			"reported_at": "2026-04-27T19:18:56",
@@ -306,5 +311,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-05-16T20:23:36"
+	"updated_at": "2026-05-16T20:24:21"
 }
