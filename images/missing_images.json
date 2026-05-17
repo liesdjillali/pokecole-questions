@@ -20,6 +20,11 @@
 			"reported_at": "2026-04-27T13:03:02",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"A4-176": {
+			"name": "Scorplane",
+			"reported_at": "2026-05-17T12:56:43",
+			"set": "Sagesse Entre Ciel et Mer"
+		},
 		"A4-189": {
 			"name": "Lanturn-ex",
 			"reported_at": "2026-05-16T20:27:13",
@@ -336,5 +341,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-05-17T12:56:17"
+	"updated_at": "2026-05-17T12:56:44"
 }
