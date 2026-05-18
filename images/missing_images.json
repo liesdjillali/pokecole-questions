@@ -120,6 +120,11 @@
 			"reported_at": "2026-04-18T18:56:58",
 			"set": "Merveilles Secrètes"
 		},
+		"dp4-1": {
+			"name": "Brasegali",
+			"reported_at": "2026-05-18T18:57:55",
+			"set": "Duels au Sommets"
+		},
 		"dp4-104": {
 			"name": "Darkrai",
 			"reported_at": "2026-04-19T12:22:10",
@@ -346,5 +351,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-05-17T12:56:52"
+	"updated_at": "2026-05-18T18:57:56"
 }
