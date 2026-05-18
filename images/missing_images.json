@@ -30,6 +30,11 @@
 			"reported_at": "2026-05-16T20:27:13",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"A4a-035": {
+			"name": "Corayôme de Galar",
+			"reported_at": "2026-05-18T18:58:14",
+			"set": "Source Secrète"
+		},
 		"basep-32": {
 			"name": "Queulorior",
 			"reported_at": "2026-04-27T13:01:47",
@@ -351,5 +356,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-05-18T18:57:56"
+	"updated_at": "2026-05-18T18:58:14"
 }
