@@ -165,6 +165,11 @@
 			"reported_at": "2026-04-18T18:55:13",
 			"set": "Duels au Sommets"
 		},
+		"dp5-19": {
+			"name": "Pyroli",
+			"reported_at": "2026-05-19T20:20:34",
+			"set": "Aube Majestueuse"
+		},
 		"dp5-29": {
 			"name": "Cizayox",
 			"reported_at": "2026-05-16T20:24:54",
@@ -361,5 +366,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-05-19T20:16:01"
+	"updated_at": "2026-05-19T20:20:34"
 }
