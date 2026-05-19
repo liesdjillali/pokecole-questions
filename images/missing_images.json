@@ -260,6 +260,11 @@
 			"reported_at": "2026-05-03T11:49:50",
 			"set": "Destinées Occultes Coffre Étincelant"
 		},
+		"sma-SV85": {
+			"name": "Montagnard",
+			"reported_at": "2026-05-19T20:22:38",
+			"set": "Destinées Occultes Coffre Étincelant"
+		},
 		"smp-SM165": {
 			"name": "Ultra-Necrozma",
 			"reported_at": "2026-04-19T12:24:01",
@@ -366,5 +371,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-05-19T20:20:34"
+	"updated_at": "2026-05-19T20:22:39"
 }
