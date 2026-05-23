@@ -90,6 +90,11 @@
 			"reported_at": "2026-05-18T18:58:28",
 			"set": "Diamant & Perle"
 		},
+		"dp1-5": {
+			"name": "Simiabraz",
+			"reported_at": "2026-05-23T12:00:08",
+			"set": "Diamant & Perle"
+		},
 		"dp1-82": {
 			"name": "Fantominus",
 			"reported_at": "2026-05-17T12:56:51",
@@ -371,5 +376,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-05-23T11:58:08"
+	"updated_at": "2026-05-23T12:00:09"
 }
