@@ -225,11 +225,6 @@
       "reported_at": "2026-04-18T12:29:02",
       "set": "Légendes Brillantes"
     },
-    "sm3.5-72": {
-      "name": "Mewtwo GX",
-      "reported_at": "2026-04-25T12:57:37",
-      "set": "Légendes Brillantes"
-    },
     "sm7.5-17": {
       "name": "Hypocéan",
       "reported_at": "2026-04-27T19:18:57",
@@ -361,5 +356,5 @@
       "set": "XY Kit du dresseur (Grodoudou)"
     }
   },
-  "updated_at": "2026-06-07T13:05:48.241Z"
+  "updated_at": "2026-06-07T13:07:36.499Z"
 }
