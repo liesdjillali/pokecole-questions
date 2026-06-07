@@ -240,11 +240,6 @@
       "reported_at": "2026-05-19T20:22:38",
       "set": "Destinées Occultes Coffre Étincelant"
     },
-    "smp-SM176": {
-      "name": "Évoli GX",
-      "reported_at": "2026-05-03T11:49:48",
-      "set": "Promo SM"
-    },
     "smp-SM177": {
       "name": "Meltan",
       "reported_at": "2026-04-18T18:57:42",
@@ -341,5 +336,5 @@
       "set": "XY Kit du dresseur (Grodoudou)"
     }
   },
-  "updated_at": "2026-06-07T13:11:12.895Z"
+  "updated_at": "2026-06-07T13:12:08.315Z"
 }
