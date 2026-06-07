@@ -240,11 +240,6 @@
       "reported_at": "2026-05-19T20:22:38",
       "set": "Destinées Occultes Coffre Étincelant"
     },
-    "smp-SM205": {
-      "name": "Terrakium",
-      "reported_at": "2026-04-19T12:23:34",
-      "set": "Promo SM"
-    },
     "smp-SM209": {
       "name": "Ama-Ama",
       "reported_at": "2026-04-27T19:23:58",
@@ -326,5 +321,5 @@
       "set": "XY Kit du dresseur (Grodoudou)"
     }
   },
-  "updated_at": "2026-06-07T13:13:57.064Z"
+  "updated_at": "2026-06-07T13:14:40.319Z"
 }
