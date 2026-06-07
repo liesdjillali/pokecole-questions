@@ -75,11 +75,6 @@
       "reported_at": "2026-05-17T12:56:17",
       "set": "Diamant & Perle"
     },
-    "dp1-38": {
-      "name": "Steelix",
-      "reported_at": "2026-05-18T18:58:28",
-      "set": "Diamant & Perle"
-    },
     "dp1-5": {
       "name": "Simiabraz",
       "reported_at": "2026-05-23T12:00:08",
@@ -366,5 +361,5 @@
       "set": "XY Kit du dresseur (Grodoudou)"
     }
   },
-  "updated_at": "2026-06-07T13:04:47.908Z"
+  "updated_at": "2026-06-07T13:05:48.241Z"
 }
