@@ -70,6 +70,11 @@
 			"reported_at": "2026-04-20T18:11:39",
 			"set": "L'appel des Légendes"
 		},
+		"det1-15": {
+			"name": "Snubbull",
+			"reported_at": "2026-07-10T17:04:10",
+			"set": "Détective Pikachu"
+		},
 		"det1-17": {
 			"name": "Métamorph",
 			"reported_at": "2026-04-19T12:17:12",
@@ -356,5 +361,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-06-10T08:06:01"
+	"updated_at": "2026-07-10T17:04:11"
 }
