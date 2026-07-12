@@ -220,6 +220,11 @@
 			"reported_at": "2026-04-27T19:19:45",
 			"set": "Éveil des Légendes"
 		},
+		"dp6-83": {
+			"name": "Terhal",
+			"reported_at": "2026-07-12T17:02:40",
+			"set": "Éveil des Légendes"
+		},
 		"dp7-21": {
 			"name": "Mammochon",
 			"reported_at": "2026-04-09T19:30:22",
@@ -366,5 +371,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-07-12T16:39:08"
+	"updated_at": "2026-07-12T17:02:41"
 }
