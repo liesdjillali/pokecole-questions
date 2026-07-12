@@ -30,6 +30,11 @@
 			"reported_at": "2026-05-17T12:56:43",
 			"set": "Sagesse Entre Ciel et Mer"
 		},
+		"A4-199": {
+			"name": "Pêcheur",
+			"reported_at": "2026-07-12T16:39:08",
+			"set": "Sagesse Entre Ciel et Mer"
+		},
 		"A4a-035": {
 			"name": "Corayôme de Galar",
 			"reported_at": "2026-05-18T18:58:14",
@@ -361,5 +366,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-07-12T16:30:20"
+	"updated_at": "2026-07-12T16:39:08"
 }
