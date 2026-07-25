@@ -275,6 +275,11 @@
 			"reported_at": "2026-04-18T12:29:02",
 			"set": "Légendes Brillantes"
 		},
+		"sm3.5-45": {
+			"name": "Marshadow",
+			"reported_at": "2026-07-19T21:02:29",
+			"set": ""
+		},
 		"sm7.5-17": {
 			"name": "Hypocéan",
 			"reported_at": "2026-04-27T19:18:57",
@@ -288,6 +293,11 @@
 		"sma-SV85": {
 			"name": "Montagnard",
 			"reported_at": "2026-05-19T20:22:38",
+			"set": "Destinées Occultes Coffre Étincelant"
+		},
+		"sma-SV90": {
+			"name": "Chapelle des Châtiments",
+			"reported_at": "2026-07-25T12:48:17",
 			"set": "Destinées Occultes Coffre Étincelant"
 		},
 		"smp-SM172": {
@@ -371,5 +381,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-07-12T20:36:20"
+	"updated_at": "2026-07-25T12:48:17"
 }
