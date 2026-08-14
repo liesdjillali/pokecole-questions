@@ -1,15 +1,5 @@
 {
   "images": {
-    "A3b-069": {
-      "name": "Pania",
-      "reported_at": "2026-04-27T19:18:56",
-      "set": "La Clairière d'Évoli"
-    },
-    "A3b-084": {
-      "name": "Ronflex-ex",
-      "reported_at": "2026-05-24T10:39:56",
-      "set": ""
-    },
     "A4-115": {
       "name": "Farfuret",
       "reported_at": "2026-04-27T13:03:02",
@@ -381,5 +371,5 @@
       "set": "XY Kit du dresseur (Grodoudou)"
     }
   },
-  "updated_at": "2026-08-14T12:43:05.540Z"
+  "updated_at": "2026-08-14T12:44:45.322Z"
 }
