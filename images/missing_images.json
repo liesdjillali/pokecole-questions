@@ -175,6 +175,11 @@
 			"reported_at": "2026-06-07T14:48:38",
 			"set": ""
 		},
+		"dp6-143": {
+			"name": "Créfollet",
+			"reported_at": "2026-09-06T00:02:25",
+			"set": ""
+		},
 		"dp6-69": {
 			"name": "Cochignon",
 			"reported_at": "2026-05-27T09:25:31",
@@ -356,5 +361,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-09-05T23:57:39"
+	"updated_at": "2026-09-06T00:02:26"
 }
