@@ -225,6 +225,11 @@
 			"reported_at": "2026-09-05T23:50:25",
 			"set": ""
 		},
+		"sm11-39": {
+			"name": "Écayon",
+			"reported_at": "2026-09-05T23:57:39",
+			"set": ""
+		},
 		"sm115-30": {
 			"name": "Lippoutou",
 			"reported_at": "2026-04-20T18:11:58",
@@ -351,5 +356,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-09-05T23:54:42"
+	"updated_at": "2026-09-05T23:57:39"
 }
