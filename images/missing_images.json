@@ -220,6 +220,11 @@
 			"reported_at": "2026-04-19T12:18:25",
 			"set": "Promo Nintendo"
 		},
+		"sm10-67": {
+			"name": "Fantominus",
+			"reported_at": "2026-09-05T23:50:25",
+			"set": ""
+		},
 		"sm115-30": {
 			"name": "Lippoutou",
 			"reported_at": "2026-04-20T18:11:58",
@@ -346,5 +351,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-08-22T15:17:58"
+	"updated_at": "2026-09-05T23:50:26"
 }
