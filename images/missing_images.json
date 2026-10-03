@@ -175,6 +175,11 @@
 			"reported_at": "2026-06-07T14:48:38",
 			"set": ""
 		},
+		"dp6-102": {
+			"name": "Hypotrempe",
+			"reported_at": "2026-10-03T11:16:00",
+			"set": "Éveil des Légendes"
+		},
 		"dp6-143": {
 			"name": "Créfollet",
 			"reported_at": "2026-09-06T00:02:25",
@@ -366,5 +371,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-09-06T00:15:21"
+	"updated_at": "2026-10-03T11:16:01"
 }
