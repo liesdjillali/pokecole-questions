@@ -250,6 +250,11 @@
 			"reported_at": "2026-09-05T23:57:39",
 			"set": ""
 		},
+		"sm11-78": {
+			"name": "Latios GX",
+			"reported_at": "2026-10-11T19:37:27",
+			"set": "Harmonie des Esprits"
+		},
 		"sm115-30": {
 			"name": "Lippoutou",
 			"reported_at": "2026-04-20T18:11:58",
@@ -376,5 +381,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-10-11T19:37:07"
+	"updated_at": "2026-10-11T19:37:28"
 }
