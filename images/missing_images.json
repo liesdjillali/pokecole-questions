@@ -240,6 +240,11 @@
 			"reported_at": "2026-09-05T23:50:25",
 			"set": ""
 		},
+		"sm10-85": {
+			"name": "Taupiqueur",
+			"reported_at": "2026-10-11T19:37:07",
+			"set": "Alliance Infaillible"
+		},
 		"sm11-39": {
 			"name": "Écayon",
 			"reported_at": "2026-09-05T23:57:39",
@@ -371,5 +376,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-10-11T19:05:04"
+	"updated_at": "2026-10-11T19:37:07"
 }
