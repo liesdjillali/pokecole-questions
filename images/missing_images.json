@@ -355,6 +355,11 @@
 			"reported_at": "2026-04-20T18:10:27",
 			"set": "XY Kit du dresseur (Latios)"
 		},
+		"tk-xy-n-19": {
+			"name": "Énergie Obscurité",
+			"reported_at": "2026-10-14T17:23:47",
+			"set": "XY Kit du dresseur (Bruyverne)"
+		},
 		"tk-xy-su-18": {
 			"name": "Lakmécygne",
 			"reported_at": "2026-04-27T19:18:49",
@@ -386,5 +391,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-10-14T17:23:18"
+	"updated_at": "2026-10-14T17:23:47"
 }
