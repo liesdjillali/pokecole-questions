@@ -260,6 +260,11 @@
 			"reported_at": "2026-04-20T18:11:58",
 			"set": "Destinées Occultes"
 		},
+		"sm115-42": {
+			"name": "Grodoudou-GX",
+			"reported_at": "2026-10-14T17:23:18",
+			"set": "Destinées Occultes"
+		},
 		"sm115-51": {
 			"name": "Analyse de Léo",
 			"reported_at": "2026-04-27T19:22:30",
@@ -381,5 +386,5 @@
 			"set": "XY Kit du dresseur (Grodoudou)"
 		}
 	},
-	"updated_at": "2026-10-11T19:37:28"
+	"updated_at": "2026-10-14T17:23:18"
 }
